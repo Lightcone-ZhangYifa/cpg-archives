@@ -1,0 +1,422 @@
+{
+  "bytes": 202046,
+  "entries": [
+    {
+      "bytes": 31553,
+      "mode": "0o644",
+      "path": "AGENTS-actual-v0.21.13.md",
+      "sha256": "24b77a48c1c4b7efb8bdbcb87f65faf5b465782921d3f002fb804809a0b785df"
+    },
+    {
+      "bytes": 944,
+      "mode": "0o644",
+      "path": "framework-candidate/framework-only-candidate-manifest.json",
+      "sha256": "dc528596a5ebd2c355a573ee761caffa59edfa6b6c6df8f31795e371d96f9ebf"
+    },
+    {
+      "bytes": 3234,
+      "mode": "0o644",
+      "path": "framework-tests/test_python_sql_source_tree_languages.py",
+      "sha256": "5f8cd606130a787e73dae2524d0a1ad699ca77828e92384c20b52bdfa2568c8a"
+    },
+    {
+      "bytes": 6125,
+      "mode": "0o644",
+      "path": "installed-dataset-candidates/dataset-lane/ccg/dataset-candidate/dataset-card-validation.json",
+      "sha256": "3ccbf6f45df2c620b159af9197508f217bb1a186169bfc0a56666520ee4ac214"
+    },
+    {
+      "bytes": 5085,
+      "mode": "0o644",
+      "path": "installed-dataset-candidates/dataset-lane/deepfuzz/dataset-candidate/dataset-card-validation.json",
+      "sha256": "fdcb33d1303d7bd6535c83010b11df55c1574fa7ad3f519d913a5f86a087f600"
+    },
+    {
+      "bytes": 19404,
+      "mode": "0o644",
+      "path": "installed-dataset-candidates/dataset-lane/join-order-benchmark/dataset-candidate/dataset-card-validation.json",
+      "sha256": "f4839b27c9e633745726ae96b3470f73512da7b9c826ff2197f358d661f94a87"
+    },
+    {
+      "bytes": 2470,
+      "mode": "0o644",
+      "path": "installed-dataset-candidates/dataset-lane/remccg/dataset-candidate/dataset-card-validation.json",
+      "sha256": "01764bfece50b4be067909ac588f48b52b31c3027d83dc4e61b3f9613bc1fc43"
+    },
+    {
+      "bytes": 1188,
+      "mode": "0o644",
+      "path": "native-and-samples/dataset-lane/ccg-remccg-mixture-report.json",
+      "sha256": "ca7f2b3cf7ee1d075418c57d06d570dfc350d1ffdc9de56b87b17f05ccb2ca6e"
+    },
+    {
+      "bytes": 30310,
+      "mode": "0o644",
+      "path": "native-and-samples/dataset-lane/ccg/ccg-host-native-and-generation.json",
+      "sha256": "e7a02110b520cdbca269eac2fc900a2433818dd7fb2dbf896488a8a156dc9340"
+    },
+    {
+      "bytes": 4189,
+      "mode": "0o644",
+      "path": "native-and-samples/dataset-lane/ccg/prebuilt-isolation-and-cleanup.json",
+      "sha256": "848d315302b05ce202f01345b46bc0811a6372045338e403ecffcbaf1573e75e"
+    },
+    {
+      "bytes": 14169,
+      "mode": "0o644",
+      "path": "native-and-samples/dataset-lane/remccg/remccg-source-preflight.json",
+      "sha256": "fe79a58301a03027dc341cd3813422711faa726c628a238d35594d0fc75f8eea"
+    },
+    {
+      "bytes": 10477,
+      "mode": "0o644",
+      "path": "native-and-samples/native_canonical_preflight.json",
+      "sha256": "ca1ce9b2020e429eb1ee9056e091c73813f1cbee63c72c0c6bf57e22717d1d83"
+    },
+    {
+      "bytes": 3590,
+      "mode": "0o644",
+      "path": "native-and-samples/pinned_source_recovery.json",
+      "sha256": "4d10572225914063940cda95c18a3c954360dfae48e778eeaa03c23acc3433c5"
+    },
+    {
+      "bytes": 480,
+      "mode": "0o644",
+      "path": "native-failed-preflights/autofdo/cmake-configure-stderr.log",
+      "sha256": "65a27ccb43fa2d5d6266af53eee35347b2f137721b2677329bf55dd855cbf726"
+    },
+    {
+      "bytes": 549,
+      "mode": "0o644",
+      "path": "native-failed-preflights/autofdo/cmake-configure-stdout.log",
+      "sha256": "2b012b400c877848c876a24bc810887ca77782bedc3e21f083de61e442294ea7"
+    },
+    {
+      "bytes": 824,
+      "mode": "0o644",
+      "path": "native-failed-preflights/heaptrack/cmake-configure-stderr.log",
+      "sha256": "e40d77a76a31189b90799b98e3691051eaa80369fb2a72a0472f1d780d9dfd87"
+    },
+    {
+      "bytes": 1054,
+      "mode": "0o644",
+      "path": "native-failed-preflights/heaptrack/cmake-configure-stdout.log",
+      "sha256": "09a2e81d5eb8153d0b1a11b3ea06f1e782e654b37e34e26ddab08c61c18b6834"
+    },
+    {
+      "bytes": 534,
+      "mode": "0o644",
+      "path": "native-failed-preflights/stp/cmake-configure-stderr.log",
+      "sha256": "1c2b6c3c445495bdd9ec93c3c5b8d30aebc0350d1ded8c9b18dec9b100931a20"
+    },
+    {
+      "bytes": 3068,
+      "mode": "0o644",
+      "path": "native-failed-preflights/stp/cmake-configure-stdout.log",
+      "sha256": "1db7dc3422d6642e4ec0af26864ac994d162766967583148e53e4605100e1718"
+    },
+    {
+      "bytes": 161,
+      "mode": "0o644",
+      "path": "provenance/dataset-lane/ccg/original-archive.meta",
+      "sha256": "fbaa893645b082f833146843d8c31aa29fcdc4f4d8a70afe2e5e1e07df85b472"
+    },
+    {
+      "bytes": 160,
+      "mode": "0o644",
+      "path": "provenance/dataset-lane/deepfuzz/original-archive.meta",
+      "sha256": "58ec464dcf9c18fb1df9b900ad4380f02c1655778dfdca2939fe04d1c187fecc"
+    },
+    {
+      "bytes": 161,
+      "mode": "0o644",
+      "path": "provenance/dataset-lane/join-order-benchmark/original-archive.meta",
+      "sha256": "d37f3ab80d5b0d9e7584aeae8886d0b2abdb2be2a7f3403cb1e4615cc1e4a16c"
+    },
+    {
+      "bytes": 162,
+      "mode": "0o644",
+      "path": "provenance/dataset-lane/remccg/original-archive.meta",
+      "sha256": "441d9343041d1f0e5286d8bb93e4406fee76a4617630073135d9775421b98e5a"
+    },
+    {
+      "bytes": 2681,
+      "mode": "0o644",
+      "path": "public-restore-pass/installed-postrestore-four-dataset-app.json",
+      "sha256": "f44fed2ddf470cad925b7064798c68d2f7d78e8904e99c034345944abe9675fa"
+    },
+    {
+      "bytes": 6631,
+      "mode": "0o644",
+      "path": "public-restore-pass/public-offline-restore-result.json",
+      "sha256": "490a8150131b14dcedc3234a8d4ac46ac4b989fbdf80e1a1a9b4124178377d9d"
+    },
+    {
+      "bytes": 1154,
+      "mode": "0o644",
+      "path": "public-restore-pass/restore-ccg-remccg.json",
+      "sha256": "1c4a2186fe37e111ec5a1ed9c28eccc9d9a680c9b7d1e910d54bc716f4c557c5"
+    },
+    {
+      "bytes": 1234,
+      "mode": "0o644",
+      "path": "public-restore-pass/restore-job-deepfuzz.json",
+      "sha256": "1e09ae4a2dcd534971aacfc9a60a53a8283311779bb47e720b9cddee752ed54c"
+    },
+    {
+      "bytes": 714,
+      "mode": "0o644",
+      "path": "reports/compiler-playground-20261031T1003-independent-ccg-remccg-bundle-construction-report.json",
+      "sha256": "88c0f1e1fbec79a2bd7be031817bbe8ed825dabcf12402c09345994f1e2dff69"
+    },
+    {
+      "bytes": 24470,
+      "mode": "0o644",
+      "path": "reports/compiler-playground-20261031T1003-independent-ccg-remccg-new-only-manifest.json",
+      "sha256": "c85ec6a5a9379e6e1d40bd435edf4526ee05e2e689f4960f6ee41d1acf215a6d"
+    },
+    {
+      "bytes": 838644,
+      "mode": "0o644",
+      "path": "reports/compiler-playground-20261031T1003-independent-exact-pending-and-next-queue.json",
+      "sha256": "9680b091a91193fa40a55e7ad59600c47e970f43b195e3582d50439821cd3950"
+    },
+    {
+      "bytes": 27017,
+      "mode": "0o644",
+      "path": "reports/compiler-playground-20261031T1003-independent-fixed-1862-coverage-audit.json",
+      "sha256": "62870912c314018f832102c1ec32204402a1955dbfb27044588a406716ca3104"
+    },
+    {
+      "bytes": 543,
+      "mode": "0o644",
+      "path": "reports/compiler-playground-20261031T1003-independent-job-deepfuzz-bundle-construction-report.json",
+      "sha256": "cf6a5b8d9bb1fc9537e8643b858aa08bd5a5dd13dd6ee2d9f1c3e83454093a9e"
+    },
+    {
+      "bytes": 38816,
+      "mode": "0o644",
+      "path": "reports/compiler-playground-20261031T1003-independent-job-deepfuzz-new-only-manifest.json",
+      "sha256": "2747de1e65bd630624fbae97dba6f000a9634149c6e696a9ad6a1bf2ca845208"
+    },
+    {
+      "bytes": 1081,
+      "mode": "0o644",
+      "path": "reports/compiler-playground-20261031T1003-independent-new-SHA-exclusivity.json",
+      "sha256": "a40652f501ed7efbfd5ba984fc2cb358ab61c6813f6a1452896d31493fc027b4"
+    },
+    {
+      "bytes": 2681,
+      "mode": "0o644",
+      "path": "reports/four-card-real-installed-app-A.json",
+      "sha256": "f44fed2ddf470cad925b7064798c68d2f7d78e8904e99c034345944abe9675fa"
+    },
+    {
+      "bytes": 2681,
+      "mode": "0o644",
+      "path": "reports/four-card-real-installed-app-B.json",
+      "sha256": "f44fed2ddf470cad925b7064798c68d2f7d78e8904e99c034345944abe9675fa"
+    },
+    {
+      "bytes": 2701,
+      "mode": "0o644",
+      "path": "reports/framework-only-candidate-focused-regression.json",
+      "sha256": "84ad9ad9f55d17ac2b080af21c9ea92bd23b80047a812effcd712b1f720f0785"
+    },
+    {
+      "bytes": 831,
+      "mode": "0o644",
+      "path": "reports/framework-only-candidate-focused-regression.log",
+      "sha256": "22a7ba52033a951f35590c649a63860b4d99330c40833e458d06f6a8a7d5addd"
+    },
+    {
+      "bytes": 1050,
+      "mode": "0o644",
+      "path": "reports/framework-only-original-JOB-DeepFuzz-source-tree-integration.json",
+      "sha256": "47f9077f8a1dc5f494f2f5073ecfd8d925276130ef57b94ac9360bd0750bce83"
+    },
+    {
+      "bytes": 3564,
+      "mode": "0o644",
+      "path": "reports/job-deepfuzz-negative-and-twice-restored-regression.json",
+      "sha256": "64b81d5e19682ce0f9516d98e1f320b566d929e5a40d31178f2ec1b7f5b7a7a0"
+    },
+    {
+      "bytes": 1203,
+      "mode": "0o644",
+      "path": "reports/job-deepfuzz-restore-A.json",
+      "sha256": "6ebe2074a95ef38f1da70288b615b3d83b743ffa108dc623b8d1150e91eebb6c"
+    },
+    {
+      "bytes": 1203,
+      "mode": "0o644",
+      "path": "reports/job-deepfuzz-restore-B.json",
+      "sha256": "8de4604615bf3c21b160079d424d9ddc3c1e21b63dc270165fe525c379f0f84c"
+    },
+    {
+      "bytes": 2711,
+      "mode": "0o644",
+      "path": "reports/newonly-negative-regression.json",
+      "sha256": "edd62fa40655bd4424815453d62da7bb8c7352af1b799544e7eba5e45857d513"
+    },
+    {
+      "bytes": 4472,
+      "mode": "0o644",
+      "path": "reports/official-wheel-focused-dataset-regression-first-missing-fixture.json",
+      "sha256": "e9b0df28c8fca9912a36f282825946e235a383bafafd81b1cb89a50d1d8b23ab"
+    },
+    {
+      "bytes": 2416,
+      "mode": "0o644",
+      "path": "reports/official-wheel-focused-dataset-regression-first-missing-fixture.log",
+      "sha256": "63bd9f1667a3df4d25291d781d5db98de329eddd6b46baed62a0ffd3bfe784ac"
+    },
+    {
+      "bytes": 2855,
+      "mode": "0o644",
+      "path": "reports/official-wheel-focused-dataset-regression.json",
+      "sha256": "664145854aee1318092ff8b89603c482d71e06f20a22b88d5549f312237d9955"
+    },
+    {
+      "bytes": 829,
+      "mode": "0o644",
+      "path": "reports/official-wheel-focused-dataset-regression.log",
+      "sha256": "510847602f332741cde32f280cf7ed6c011feebadd94ee27d3c1d3e1d57599f0"
+    },
+    {
+      "bytes": 2012,
+      "mode": "0o644",
+      "path": "reports/postinstall-application-A.json",
+      "sha256": "fd0cb295ee2ec3d80918b02a33ea814d9dcacb62a717d09fc5c21746d57ec3c3"
+    },
+    {
+      "bytes": 2012,
+      "mode": "0o644",
+      "path": "reports/postinstall-application-B.json",
+      "sha256": "fd0cb295ee2ec3d80918b02a33ea814d9dcacb62a717d09fc5c21746d57ec3c3"
+    },
+    {
+      "bytes": 1126,
+      "mode": "0o644",
+      "path": "reports/restore-source-newonly-A.json",
+      "sha256": "59475bccaf0f1134c91c022531e28439e1620063311f370396dbcbd97a4b1b16"
+    },
+    {
+      "bytes": 1126,
+      "mode": "0o644",
+      "path": "reports/restore-source-newonly-B.json",
+      "sha256": "4459d1244cadbc06747c18acff43a21b90cd5a18970db37fc88ab673db41424c"
+    },
+    {
+      "bytes": 2366,
+      "mode": "0o644",
+      "path": "research-tools/audit_new_sha_exclusivity.py",
+      "sha256": "7cc00bb9e79ac195f736b1b8f114a0c65dcd9cf6707d9deefdd9e5c6330f499a"
+    },
+    {
+      "bytes": 10778,
+      "mode": "0o644",
+      "path": "research-tools/audit_original_fixed_denominator.py",
+      "sha256": "52202db02dc75190f8e89ecb5537477adbfbb27f87bfff7bedaa92b8ec00e4fe"
+    },
+    {
+      "bytes": 6361,
+      "mode": "0o644",
+      "path": "research-tools/build_ccg_native.py",
+      "sha256": "12c7a92755d32bc73871db91c80ec7786ecce4be7731548a4a29cc281075593a"
+    },
+    {
+      "bytes": 2361,
+      "mode": "0o644",
+      "path": "research-tools/build_framework_sql_python_suffix_candidate.py",
+      "sha256": "41ae25b6f78ba56237fc71003ca9aa00e77e07f9642a546d48927dd56500c6c1"
+    },
+    {
+      "bytes": 6890,
+      "mode": "0o644",
+      "path": "research-tools/package_ccg_remccg_newonly.py",
+      "sha256": "cd481e5d25cd9cdce09be9fa21418a5f65ccc8897aa8aa2c13ed208e835e3797"
+    },
+    {
+      "bytes": 5715,
+      "mode": "0o644",
+      "path": "research-tools/package_job_deepfuzz_newonly.py",
+      "sha256": "fd8a108af9ff86ad885c227fab03bef6c28c7b5ca8313b3dddef841517d0afd4"
+    },
+    {
+      "bytes": 7578,
+      "mode": "0o644",
+      "path": "research-tools/prepare_ccg_dataset.py",
+      "sha256": "de542415261916dcf695e40c9c0ab7f43121e1402fccb5ded4301eec70d56550"
+    },
+    {
+      "bytes": 5596,
+      "mode": "0o644",
+      "path": "research-tools/prepare_deepfuzz_source_dataset.py",
+      "sha256": "38462470b44d5f298b336b8ed60af120148505e5b549b8869e90043895901013"
+    },
+    {
+      "bytes": 7144,
+      "mode": "0o644",
+      "path": "research-tools/prepare_job_sql_dataset.py",
+      "sha256": "e4b7297047a79c0af10e5d463e67a2cc82ee1612624cd98c82c893c38f7e0a79"
+    },
+    {
+      "bytes": 5076,
+      "mode": "0o644",
+      "path": "research-tools/prepare_remccg_dataset.py",
+      "sha256": "532763e938c990c9d6b76f3522a72a5ac3194fe2349c7ec3aac11af0da7ecd77"
+    },
+    {
+      "bytes": 2474,
+      "mode": "0o644",
+      "path": "research-tools/remccg_source_preflight.py",
+      "sha256": "2a32add38c5e00966b5208e09c6c7676cfd748c50bf9e1461bb8331d274bf958"
+    },
+    {
+      "bytes": 2017,
+      "mode": "0o644",
+      "path": "research-tools/run_framework_candidate_regression.py",
+      "sha256": "cda206cee55ea7ec33df7704701d63a7a47bbb1f6c46e19d5261723eab52c746"
+    },
+    {
+      "bytes": 3369,
+      "mode": "0o644",
+      "path": "research-tools/run_native_canonical_preflight.py",
+      "sha256": "538c9159682bd4e936d5aa216fe6547835855468541a66441ea6c42ebbe79a32"
+    },
+    {
+      "bytes": 2817,
+      "mode": "0o644",
+      "path": "research-tools/run_official_dataset_regression.py",
+      "sha256": "28a12903fb6d5b034b99b64d965e6785ca5e56f59ae0b63de20e8438f3c23538"
+    },
+    {
+      "bytes": 3179,
+      "mode": "0o644",
+      "path": "research-tools/test_ccg_prebuilt_isolation.py",
+      "sha256": "897c268e8a0731cc04c2f6ccfb34fe88a6fafead3d4cfa6a82e22dcd5a4674f8"
+    },
+    {
+      "bytes": 3108,
+      "mode": "0o644",
+      "path": "research-tools/validate_ccg_family_mixture.py",
+      "sha256": "a65cda7f5b9974c338fccbaaad19f909f770ce49c3f391fde0eb654ede22b5c3"
+    },
+    {
+      "bytes": 5467,
+      "mode": "0o644",
+      "path": "research-tools/verify_job_deepfuzz_newonly_negatives.py",
+      "sha256": "0a5a8465c0663a36a4d5e13a6a7a164ba866e8bddd6e01a680a218ff7a1abd5e"
+    },
+    {
+      "bytes": 5789,
+      "mode": "0o644",
+      "path": "research-tools/verify_newonly_negatives.py",
+      "sha256": "f80d4883247bb1aec128b024cb349dce00b39a8905db43e78757d927a0b14a6e"
+    }
+  ],
+  "file_count": 69,
+  "name": "compiler-playground-20261031T1003-independent-validation-evidence.zip",
+  "sha256": "827e358d483ce89a1c05a13c5dd7b27519771a5d78c23e38b817693564fbe4dc"
+}

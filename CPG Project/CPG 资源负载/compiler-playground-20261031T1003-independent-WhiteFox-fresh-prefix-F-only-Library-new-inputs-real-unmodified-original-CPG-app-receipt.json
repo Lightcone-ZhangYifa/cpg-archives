@@ -1,0 +1,37 @@
+{
+  "format": "cpg-whitefox-only-new-index-offline-independent-actual-original-official-wheel-installed-in-fresh-prefix-v1",
+  "utc": "2026-10-31T03:19:38.467733+00:00",
+  "installed_official_CPG_version": "0.21.13",
+  "actual_python": "/mnt/data/cpg-auto-20261031T1003/venv-clean-isolated-official-02113/bin/python",
+  "source_archive_inherited_from_0.21.13": true,
+  "upstream_source_archive_SHA256": "010b736b9b802f20a5177ff259dcb9b02e69ce42335a600d05831b20ff3e615a",
+  "all_inherited_original_files_restored": 74313,
+  "all_inherited_original_regular_bytes": 114892921,
+  "original_tar_members": 80632,
+  "new_only_prepared_ZIP_SHA256": "3112530239a94c0c1a0b2c6cb5ae6c217c8de779286251e825dd671154fb1fa5",
+  "new_only_prepared_ZIP_bytes": 12669309,
+  "local_additive_adapter_SHA256": "6d23393dd1a6430b5153d7d68b21b282ff81f4eac754867f57f52bbd8e15123a",
+  "no_index_source_generation_in_this_install": true,
+  "no_compilation_or_source_build_performed": true,
+  "actual_offline_verified": {
+    "python": {
+      "real_actual_qualifying_source_records": 61255,
+      "fingerprint": "a245d37c5a5b8b2b267901939b79ebaf442dca7de8cc7a1dd0305c9d44bb425a",
+      "source_material_SHA_verified_by_official_CPG": true,
+      "actual_original_source_root_exists": true
+    },
+    "cxx": {
+      "real_actual_qualifying_source_records": 173,
+      "fingerprint": "49caba9bcbe8c68a69ac1219345d2573aee9e62a841912f2ec1d8ec4322157c2",
+      "source_material_SHA_verified_by_official_CPG": true,
+      "actual_original_source_root_exists": true
+    }
+  },
+  "source_model_or_benchmark_execution": false,
+  "all_actual_materials_SHA_verified_during_CPG_load": true,
+  "elapsed_sec": 28.02,
+  "main_original_1862_resource_cover_unchanged": 1700,
+  "main_original_195_dataset_cover_unchanged": 88,
+  "formal_release_new": false,
+  "new_candidate_cpus_and_models_not_qualified": true
+}

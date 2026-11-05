@@ -1,0 +1,13 @@
+{
+  "format": "cpg-whitefox-source-only-local-adapter-v1",
+  "upstream_archive_sha256": "010b736b9b802f20a5177ff259dcb9b02e69ce42335a600d05831b20ff3e615a",
+  "upstream_git_revision": "e402f40e90184f3c24c2358d62730dfbf4e2c9be",
+  "group_policy_id": "whitefox-torch-inductor-operator-family-across-all-generation-steps-v1",
+  "frozen_scope": "all original 74313 regular files preserved; 61255 original .py units as raw code",
+  "no_upstream_model_execution": true,
+  "no_semantic_oracle": true,
+  "compile_qualified": false,
+  "runtime_qualified": false,
+  "source_note": "Generation steps and feature families preserved; 659 Python AST-invalid source units are retained as raw source and are not compile successes.",
+  "license_note": "Root Apache-2.0 notice is upstream top-level only; individual generated materials, prompts and dependencies may have separate origin/terms."
+}

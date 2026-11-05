@@ -1,0 +1,44 @@
+{
+  "bytes": 16871,
+  "entries": [
+    {
+      "bytes": 5143,
+      "mode": "0o644",
+      "path": "README.zh.md",
+      "sha256": "4670742090a9b1e944648daea74156c82821500a5471a0bda5a876b05f318aa6"
+    },
+    {
+      "bytes": 10201,
+      "mode": "0o644",
+      "path": "restore_ccg_remccg_newonly.py",
+      "sha256": "129fb6391b7e6b945734e1091ffd1d9f63fe56438c8aa78fcf7c20dd2ab0cdf8"
+    },
+    {
+      "bytes": 4371,
+      "mode": "0o644",
+      "path": "restore_four_independent_datasets_from_newsha.py",
+      "sha256": "fd77dca3fee19839b15aeb75afbe63a523ab8f302264f92ecb0efd207355db3f"
+    },
+    {
+      "bytes": 9010,
+      "mode": "0o644",
+      "path": "restore_job_deepfuzz_newonly.py",
+      "sha256": "e1e717ce39584e39bd657238020fcea4490cd1fca01a92ba15e51521ce33bdfb"
+    },
+    {
+      "bytes": 4159,
+      "mode": "0o644",
+      "path": "verify_ccg_remccg_installed.py",
+      "sha256": "b267297206518a4586a94443256b913ad6f02712a0de5eebf3f31e395e8d5eb7"
+    },
+    {
+      "bytes": 4772,
+      "mode": "0o644",
+      "path": "verify_four_source_datasets_installed.py",
+      "sha256": "148a5c57a7cf1f02e364d8d3d1ac01154d79578fe6055a614bd74369fa3cb055"
+    }
+  ],
+  "file_count": 6,
+  "name": "compiler-playground-20261031T1003-independent-restore-toolkit.zip",
+  "sha256": "a58e05b07dd33ffc6b561b15fd77de9d45439d3bfee32e29acdc06dda034368b"
+}

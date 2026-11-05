@@ -1,0 +1,38 @@
+{
+  "format": "cpg-whitefox-original-official-0.21.13-SHA-pinned-real-offline-portable-index-postinstalled-application-v1",
+  "utc": "2026-10-31T03:16:27.236117+00:00",
+  "official_python": "/mnt/data/cpg-auto-20261031T1003/venv-clean-isolated-official-02113/bin/python",
+  "official_cpg_original_wheel_sha256": "616bc43859fcfd1c897b5aafb3002695dddd856a24e0d95fbeb533d16dd25d86",
+  "source_candidate_patch_in_this_venv": false,
+  "dataset_counts": {
+    "Python": 61255,
+    "CXX": 173
+  },
+  "actual_materials_SHA_verified_automatically": true,
+  "results": {
+    "python": {
+      "len": 61255,
+      "fingerprint": "a245d37c5a5b8b2b267901939b79ebaf442dca7de8cc7a1dd0305c9d44bb425a",
+      "sample_mid_id": "whitefox/starcoder-generated/torch-inductor-generated/step53-3shot/unary=28/unary=28_7.py",
+      "group": "whitefox/torch-inductor-operator/addmm",
+      "verified_complete_original_material_sha_mode_and_size_through_official_Loader": true,
+      "index_sha256": "02991dc0a0ad64315df3fe591e87bb56ceb74942d81e36a2053379d9fc0a9193",
+      "relative_material_root": "../../source/WhiteFox-e402f40e90184f3c24c2358d62730dfbf4e2c9be"
+    },
+    "cxx": {
+      "len": 173,
+      "fingerprint": "49caba9bcbe8c68a69ac1219345d2573aee9e62a841912f2ec1d8ec4322157c2",
+      "sample_mid_id": "whitefox-cxx/source-code-data/tfxla-full/async_collective_creator.cc",
+      "group": "whitefox/whole-original-C++-repo-single-leakage-family",
+      "verified_complete_original_material_sha_mode_and_size_through_official_Loader": true,
+      "index_sha256": "e297d64ac33410f35a62c3e537f8d7312cbab987cd54d3e8bb7af36bc83df175",
+      "relative_material_root": "../../source/WhiteFox-e402f40e90184f3c24c2358d62730dfbf4e2c9be"
+    }
+  },
+  "inherited_raw_source_payload_repacked": false,
+  "formal_main_resource_coverage_unchanged": 1700,
+  "formal_main_dataset_coverage_unchanged": 88,
+  "native_or_model_execution": false,
+  "benchmark_or_OCI_or_hardware": false,
+  "elapsed_sec": 19.331
+}

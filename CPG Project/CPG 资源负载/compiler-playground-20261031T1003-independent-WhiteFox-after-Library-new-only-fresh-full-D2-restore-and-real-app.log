@@ -1,0 +1,6 @@
+BEGIN actual saved new-archive-only scripts, inherited original raw SHA pinned 2026-10-31T03:13:23+00:00
+{"pass": true, "original_sources": 74313, "original_bytes": 114892921, "dataset_py": 61255, "elapsed_sec": 34.658, "receipt": "/mnt/data/cpg-auto-20261031T1003/from-persistent-Library-readback-whitefox/after-Library-public-new-only-plus-old-pinned-original-fresh-D2/whitefox-actual-install-receipt.json"}
+{"pass": true, "original_cpp_source_units": 173, "receipt": "/mnt/data/cpg-auto-20261031T1003/from-persistent-Library-readback-whitefox/after-Library-public-new-only-plus-old-pinned-original-fresh-D2/whitefox-cxx-real-installed-source-receipt.json"}
+{"pass": true, "checked": 74313, "sha_size_mode_bytes": 114892921, "elapsed_sec": 6.1}
+{"pass": true, "py": 61255, "cpp": 173, "mixed": 160, "split_groups": {"train": 6, "validation": 1, "test": 1}, "loader_replay": true, "elapsed_sec": 21.74}
+COMPLETE PASS 2026-10-31T03:14:26+00:00

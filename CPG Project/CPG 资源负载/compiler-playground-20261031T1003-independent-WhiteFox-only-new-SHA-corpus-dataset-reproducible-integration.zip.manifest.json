@@ -1,0 +1,171 @@
+{
+  "format": "compiler-playground-independent-WhiteFox-only-new-SHA-sidecar-manifest-v1",
+  "datetime_utc": "2026-10-31T03:11:36.404608+00:00",
+  "handoff_origin": "independent-whitefox-candidate-20261031T03Z",
+  "archive_filename": "compiler-playground-20261031T1003-independent-WhiteFox-only-new-SHA-corpus-dataset-reproducible-integration.zip",
+  "archive_sha256": "4e6c23d2756e79bcac99ac1518084d01c8c8612f97e53096a5dab963ca4f164e",
+  "archive_bytes": 4219373,
+  "archive_mode": "0o644",
+  "members": [
+    {
+      "name": "README.md",
+      "sha256": "2dc421c04c8c1f1a2be1999ed9847979447939ba7c983b23b366af43c0c6bbf1",
+      "bytes": 3311,
+      "logical_mode": "0o644"
+    },
+    {
+      "name": "evidence/actual-grouped-real-mixture-and-loader-resume.json",
+      "sha256": "63ec49eca1808babe438e4c80facc00e7d0f7908b0a95cafefeb0c0bd2fa8031",
+      "bytes": 16279,
+      "logical_mode": "0o644"
+    },
+    {
+      "name": "evidence/actual-installed-CXX-B.json",
+      "sha256": "2e2e4b3aec0df91754da07f2ec277a148a307a81ad6366054f1e3d808cdcc50e",
+      "bytes": 2918,
+      "logical_mode": "0o644"
+    },
+    {
+      "name": "evidence/actual-installed-CXX-B.log",
+      "sha256": "5b8a6c31a4e81b164149d8b4f20aa5ea025362e9ef511611ff46aa14e15fac52",
+      "bytes": 203,
+      "logical_mode": "0o644"
+    },
+    {
+      "name": "evidence/actual-installed-CXX-C.json",
+      "sha256": "7914c0412577d6d362903e060aeab6daa94c1500efd6af8a59f74c6e9b970007",
+      "bytes": 2918,
+      "logical_mode": "0o644"
+    },
+    {
+      "name": "evidence/actual-installed-CXX-C.log",
+      "sha256": "bafd7ff5a8e17c46b3d72ca5092c486bc30f3bd572fcc305302a97ac4d3332a1",
+      "bytes": 203,
+      "logical_mode": "0o644"
+    },
+    {
+      "name": "evidence/actual-installed-Python-B.json",
+      "sha256": "afdbfc38646ecf76c9f24ebcebbc4f270a9836903d202bb8627b6e22387bb0c9",
+      "bytes": 4138,
+      "logical_mode": "0o644"
+    },
+    {
+      "name": "evidence/actual-installed-Python-B.log",
+      "sha256": "1528cb31d8cddb2db13be0a22c9a40cbc57482a66f2bb13bc973d5db2b9e87ab",
+      "bytes": 258,
+      "logical_mode": "0o644"
+    },
+    {
+      "name": "evidence/actual-installed-Python-C.json",
+      "sha256": "438007da77a14c9f4ed3b19c6fd8a4828faa71b05b33c79865107f03e1532a6d",
+      "bytes": 4138,
+      "logical_mode": "0o644"
+    },
+    {
+      "name": "evidence/actual-installed-Python-C.log",
+      "sha256": "46833e95ffe2203c25f1586671be9a9cdf04ec0322d8bdbe6c5530de0e980a8e",
+      "bytes": 258,
+      "logical_mode": "0o644"
+    },
+    {
+      "name": "evidence/actual-original-SHA-size-mode-all-74313-B.json",
+      "sha256": "9d7a208493bd7a2591535e251f07e08a6756162352d6b9e66e4268e4a6bcc874",
+      "bytes": 1182,
+      "logical_mode": "0o644"
+    },
+    {
+      "name": "evidence/actual-original-SHA-size-mode-all-74313-C.json",
+      "sha256": "60bc301f29d798fa38bc657d07c1b600f98e7420551d02a86cd6317ec006dfb3",
+      "bytes": 1183,
+      "logical_mode": "0o644"
+    },
+    {
+      "name": "evidence/actual-source-Dataset-index-byte-reproducibility.json",
+      "sha256": "b90af79672d943da4cda5273abf19efe42724037370922c54fe79df386f69b73",
+      "bytes": 2186,
+      "logical_mode": "0o644"
+    },
+    {
+      "name": "evidence/complete-original-AST-and-lineage-audit.json",
+      "sha256": "cb1162055ec0df85cd8d2752a475eaf4d96a0ee956566e2c825d579d9d353aa1",
+      "bytes": 13566,
+      "logical_mode": "0o644"
+    },
+    {
+      "name": "evidence/complete-original-archive-candidate-discovery.json",
+      "sha256": "58877bf5ef9b623ff5986ba199f88d201deb4bea7fa87ba82b122d734eaa18f8",
+      "bytes": 13678450,
+      "logical_mode": "0o644"
+    },
+    {
+      "name": "evidence/failed-original-unsafe-family-split.log",
+      "sha256": "d6b9b68391a9062677371610259193487279159b6209ce53c3b1d9a8eba1996b",
+      "bytes": 1812,
+      "logical_mode": "0o644"
+    },
+    {
+      "name": "evidence/full-lineage-family-distribution-and-split-risk.json",
+      "sha256": "98f556d8dda0d342cb4e08c78d93013d398980c04f1cdcf514f471173a61bcba",
+      "bytes": 2602,
+      "logical_mode": "0o644"
+    },
+    {
+      "name": "metadata/all-74313-original-per-file-hash-mode-and-AST.jsonl.gz",
+      "sha256": "eb0d44c8fba1aad4701c4555d336c0b843271075974f22243ffcbd2fe1775300",
+      "bytes": 3784864,
+      "logical_mode": "0o644"
+    },
+    {
+      "name": "tools/audit_restored_whitefox_exact_files.py",
+      "sha256": "0ae9c3a544e17ee5bf85e3ad1f4dfb9af58c064a81f312c704fa659c2c651a8f",
+      "bytes": 3248,
+      "logical_mode": "0o644"
+    },
+    {
+      "name": "tools/audit_whitefox_all_original_files_and_python_syntax.py",
+      "sha256": "c570236a3d5449defdba735709d4145ceab8cf9794d396185300a535abc66499",
+      "bytes": 6662,
+      "logical_mode": "0o644"
+    },
+    {
+      "name": "tools/index_whitefox_cpp_source.py",
+      "sha256": "c794c8a603bb1384715feb1878f844f1421d82269c5dfb5096ccaf88cbeff314",
+      "bytes": 3676,
+      "logical_mode": "0o644"
+    },
+    {
+      "name": "tools/restore_whitefox_pinned_full.py",
+      "sha256": "d7029470108fa268be2b3980cdb59b128927c57e2c4910cc68b500272f43aa21",
+      "bytes": 9805,
+      "logical_mode": "0o644"
+    },
+    {
+      "name": "tools/verify_whitefox_real_mixture_and_loader.py",
+      "sha256": "ad5ced94132e4e71412fedb214b8002fc4931086c537587ee58f6bcf4cf47b15",
+      "bytes": 4584,
+      "logical_mode": "0o644"
+    }
+  ],
+  "member_count": 23,
+  "formal_parent_release": "0.21.13",
+  "main_1862_original_coverage_unchanged": 1700,
+  "main_195_original_dataset_coverage_unchanged": 88,
+  "candidate_original_dataset_card_id": "whitefox",
+  "candidate_original_resource_id": "dataset-ref.whitefox",
+  "raw_original_input_sha256": "010b736b9b802f20a5177ff259dcb9b02e69ce42335a600d05831b20ff3e615a",
+  "raw_original_unchanged_size": 10870539,
+  "raw_original_saved_v02113_source_volume": "compiler-playground-v0.21.13-resource-objects-001.zip",
+  "raw_original_material_package_sha256": "d4d49b13b115b6ed79ce3d84c60b2291744b64b4a953cd4478c122a4f1c07fcc",
+  "original_upstream_git": "e402f40e90184f3c24c2358d62730dfbf4e2c9be",
+  "original_URL": "https://codeload.github.com/ise-uiuc/WhiteFox/tar.gz/e402f40e90184f3c24c2358d62730dfbf4e2c9be",
+  "original_raw_materials_embedded": false,
+  "old_source_sha_payload_repacked": false,
+  "full_original_source_files_checked_per_fresh_root": 74313,
+  "independent_fresh_prefixes": 2,
+  "python_source_units": 61255,
+  "CXX_source_units": 173,
+  "reported_Python_AST_invalid": 659,
+  "native_target_Ubuntu_24_04_qualified": false,
+  "official_training_or_benchmark_qualified": false,
+  "OCI_qualified": false
+}

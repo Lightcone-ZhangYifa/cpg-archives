@@ -1,0 +1,33 @@
+{
+  "actual_extra_unmodified_source_files": 0,
+  "actual_original_bytes_sha_size_mode_checked": 114892921,
+  "actual_original_regular_files_sha_size_mode_checked": 74313,
+  "all_original_files_checked": true,
+  "by_extension": {
+    "": 2,
+    ".cc": 120,
+    ".cpp": 53,
+    ".csv": 1,
+    ".json": 113,
+    ".md": 5,
+    ".patch": 1,
+    ".py": 61255,
+    ".sh": 3,
+    ".svg": 2,
+    ".txt": 12758
+  },
+  "datetime_utc": "2026-10-31T03:08:49.694561+00:00",
+  "elapsed_sec": 8.39,
+  "expected_original_regular_files": 74313,
+  "formal_resource_new_admission": false,
+  "format": "cpg-whitefox-independent-all-74313-source-files-after-disk-verified-v1",
+  "inherited_complete_perfile_audit_gz_sha256": "eb0d44c8fba1aad4701c4555d336c0b843271075974f22243ffcbd2fe1775300",
+  "inherited_original_sha256": "010b736b9b802f20a5177ff259dcb9b02e69ce42335a600d05831b20ff3e615a",
+  "local_additive_adapter_files": 1,
+  "model_generation_exec": false,
+  "native_exec": false,
+  "original_git_revision": "e402f40e90184f3c24c2358d62730dfbf4e2c9be",
+  "source_material_original_inherited_without_repackaging": true,
+  "source_original_mode_checked": true,
+  "source_per_file_sha_checked": true
+}

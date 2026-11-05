@@ -1,0 +1,57 @@
+{
+  "format": "cpg-whitefox-offline-only-new-prepared-Dataset-installer-five-real-negative-preconditions-v1",
+  "utc": "2026-10-31T03:18:51.002960+00:00",
+  "original_pinned_source_sha256": "010b736b9b802f20a5177ff259dcb9b02e69ce42335a600d05831b20ff3e615a",
+  "original_unmodified_cpg_wheel": "0.21.13",
+  "prepared_saved_new_ZIP_SHA256": "3112530239a94c0c1a0b2c6cb5ae6c217c8de779286251e825dd671154fb1fa5",
+  "count": 5,
+  "all_rejected": true,
+  "negative_cases": {
+    "wrong_inherited_original_sha": {
+      "rejected": true,
+      "exit_code": 1,
+      "raised": "ValueError",
+      "external_system_paths_changed": false,
+      "bad_input_SHA": "5d2e4532222da27887ef600d257a92492b35ebcccd6097c3edd1150c865c9b16",
+      "target_unexpectedly_allocated": false,
+      "short_error": "ValueError: Inherited original raw tar SHA/bytes wrong"
+    },
+    "wrong_saved_prepared_archive_sha": {
+      "rejected": true,
+      "exit_code": 1,
+      "raised": "ValueError",
+      "external_system_paths_changed": false,
+      "bad_input_SHA": "e49e77253d569b5199bd7f852389571d07bc34cc0e37d99c28ae8ce72eaaf50f",
+      "target_unexpectedly_allocated": false,
+      "short_error": "ValueError: New-only stored prepared index ZIP SHA/bytes wrong"
+    },
+    "wrong_additive_adapter_sha": {
+      "rejected": true,
+      "exit_code": 1,
+      "raised": "ValueError",
+      "external_system_paths_changed": false,
+      "bad_input_SHA": "48677deb49a8bf6b3346a58595e5f6185fb8f23126f54dbce58a2f57eccd6290",
+      "target_unexpectedly_allocated": false,
+      "short_error": "ValueError: New local CPG adapter SHA wrong"
+    },
+    "wrong_signed_manifest_archive_identity": {
+      "rejected": true,
+      "exit_code": 1,
+      "raised": "ValueError",
+      "external_system_paths_changed": false,
+      "bad_input_SHA": "4387fff7db6bfc0361d112e6a17958309bb0424f914edecd20b6167427e20f80",
+      "target_unexpectedly_allocated": false,
+      "short_error": "ValueError: Saved manifest disagrees with index"
+    },
+    "existing_target_prefix_must_not_be_overwritten": {
+      "rejected": true,
+      "exit_code": 1,
+      "raised": "FileExistsError",
+      "external_system_paths_changed": false,
+      "bad_input_SHA": null,
+      "target_unexpectedly_allocated": false,
+      "short_error": "FileExistsError: Will not mutate or retry a partially built prefix"
+    }
+  },
+  "new_verified_source_or_binary_qualifications_claimed": 0
+}

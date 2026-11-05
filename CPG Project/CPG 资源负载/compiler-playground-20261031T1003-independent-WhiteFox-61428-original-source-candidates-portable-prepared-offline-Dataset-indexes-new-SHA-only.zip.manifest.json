@@ -1,0 +1,56 @@
+{
+  "format": "cpg-v02113-independent-whitefox-fully-prepared-portable-original-source-Datasets-new-SHA-v1",
+  "utc": "2026-10-31T03:15:21.336129+00:00",
+  "archive_filename": "compiler-playground-20261031T1003-independent-WhiteFox-61428-original-source-candidates-portable-prepared-offline-Dataset-indexes-new-SHA-only.zip",
+  "archive_sha256": "3112530239a94c0c1a0b2c6cb5ae6c217c8de779286251e825dd671154fb1fa5",
+  "archive_bytes": 12669309,
+  "members": [
+    {
+      "name": "README.md",
+      "bytes": 1781,
+      "sha256": "b7b72452f040b887cd36b9ac190f4e327822665b9075a1ce1c07b57c12f39cae",
+      "logical_mode": "0o644"
+    },
+    {
+      "name": "indices/cxx/index.json",
+      "bytes": 791,
+      "sha256": "c2b32acfe49c5d4821b39263e818cf1c001113eff309e0b36ed5ad71021a36a5",
+      "logical_mode": "0o644"
+    },
+    {
+      "name": "indices/cxx/samples.sqlite3",
+      "bytes": 319488,
+      "sha256": "e297d64ac33410f35a62c3e537f8d7312cbab987cd54d3e8bb7af36bc83df175",
+      "logical_mode": "0o444"
+    },
+    {
+      "name": "indices/python/index.json",
+      "bytes": 810,
+      "sha256": "c8287e04d102a01ecae493eff4ff72969b9c1e2bc92b8ca480107917ec1182b6",
+      "logical_mode": "0o644"
+    },
+    {
+      "name": "indices/python/samples.sqlite3",
+      "bytes": 107606016,
+      "sha256": "02991dc0a0ad64315df3fe591e87bb56ceb74942d81e36a2053379d9fc0a9193",
+      "logical_mode": "0o444"
+    }
+  ],
+  "member_count": 5,
+  "inherited_original_archived_material_sha256": "010b736b9b802f20a5177ff259dcb9b02e69ce42335a600d05831b20ff3e615a",
+  "original_source_git": "e402f40e90184f3c24c2358d62730dfbf4e2c9be",
+  "input_original_74313_upstream_sources_in_package": false,
+  "inherited_original_raw_source_repackaged": false,
+  "tested_source_indexes_independent_prefixes": 2,
+  "total_source_units": 61428,
+  "python_source_units": 61255,
+  "cxx_source_units": 173,
+  "all_indices_read_only_logical_modes": true,
+  "portable_relative_material_root": "../../source/WhiteFox-e402f40e90184f3c24c2358d62730dfbf4e2c9be",
+  "CPG_original_official_wheel_unmodified_loadable_by_dataset_storage_expected": true,
+  "fresh_portable_official_load_validation_pending": true,
+  "original_resource_1862_coverage_unchanged": 1700,
+  "original_dataset_195_coverage_unchanged": 88,
+  "independent_release_only": true,
+  "native_model_benchmark_OCI_hardware_qualified": false
+}

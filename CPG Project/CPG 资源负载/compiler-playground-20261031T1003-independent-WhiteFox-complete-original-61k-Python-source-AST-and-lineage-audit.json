@@ -1,0 +1,368 @@
+{
+  "format": "cpg-whitefox-exact-original-74313-file-complete-structure-and-61255-Python-AST-v1",
+  "created_at_utc": "2026-10-31T03:02:49.721686+00:00",
+  "original_dataset_card_id": "whitefox",
+  "original_resource_id": "dataset-ref.whitefox",
+  "source_revision": "e402f40e90184f3c24c2358d62730dfbf4e2c9be",
+  "archive_sha256": "010b736b9b802f20a5177ff259dcb9b02e69ce42335a600d05831b20ff3e615a",
+  "archive_bytes": 10870539,
+  "formal_inherited_resource_volume": "compiler-playground-v0.21.13-resource-objects-001.zip",
+  "formal_inherited_resource_volume_sha256": "0dfeff783bf665d5ff9a3f47b8c89be2fcaf36b5b7404a5eb0a4d1fa65534407",
+  "formal_inherited_material_cpgpkg_sha256": "d4d49b13b115b6ed79ce3d84c60b2291744b64b4a953cd4478c122a4f1c07fcc",
+  "all_original_regular_files": 74313,
+  "all_original_regular_bytes": 114892921,
+  "all_directories": 6319,
+  "all_links": 0,
+  "other_tar_types": 0,
+  "all_tar_entries": 80632,
+  "files_by_extension": {
+    "": 2,
+    ".md": 5,
+    ".txt": 12758,
+    ".py": 61255,
+    ".json": 113,
+    ".svg": 2,
+    ".csv": 1,
+    ".cpp": 53,
+    ".sh": 3,
+    ".cc": 120,
+    ".patch": 1
+  },
+  "files_by_upstream_main_directory": {
+    ".gitignore": 1,
+    "LICENSE": 1,
+    "OLLAMA_INTEGRATION.md": 1,
+    "Prompts": 298,
+    "README-DEV.md": 1,
+    "README.md": 1,
+    "Requirements": 200,
+    "assets": 2,
+    "bugs.csv": 1,
+    "convert_ollama_to_requirements.py": 1,
+    "gpt4.py": 1,
+    "llvm-exec": 172,
+    "ollama_call.py": 1,
+    "ollama_gen.py": 1,
+    "ollama_requirements.py": 1,
+    "ollama_service.py": 1,
+    "ollama_to_requirements.py": 1,
+    "optim": 11,
+    "prompt_gen.py": 1,
+    "prompt_template.py": 1,
+    "requirements.txt": 1,
+    "scripts": 3,
+    "source-code-data": 250,
+    "starcoder-generated": 73300,
+    "starcoder_call.py": 1,
+    "starcoder_gen.py": 1,
+    "starcoder_service.py": 1,
+    "template-llvm": 3,
+    "template-tf": 3,
+    "template-tfxla": 3,
+    "template-torch": 5,
+    "tflite-exec": 9,
+    "tfxla-exec": 12,
+    "torch-exec": 23
+  },
+  "starcoder_source_categories": {
+    "torch-inductor-generated": 73300
+  },
+  "starcoder_generation_step_counts": {
+    "step1": 733,
+    "step10-3shot": 733,
+    "step100-3shot": 733,
+    "step11-3shot": 733,
+    "step12-3shot": 733,
+    "step13-3shot": 733,
+    "step14-3shot": 733,
+    "step15-3shot": 733,
+    "step16-3shot": 733,
+    "step17-3shot": 733,
+    "step18-3shot": 733,
+    "step19-3shot": 733,
+    "step2-3shot": 733,
+    "step20-3shot": 733,
+    "step21-3shot": 733,
+    "step22-3shot": 733,
+    "step23-3shot": 733,
+    "step24-3shot": 733,
+    "step25-3shot": 733,
+    "step26-3shot": 733,
+    "step27-3shot": 733,
+    "step28-3shot": 733,
+    "step29-3shot": 733,
+    "step3-3shot": 733,
+    "step30-3shot": 733,
+    "step31-3shot": 733,
+    "step32-3shot": 733,
+    "step33-3shot": 733,
+    "step34-3shot": 733,
+    "step35-3shot": 733,
+    "step36-3shot": 733,
+    "step37-3shot": 733,
+    "step38-3shot": 733,
+    "step39-3shot": 733,
+    "step4-3shot": 733,
+    "step40-3shot": 733,
+    "step41-3shot": 733,
+    "step42-3shot": 733,
+    "step43-3shot": 733,
+    "step44-3shot": 733,
+    "step45-3shot": 733,
+    "step46-3shot": 733,
+    "step47-3shot": 733,
+    "step48-3shot": 733,
+    "step49-3shot": 733,
+    "step5-3shot": 733,
+    "step50-3shot": 733,
+    "step51-3shot": 733,
+    "step52-3shot": 733,
+    "step53-3shot": 733,
+    "step54-3shot": 733,
+    "step55-3shot": 733,
+    "step56-3shot": 733,
+    "step57-3shot": 733,
+    "step58-3shot": 733,
+    "step59-3shot": 733,
+    "step6-3shot": 733,
+    "step60-3shot": 733,
+    "step61-3shot": 733,
+    "step62-3shot": 733,
+    "step63-3shot": 733,
+    "step64-3shot": 733,
+    "step65-3shot": 733,
+    "step66-3shot": 733,
+    "step67-3shot": 733,
+    "step68-3shot": 733,
+    "step69-3shot": 733,
+    "step7-3shot": 733,
+    "step70-3shot": 733,
+    "step71-3shot": 733,
+    "step72-3shot": 733,
+    "step73-3shot": 733,
+    "step74-3shot": 733,
+    "step75-3shot": 733,
+    "step76-3shot": 733,
+    "step77-3shot": 733,
+    "step78-3shot": 733,
+    "step79-3shot": 733,
+    "step8-3shot": 733,
+    "step80-3shot": 733,
+    "step81-3shot": 733,
+    "step82-3shot": 733,
+    "step83-3shot": 733,
+    "step84-3shot": 733,
+    "step85-3shot": 733,
+    "step86-3shot": 733,
+    "step87-3shot": 733,
+    "step88-3shot": 733,
+    "step89-3shot": 733,
+    "step9-3shot": 733,
+    "step90-3shot": 733,
+    "step91-3shot": 733,
+    "step92-3shot": 733,
+    "step93-3shot": 733,
+    "step94-3shot": 733,
+    "step95-3shot": 733,
+    "step96-3shot": 733,
+    "step97-3shot": 733,
+    "step98-3shot": 733,
+    "step99-3shot": 733
+  },
+  "Python_ast_valid": 60596,
+  "Python_ast_invalid_or_non_utf8": 659,
+  "Python_ast_invalid_error_kinds": {
+    "SyntaxError": 373,
+    "TabError": 23,
+    "IndentationError": 263
+  },
+  "Python_all_source_lines": 1050043,
+  "source_ast_evaluation": "CPython3.13 ast.parse only, no execution/import of the generated programs, no GPU/torch/model calls",
+  "source_program_full_coverage_observed": true,
+  "dataset_card_formally_qualified": false,
+  "new_resource_payload_objects": 0,
+  "payload_original_bytes_repackaged": 0,
+  "reason_not_formal": "Semantic oracle, generation protocol, model identity, prompts-to-generated-sample lineage, static source versus runnable workload, per-file license and all-card Dataset installed API qualification remain pending. Syntax-invalid generated code is retained, not deleted or counted as compile success.",
+  "full_per_file_index": {
+    "name": "compiler-playground-20261031T1003-independent-WhiteFox-complete-original-74313-file-hash-and-Python-AST-index.jsonl.gz",
+    "bytes": 3784864,
+    "sha256": "eb0d44c8fba1aad4701c4555d336c0b843271075974f22243ffcbd2fe1775300",
+    "uncompressed_jsonl_bytes": 32216605,
+    "records": 74313
+  },
+  "first_valid": [
+    {
+      "path": "Requirements/torch-inductor/req/addmm/addmm_1.py",
+      "sha256": "010de84cbc1e8e2e6279d18389a6d871c57537219a9389a5030a92a139b4df92",
+      "bytes": 167
+    },
+    {
+      "path": "Requirements/torch-inductor/req/binary=0/binary=0_1.py",
+      "sha256": "dd6c2546ab762aa1cfd1231b5a410f1c7c0a949ff4afbad349e402c115432c1a",
+      "bytes": 163
+    },
+    {
+      "path": "Requirements/torch-inductor/req/binary=10/binary=10_1.py",
+      "sha256": "bddc4bb766194f361d715614fcb4420fc1844a24cfe27c88fce4552794705285",
+      "bytes": 158
+    },
+    {
+      "path": "Requirements/torch-inductor/req/binary=2/binary=2_1.py",
+      "sha256": "e3aeefddce8bef1e181c1f2045a834848fac90b41260e8a20edd5ee9a952d53b",
+      "bytes": 163
+    },
+    {
+      "path": "Requirements/torch-inductor/req/binary=4/binary=4_1.py",
+      "sha256": "bddc4bb766194f361d715614fcb4420fc1844a24cfe27c88fce4552794705285",
+      "bytes": 158
+    }
+  ],
+  "first_invalid": [
+    {
+      "path": "Requirements/torch-inductor/req/unary=7/unary=7_1.py",
+      "sha256": "a513cc7063f1a66f35b6c1e16804e77c3f8153bfaafbfbbdd2d58a30b031f2ca",
+      "bytes": 288,
+      "reason": "positional argument follows keyword argument (unary=7_1.py, line 2)"
+    },
+    {
+      "path": "source-code-data/pytorch/inductor-mkldnn/_gelu_fusion_1.py",
+      "sha256": "fffd763fef6f33987a0fb1938196d1dba66aaf72965a882dcc7cd2165d117ead",
+      "bytes": 1362,
+      "reason": "invalid syntax (_gelu_fusion_1.py, line 1)"
+    },
+    {
+      "path": "source-code-data/pytorch/inductor-split-cat/merge_getitem_cat.py",
+      "sha256": "f148e8a6368adf9377b9338102560c4b80f594b8241d5ee9c91fb996dbbf43c7",
+      "bytes": 231,
+      "reason": "invalid syntax (merge_getitem_cat.py, line 10)"
+    },
+    {
+      "path": "source-code-data/pytorch/inductor-split-cat/merge_stack_tahn_unbind.py",
+      "sha256": "a36255e2458b8b444e35fb2b0b1f6ff4c703c5780994a6d0ef391fbccc58894d",
+      "bytes": 825,
+      "reason": "invalid syntax (merge_stack_tahn_unbind.py, line 36)"
+    },
+    {
+      "path": "source-code-data/pytorch/inductor-split-cat/merge_unbind_stack.py",
+      "sha256": "ed6c430e66ca9c06bba104943e5b0f91a3dc0b096df7f23eb36f0491be46b505",
+      "bytes": 916,
+      "reason": "invalid syntax (merge_unbind_stack.py, line 33)"
+    },
+    {
+      "path": "source-code-data/pytorch/inductor-split-cat/mutate_cat_node.py",
+      "sha256": "11835307bd4091747ab0a3dbff2587dfd085851eb971fc759e31474be0cd0aca",
+      "bytes": 223,
+      "reason": "invalid syntax (mutate_cat_node.py, line 10)"
+    },
+    {
+      "path": "starcoder-generated/torch-inductor-generated/step1/addmm/addmm_7.py",
+      "sha256": "8ddeff05a3db90a058706ae58e8b54450e27c6b33e9e879266711d26014e2dea",
+      "bytes": 691,
+      "reason": "inconsistent use of tabs and spaces in indentation (addmm_7.py, line 7)"
+    },
+    {
+      "path": "starcoder-generated/torch-inductor-generated/step1/binary_unary=4/binary_unary=4_9.py",
+      "sha256": "4815f4defb1abe71e599c735645c8077b75e4a9de6c9ebd0e7ebd1eea2e9da9a",
+      "bytes": 466,
+      "reason": "unexpected indent (binary_unary=4_9.py, line 1)"
+    },
+    {
+      "path": "starcoder-generated/torch-inductor-generated/step1/cat_addmm/cat_addmm_8.py",
+      "sha256": "71e240768781081d585925656acb33296c5e57849ab26d704f4b146bc86a7ac7",
+      "bytes": 458,
+      "reason": "expected an indented block after function definition on line 15 (cat_addmm_8.py, line 16)"
+    },
+    {
+      "path": "starcoder-generated/torch-inductor-generated/step1/mm_plus_mm/mm_plus_mm_9.py",
+      "sha256": "e0c3bec21e69a2ecbcb469abb9115e554a895ab9951e7e925c8fa21b839ea3de",
+      "bytes": 534,
+      "reason": "invalid syntax (mm_plus_mm_9.py, line 12)"
+    },
+    {
+      "path": "starcoder-generated/torch-inductor-generated/step1/replace_fx/replace_fx_1.py",
+      "sha256": "a49cf891130ea383832432958472120c2b2a5e967cccc883a64f0c285dc5b18c",
+      "bytes": 100,
+      "reason": "unexpected indent (replace_fx_1.py, line 1)"
+    },
+    {
+      "path": "starcoder-generated/torch-inductor-generated/step1/sfdp=0/sfdp=0_4.py",
+      "sha256": "3dc5ac7b90b5e5a5bb2781bed1935ead9d13caddf95fb22bbd402a3ee1d4f084",
+      "bytes": 747,
+      "reason": "unexpected indent (sfdp=0_4.py, line 1)"
+    },
+    {
+      "path": "starcoder-generated/torch-inductor-generated/step1/sfdp=1/sfdp=1_1.py",
+      "sha256": "858a7869a30ef818bc67e90e39da660e6d7b9d1db541380221c2bb1ad7e6acf7",
+      "bytes": 358,
+      "reason": "unexpected indent (sfdp=1_1.py, line 1)"
+    },
+    {
+      "path": "starcoder-generated/torch-inductor-generated/step1/sfdp=4/sfdp=4_1.py",
+      "sha256": "b49294f6e3e167586766c6f3a8e0533e8a233933e7737d5003614af51b177810",
+      "bytes": 745,
+      "reason": "expected an indented block after 'with' statement on line 26 (sfdp=4_1.py, line 27)"
+    },
+    {
+      "path": "starcoder-generated/torch-inductor-generated/step1/sfdp=4/sfdp=4_4.py",
+      "sha256": "828207809760543bf40138de0509c8e11b2bf44941dfc459675328673f331f02",
+      "bytes": 139,
+      "reason": "expected an indented block after function definition on line 6 (sfdp=4_4.py, line 7)"
+    },
+    {
+      "path": "starcoder-generated/torch-inductor-generated/step1/sfdp=5/sfdp=5_6.py",
+      "sha256": "9b77e255f002c81025ef537c19d6e64dbcc37da7d6bbe5c03781791fe9c2a88c",
+      "bytes": 988,
+      "reason": "invalid syntax (sfdp=5_6.py, line 29)"
+    },
+    {
+      "path": "starcoder-generated/torch-inductor-generated/step1/sink_cat_after_pointwise/sink_cat_after_pointwise_9.py",
+      "sha256": "71df53c1179eb9c4c3120724c3394ac491f18974c640632000d140acc64fb4af",
+      "bytes": 393,
+      "reason": "unexpected indent (sink_cat_after_pointwise_9.py, line 1)"
+    },
+    {
+      "path": "starcoder-generated/torch-inductor-generated/step1/unary=25/unary=25_6.py",
+      "sha256": "45589471d5f5af879514e622cc0e46119ab720dc875cbcf1ec4fea6f2fe1fa9f",
+      "bytes": 362,
+      "reason": "expression cannot contain assignment, perhaps you meant \"==\"? (unary=25_6.py, line 10)"
+    },
+    {
+      "path": "starcoder-generated/torch-inductor-generated/step1/unary=28/unary=28_3.py",
+      "sha256": "fce2866237e74f8a36473137c0b40f8ae617cbe8abdc02010319b41d66f650a9",
+      "bytes": 400,
+      "reason": "unexpected indent (unary=28_3.py, line 1)"
+    },
+    {
+      "path": "starcoder-generated/torch-inductor-generated/step1/unary=3/unary=3_9.py",
+      "sha256": "a5bcc70427b37d3d5e5eca40d4d4adc02e08f8f325cfdc1a801c3a8b1d4e6901",
+      "bytes": 538,
+      "reason": "unexpected indent (unary=3_9.py, line 1)"
+    },
+    {
+      "path": "starcoder-generated/torch-inductor-generated/step1/unary=5/unary=5_2.py",
+      "sha256": "3c11e7fe5a68091f3a650c568f8871bc4cbbad60fde8ecd544876f21d8733626",
+      "bytes": 461,
+      "reason": "unexpected indent (unary=5_2.py, line 12)"
+    },
+    {
+      "path": "starcoder-generated/torch-inductor-generated/step10-3shot/binary=8/binary=8_9.py",
+      "sha256": "b1931e9b8fe8b0ea106b5fb07107fa6745c620676c1c6d8b680c3cf5df4266bd",
+      "bytes": 349,
+      "reason": "invalid syntax (binary=8_9.py, line 1)"
+    },
+    {
+      "path": "starcoder-generated/torch-inductor-generated/step10-3shot/cat_addmm/cat_addmm_7.py",
+      "sha256": "47b1e75d729cfedc6024867a5c99abb76c5b6a3dfc83762b1092df6bab4d8608",
+      "bytes": 455,
+      "reason": "unexpected indent (cat_addmm_7.py, line 1)"
+    },
+    {
+      "path": "starcoder-generated/torch-inductor-generated/step10-3shot/cat_slice_cat/cat_slice_cat_6.py",
+      "sha256": "d9b72d69250b240b7452af2ed28fb57f81564fb87b18b12170e5ff75d7713028",
+      "bytes": 478,
+      "reason": "unexpected indent (cat_slice_cat_6.py, line 1)"
+    }
+  ],
+  "unmodified_raw_archived": true,
+  "elapsed_sec": 9.117
+}

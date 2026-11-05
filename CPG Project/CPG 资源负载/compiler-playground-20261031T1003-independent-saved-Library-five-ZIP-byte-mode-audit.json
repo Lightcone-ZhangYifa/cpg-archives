@@ -1,0 +1,41 @@
+{
+  "format": "cpg-independent-saved-library-payload-byte-and-mode-readback-v1",
+  "items": [
+    {
+      "materialized_Library": "compiler-playground-20261031T1003-independent-ccg-remccg-new-only-sha-objects.zip",
+      "original_local": "compiler-playground-20261031T1003-independent-ccg-remccg-new-only-sha-objects.zip",
+      "sha256": "688bf9924fe0fe9bf2708d1ced88928710df43a27efb47c7369db0154fb8691f",
+      "size_bytes": 74474,
+      "zip_members_audited": true
+    },
+    {
+      "materialized_Library": "compiler-playground-20261031T1003-independent-job-deepfuzz-new-only-sha-objects.zip",
+      "original_local": "compiler-playground-20261031T1003-independent-job-deepfuzz-new-only-sha-objects.zip",
+      "sha256": "1e7e7f8bd0a450101dcb3c3faccb13de0fe7667ae074d35a3e9b48aa813a4549",
+      "size_bytes": 56961,
+      "zip_members_audited": true
+    },
+    {
+      "materialized_Library": "compiler-playground-20261031T1003-framework-only-python-sql-source-tree-candidate(1).zip",
+      "original_local": "compiler-playground-20261031T1003-framework-only-python-sql-source-tree-candidate.zip",
+      "sha256": "eb02671aaa1312a561b23a3e0b6476097c9281e9c740cfb5b27949a1771ee45e",
+      "size_bytes": 9085,
+      "zip_members_audited": true
+    },
+    {
+      "materialized_Library": "compiler-playground-20261031T1003-independent-restore-toolkit.zip",
+      "original_local": "compiler-playground-20261031T1003-independent-restore-toolkit.zip",
+      "sha256": "a58e05b07dd33ffc6b561b15fd77de9d45439d3bfee32e29acdc06dda034368b",
+      "size_bytes": 16871,
+      "zip_members_audited": true
+    },
+    {
+      "materialized_Library": "compiler-playground-20261031T1003-independent-validation-evidence.zip",
+      "original_local": "compiler-playground-20261031T1003-independent-validation-evidence.zip",
+      "sha256": "827e358d483ce89a1c05a13c5dd7b27519771a5d78c23e38b817693564fbe4dc",
+      "size_bytes": 202046,
+      "zip_members_audited": true
+    }
+  ],
+  "success": true
+}
