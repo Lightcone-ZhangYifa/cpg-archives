@@ -1,0 +1,13 @@
+{
+  "state": "awaiting_upload_authentication",
+  "inventory_file_count": 1586,
+  "inventory_size_bytes": 82774484371,
+  "completed_file_count": 91,
+  "completed_size_bytes": 5005733,
+  "deleted_source_file_count": 91,
+  "remaining_file_count": 1495,
+  "remaining_size_bytes": 82769478638,
+  "last_archive_commit": "919d822dd32c8930d2ad2ddce4d2519cba3e1c9f",
+  "verification": "Complete remote bytes, byte count and SHA-256 checked for every completed file; originals deleted only after verification.",
+  "original_paths_preserved": true
+}
