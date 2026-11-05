@@ -1,0 +1,38 @@
+{
+  "bytes": 9085,
+  "entries": [
+    {
+      "bytes": 5143,
+      "mode": "0o644",
+      "path": "README.zh.md",
+      "sha256": "4670742090a9b1e944648daea74156c82821500a5471a0bda5a876b05f318aa6"
+    },
+    {
+      "bytes": 10180,
+      "mode": "0o644",
+      "path": "compiler_playground/datasets/sources.py",
+      "sha256": "8343a031a7ccb936923ddeabe4d50812439b4496a4400e2f9170650eea4d62ad"
+    },
+    {
+      "bytes": 944,
+      "mode": "0o644",
+      "path": "framework-only-candidate-manifest.json",
+      "sha256": "dc528596a5ebd2c355a573ee761caffa59edfa6b6c6df8f31795e371d96f9ebf"
+    },
+    {
+      "bytes": 866,
+      "mode": "0o644",
+      "path": "patches/sources.py.patch",
+      "sha256": "edd298995d9e203a8c0a252f41fcf9dccdf30178d85eea394a272405b16523ef"
+    },
+    {
+      "bytes": 3234,
+      "mode": "0o644",
+      "path": "tests/test_python_sql_source_tree_languages.py",
+      "sha256": "5f8cd606130a787e73dae2524d0a1ad699ca77828e92384c20b52bdfa2568c8a"
+    }
+  ],
+  "file_count": 5,
+  "name": "compiler-playground-20261031T1003-framework-only-python-sql-source-tree-candidate.zip",
+  "sha256": "eb02671aaa1312a561b23a3e0b6476097c9281e9c740cfb5b27949a1771ee45e"
+}

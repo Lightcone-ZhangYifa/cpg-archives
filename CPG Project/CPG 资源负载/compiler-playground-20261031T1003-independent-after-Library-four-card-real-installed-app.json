@@ -1,0 +1,115 @@
+{
+  "CCG_RemCCG_shared_source_ancestry_preserved": true,
+  "DeepFuzz_model_or_generated_programs_executed": false,
+  "SQL_query_text_source_language_supported_without_code_change": true,
+  "actual_compiler_playground_version": "0.21.13",
+  "all_samples_compile_only": true,
+  "backend": "Python 3.13 amd64 Debian 13; not Ubuntu 24.04 runtime qualification",
+  "card_fingerprints": {
+    "ccg": "5bdcbc33e40f16ccbe537efc39f50adc1815715d69eb742d62ed8bb028d1e9ad",
+    "deepfuzz": "84ae7de6adb1f8ab258872a8206c2d05156eb4f159b8f9a81727e717eb100b5c",
+    "join-order-benchmark": "5ae17e160c77187ff82a70bd0f8bfcf286463a9e984aa5ffece3e1107337f06b",
+    "remccg": "dc1418cf151eebbfb4c3d5eb4d42ee8693f06b9040bc1182a5462e42599721e5"
+  },
+  "card_sample_counts": {
+    "ccg": 24,
+    "deepfuzz": 6,
+    "join-order-benchmark": 113,
+    "remccg": 18
+  },
+  "cross_epoch_resume_verified": true,
+  "data_loader_resume_steps_verified": 13,
+  "formal_resource_IDs_promoted": 0,
+  "format": "cpg-four-source-postinstall-real-application-v1",
+  "group_split_family_counts": {
+    "test": 5,
+    "train": 25,
+    "validation": 5
+  },
+  "group_split_set_disjoint": true,
+  "group_split_sizes": {
+    "test": 16,
+    "train": 125,
+    "validation": 20
+  },
+  "installed_CPG_real_consumer_passed": true,
+  "mixture_distribution_requested": {
+    "ccg": 0.25,
+    "deepfuzz": 0.25,
+    "join-order-benchmark": 0.25,
+    "remccg": 0.25
+  },
+  "mixture_draws_with_replacement_not_original_samples": 96,
+  "network_accessed": false,
+  "original_dataset_cards_promoted_by_this_independent_candidate": 0,
+  "original_dataset_primary_lineage_group_count": 35,
+  "original_query_SQL_official_benchmark_verified": false,
+  "resume_trace": [
+    {
+      "epoch": 0,
+      "item_count": 11,
+      "step": 0
+    },
+    {
+      "epoch": 0,
+      "item_count": 11,
+      "step": 1
+    },
+    {
+      "epoch": 0,
+      "item_count": 11,
+      "step": 2
+    },
+    {
+      "epoch": 0,
+      "item_count": 11,
+      "step": 3
+    },
+    {
+      "epoch": 0,
+      "item_count": 11,
+      "step": 4
+    },
+    {
+      "epoch": 0,
+      "item_count": 11,
+      "step": 5
+    },
+    {
+      "epoch": 0,
+      "item_count": 11,
+      "step": 6
+    },
+    {
+      "epoch": 0,
+      "item_count": 8,
+      "step": 7
+    },
+    {
+      "epoch": 1,
+      "item_count": 11,
+      "step": 8
+    },
+    {
+      "epoch": 1,
+      "item_count": 11,
+      "step": 9
+    },
+    {
+      "epoch": 1,
+      "item_count": 11,
+      "step": 10
+    },
+    {
+      "epoch": 1,
+      "item_count": 11,
+      "step": 11
+    },
+    {
+      "epoch": 1,
+      "item_count": 11,
+      "step": 12
+    }
+  ],
+  "total_distinct_primary_samples": 161
+}

@@ -1,0 +1,126 @@
+{
+  "binaries": {
+    "original_default_B_prebuilt": {
+      "ELF_DT_NEEDED": [
+        "libm.so.6",
+        "libc.so.6"
+      ],
+      "bytes": 96968,
+      "file": {
+        "status": 0,
+        "stderr": "",
+        "stdout": "ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=3e39cbef2dfb6029ffcdb42f62d2fd26c621113e, for GNU/Linux 3.2.0, with debug_info, not stripped\n"
+      },
+      "highest_symbol_version_GLIBC": "2.34",
+      "ldd": {
+        "status": 0,
+        "stderr": "",
+        "stdout": "\tlinux-vdso.so.1 (0x00007f05d60c6000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007f05d5fb3000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f05d5dbf000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007f05d60c8000)\n"
+      },
+      "readelf_dynamic": {
+        "status": 0,
+        "stderr": "",
+        "stdout": "\nDynamic section at offset 0x7dc0 contains 27 entries:\n  Tag        Type                         Name/Value\n 0x0000000000000001 (NEEDED)             Shared library: [libm.so.6]\n 0x0000000000000001 (NEEDED)             Shared library: [libc.so.6]\n 0x000000000000000c (INIT)               0x2000\n 0x000000000000000d (FINI)               0x5360\n 0x0000000000000019 (INIT_ARRAY)         0x8c10\n 0x000000000000001b (INIT_ARRAYSZ)       8 (bytes)\n 0x000000000000001a (FINI_ARRAY)         0x8c18\n 0x000000000000001c (FINI_ARRAYSZ)       8 (bytes)\n 0x000000006ffffef5 (GNU_HASH)           0x3b0\n 0x0000000000000005 (STRTAB)             0x700\n 0x0000000000000006 (SYMTAB)             0x3e8\n 0x000000000000000a (STRSZ)              319 (bytes)\n 0x000000000000000b (SYMENT)             24 (bytes)\n 0x0000000000000015 (DEBUG)              0x0\n 0x0000000000000003 (PLTGOT)             0x8fe8\n 0x0000000000000002 (PLTRELSZ)           576 (bytes)\n 0x0000000000000014 (PLTREL)             RELA\n 0x0000000000000017 (JMPREL)             0x1148\n 0x0000000000000007 (RELA)               0x8d8\n 0x0000000000000008 (RELASZ)             2160 (bytes)\n 0x0000000000000009 (RELAENT)            24 (bytes)\n 0x000000006ffffffb (FLAGS_1)            Flags: PIE\n 0x000000006ffffffe (VERNEED)            0x888\n 0x000000006fffffff (VERNEEDNUM)         2\n 0x000000006ffffff0 (VERSYM)             0x840\n 0x000000006ffffff9 (RELACOUNT)          82\n 0x0000000000000000 (NULL)               0x0\n"
+      },
+      "readelf_header": {
+        "status": 0,
+        "stderr": "",
+        "stdout": "ELF Header:\n  Magic:   7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 \n  Class:                             ELF64\n  Data:                              2's complement, little endian\n  Version:                           1 (current)\n  OS/ABI:                            UNIX - System V\n  ABI Version:                       0\n  Type:                              DYN (Position-Independent Executable file)\n  Machine:                           Advanced Micro Devices X86-64\n  Version:                           0x1\n  Entry point address:               0x21c0\n  Start of program headers:          64 (bytes into file)\n  Start of section headers:          94536 (bytes into file)\n  Flags:                             0x0\n  Size of this header:               64 (bytes)\n  Size of program headers:           56 (bytes)\n  Number of program headers:         14\n  Size of section headers:           64 (bytes)\n  Number of section headers:         38\n  Section header string table index: 37\n"
+      },
+      "readelf_versions": {
+        "status": 0,
+        "stderr": "",
+        "stdout": "\nVersion symbols section '.gnu.version' contains 33 entries:\n Addr: 0x0000000000000840  Offset: 0x00000840  Link: 5 (.dynsym)\n  000:   0 (*local*)       2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   3 (GLIBC_2.34) \n  004:   1 (*global*)      2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   4 (GLIBC_2.29) \n  008:   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)\n  00c:   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)\n  010:   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   1 (*global*)      2 (GLIBC_2.2.5)\n  014:   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)\n  018:   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   1 (*global*)   \n  01c:   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)\n  020:   2 (GLIBC_2.2.5)\n\nVersion needs section '.gnu.version_r' contains 2 entries:\n Addr: 0x0000000000000888  Offset: 0x00000888  Link: 6 (.dynstr)\n  000000: Version: 1  File: libm.so.6  Cnt: 1\n  0x0010:   Name: GLIBC_2.29  Flags: none  Version: 4\n  0x0020: Version: 1  File: libc.so.6  Cnt: 2\n  0x0030:   Name: GLIBC_2.34  Flags: none  Version: 3\n  0x0040:   Name: GLIBC_2.2.5  Flags: none  Version: 2\n"
+      },
+      "required_glibc_vers": [
+        "2.2.5",
+        "2.29",
+        "2.34"
+      ],
+      "sha256": "6e86644b04ce2824be6803e6d2584d92bcca7f58e1a768d864e18af1efab89fc"
+    },
+    "reproducible_new_C": {
+      "ELF_DT_NEEDED": [
+        "libm.so.6",
+        "libc.so.6"
+      ],
+      "bytes": 96904,
+      "file": {
+        "status": 0,
+        "stderr": "",
+        "stdout": "ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=86581ad0185230e8196b5e8b8a6748e165ce810a, for GNU/Linux 3.2.0, with debug_info, not stripped\n"
+      },
+      "highest_symbol_version_GLIBC": "2.34",
+      "ldd": {
+        "status": 0,
+        "stderr": "",
+        "stdout": "\tlinux-vdso.so.1 (0x00007fc6eeae2000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007fc6ee9cf000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007fc6ee7db000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007fc6eeae4000)\n"
+      },
+      "readelf_dynamic": {
+        "status": 0,
+        "stderr": "",
+        "stdout": "\nDynamic section at offset 0x7dc0 contains 27 entries:\n  Tag        Type                         Name/Value\n 0x0000000000000001 (NEEDED)             Shared library: [libm.so.6]\n 0x0000000000000001 (NEEDED)             Shared library: [libc.so.6]\n 0x000000000000000c (INIT)               0x2000\n 0x000000000000000d (FINI)               0x5360\n 0x0000000000000019 (INIT_ARRAY)         0x8c10\n 0x000000000000001b (INIT_ARRAYSZ)       8 (bytes)\n 0x000000000000001a (FINI_ARRAY)         0x8c18\n 0x000000000000001c (FINI_ARRAYSZ)       8 (bytes)\n 0x000000006ffffef5 (GNU_HASH)           0x3b0\n 0x0000000000000005 (STRTAB)             0x700\n 0x0000000000000006 (SYMTAB)             0x3e8\n 0x000000000000000a (STRSZ)              319 (bytes)\n 0x000000000000000b (SYMENT)             24 (bytes)\n 0x0000000000000015 (DEBUG)              0x0\n 0x0000000000000003 (PLTGOT)             0x8fe8\n 0x0000000000000002 (PLTRELSZ)           576 (bytes)\n 0x0000000000000014 (PLTREL)             RELA\n 0x0000000000000017 (JMPREL)             0x1148\n 0x0000000000000007 (RELA)               0x8d8\n 0x0000000000000008 (RELASZ)             2160 (bytes)\n 0x0000000000000009 (RELAENT)            24 (bytes)\n 0x000000006ffffffb (FLAGS_1)            Flags: PIE\n 0x000000006ffffffe (VERNEED)            0x888\n 0x000000006fffffff (VERNEEDNUM)         2\n 0x000000006ffffff0 (VERSYM)             0x840\n 0x000000006ffffff9 (RELACOUNT)          82\n 0x0000000000000000 (NULL)               0x0\n"
+      },
+      "readelf_header": {
+        "status": 0,
+        "stderr": "",
+        "stdout": "ELF Header:\n  Magic:   7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 \n  Class:                             ELF64\n  Data:                              2's complement, little endian\n  Version:                           1 (current)\n  OS/ABI:                            UNIX - System V\n  ABI Version:                       0\n  Type:                              DYN (Position-Independent Executable file)\n  Machine:                           Advanced Micro Devices X86-64\n  Version:                           0x1\n  Entry point address:               0x21c0\n  Start of program headers:          64 (bytes into file)\n  Start of section headers:          94472 (bytes into file)\n  Flags:                             0x0\n  Size of this header:               64 (bytes)\n  Size of program headers:           56 (bytes)\n  Number of program headers:         14\n  Size of section headers:           64 (bytes)\n  Number of section headers:         38\n  Section header string table index: 37\n"
+      },
+      "readelf_versions": {
+        "status": 0,
+        "stderr": "",
+        "stdout": "\nVersion symbols section '.gnu.version' contains 33 entries:\n Addr: 0x0000000000000840  Offset: 0x00000840  Link: 5 (.dynsym)\n  000:   0 (*local*)       2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   3 (GLIBC_2.34) \n  004:   1 (*global*)      2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   4 (GLIBC_2.29) \n  008:   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)\n  00c:   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)\n  010:   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   1 (*global*)      2 (GLIBC_2.2.5)\n  014:   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)\n  018:   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   1 (*global*)   \n  01c:   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)\n  020:   2 (GLIBC_2.2.5)\n\nVersion needs section '.gnu.version_r' contains 2 entries:\n Addr: 0x0000000000000888  Offset: 0x00000888  Link: 6 (.dynstr)\n  000000: Version: 1  File: libm.so.6  Cnt: 1\n  0x0010:   Name: GLIBC_2.29  Flags: none  Version: 4\n  0x0020: Version: 1  File: libc.so.6  Cnt: 2\n  0x0030:   Name: GLIBC_2.34  Flags: none  Version: 3\n  0x0040:   Name: GLIBC_2.2.5  Flags: none  Version: 2\n"
+      },
+      "required_glibc_vers": [
+        "2.2.5",
+        "2.29",
+        "2.34"
+      ],
+      "sha256": "e8d4fd218a34875a391109e0ad9813e03524d75ce9c472c917e15d2caccf10c9"
+    },
+    "reproducible_new_D": {
+      "ELF_DT_NEEDED": [
+        "libm.so.6",
+        "libc.so.6"
+      ],
+      "bytes": 96904,
+      "file": {
+        "status": 0,
+        "stderr": "",
+        "stdout": "ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=86581ad0185230e8196b5e8b8a6748e165ce810a, for GNU/Linux 3.2.0, with debug_info, not stripped\n"
+      },
+      "highest_symbol_version_GLIBC": "2.34",
+      "ldd": {
+        "status": 0,
+        "stderr": "",
+        "stdout": "\tlinux-vdso.so.1 (0x00007f788735a000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007f7887247000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f7887053000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007f788735c000)\n"
+      },
+      "readelf_dynamic": {
+        "status": 0,
+        "stderr": "",
+        "stdout": "\nDynamic section at offset 0x7dc0 contains 27 entries:\n  Tag        Type                         Name/Value\n 0x0000000000000001 (NEEDED)             Shared library: [libm.so.6]\n 0x0000000000000001 (NEEDED)             Shared library: [libc.so.6]\n 0x000000000000000c (INIT)               0x2000\n 0x000000000000000d (FINI)               0x5360\n 0x0000000000000019 (INIT_ARRAY)         0x8c10\n 0x000000000000001b (INIT_ARRAYSZ)       8 (bytes)\n 0x000000000000001a (FINI_ARRAY)         0x8c18\n 0x000000000000001c (FINI_ARRAYSZ)       8 (bytes)\n 0x000000006ffffef5 (GNU_HASH)           0x3b0\n 0x0000000000000005 (STRTAB)             0x700\n 0x0000000000000006 (SYMTAB)             0x3e8\n 0x000000000000000a (STRSZ)              319 (bytes)\n 0x000000000000000b (SYMENT)             24 (bytes)\n 0x0000000000000015 (DEBUG)              0x0\n 0x0000000000000003 (PLTGOT)             0x8fe8\n 0x0000000000000002 (PLTRELSZ)           576 (bytes)\n 0x0000000000000014 (PLTREL)             RELA\n 0x0000000000000017 (JMPREL)             0x1148\n 0x0000000000000007 (RELA)               0x8d8\n 0x0000000000000008 (RELASZ)             2160 (bytes)\n 0x0000000000000009 (RELAENT)            24 (bytes)\n 0x000000006ffffffb (FLAGS_1)            Flags: PIE\n 0x000000006ffffffe (VERNEED)            0x888\n 0x000000006fffffff (VERNEEDNUM)         2\n 0x000000006ffffff0 (VERSYM)             0x840\n 0x000000006ffffff9 (RELACOUNT)          82\n 0x0000000000000000 (NULL)               0x0\n"
+      },
+      "readelf_header": {
+        "status": 0,
+        "stderr": "",
+        "stdout": "ELF Header:\n  Magic:   7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 \n  Class:                             ELF64\n  Data:                              2's complement, little endian\n  Version:                           1 (current)\n  OS/ABI:                            UNIX - System V\n  ABI Version:                       0\n  Type:                              DYN (Position-Independent Executable file)\n  Machine:                           Advanced Micro Devices X86-64\n  Version:                           0x1\n  Entry point address:               0x21c0\n  Start of program headers:          64 (bytes into file)\n  Start of section headers:          94472 (bytes into file)\n  Flags:                             0x0\n  Size of this header:               64 (bytes)\n  Size of program headers:           56 (bytes)\n  Number of program headers:         14\n  Size of section headers:           64 (bytes)\n  Number of section headers:         38\n  Section header string table index: 37\n"
+      },
+      "readelf_versions": {
+        "status": 0,
+        "stderr": "",
+        "stdout": "\nVersion symbols section '.gnu.version' contains 33 entries:\n Addr: 0x0000000000000840  Offset: 0x00000840  Link: 5 (.dynsym)\n  000:   0 (*local*)       2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   3 (GLIBC_2.34) \n  004:   1 (*global*)      2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   4 (GLIBC_2.29) \n  008:   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)\n  00c:   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)\n  010:   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   1 (*global*)      2 (GLIBC_2.2.5)\n  014:   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)\n  018:   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   1 (*global*)   \n  01c:   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)\n  020:   2 (GLIBC_2.2.5)\n\nVersion needs section '.gnu.version_r' contains 2 entries:\n Addr: 0x0000000000000888  Offset: 0x00000888  Link: 6 (.dynstr)\n  000000: Version: 1  File: libm.so.6  Cnt: 1\n  0x0010:   Name: GLIBC_2.29  Flags: none  Version: 4\n  0x0020: Version: 1  File: libc.so.6  Cnt: 2\n  0x0030:   Name: GLIBC_2.34  Flags: none  Version: 3\n  0x0040:   Name: GLIBC_2.2.5  Flags: none  Version: 2\n"
+      },
+      "required_glibc_vers": [
+        "2.2.5",
+        "2.29",
+        "2.34"
+      ],
+      "sha256": "e8d4fd218a34875a391109e0ad9813e03524d75ce9c472c917e15d2caccf10c9"
+    }
+  },
+  "format": "cpg-CCG-exact-host-native-ABI-runtime-closure-inspection-v1",
+  "host_OS": "Debian 13 (glibc 2.41)",
+  "infer_about_Ubuntu_24_04": "ELF required symbols and DT_NEEDED alone DO NOT establish a successful Ubuntu 24.04 application run or OCI/hardware qualification.",
+  "source_commits_unchanged": true,
+  "target_Ubuntu24_04_actual_runtime_not_performed": true
+}

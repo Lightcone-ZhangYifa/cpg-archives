@@ -1,0 +1,304 @@
+{
+  "actual_development": {
+    "candidate_guard_mutation_tests": "18 passed",
+    "framework_formal_vs_rebuilt_wheel_distinct_prefixes": "passed",
+    "full_OCI_and_original_target_native_build": false,
+    "full_mirror_negative_tests": "10 passed",
+    "large_resource_package_test_batch": "bounded_run_timed_out; NOT claimed passed",
+    "original_package_json_definitions_restored": 1862,
+    "original_wheel_tests": "114 passed, 22 subtests passed",
+    "reconstructed_project_selected_tests": "258 passed, 154 subtests passed",
+    "recovered_source_rebuilt_wheel_and_python_cli_real_execute": "passed",
+    "source_restore_negative_tests": "12 passed",
+    "source_snapshot_complete_historical_git_and_external_data": false,
+    "source_target_dependencies_provider_version_compared_exact": 1862,
+    "stage1_exact_python_package_members": 4987,
+    "stage1_inherited_same": 339,
+    "stage1_missing_restored": 4648,
+    "stage2_exact_support_tree_members": 4882,
+    "stage2_inherited_same": 332,
+    "stage2_missing_restored": 4550
+  },
+  "automation": {
+    "existing_task_id": "6ae0511879ec81919b31f10e974409ad",
+    "interval_hours": 2,
+    "original_anchor": "2026-10-27T07:39:36Z",
+    "task_left_enabled": true,
+    "task_observed_or_modified": false
+  },
+  "created_utc": "2026-10-31T03:30:50.326397+00:00",
+  "formal_latest_archive": {
+    "formal_wheel_sha256": "616bc43859fcfd1c897b5aafb3002695dddd856a24e0d95fbeb533d16dd25d86",
+    "immutable_formal_receipt_id": "libfile_b006b66d9194819198a9fb7196e91eb9",
+    "main_library_file_id": "libfile_ed21fac262f4819191cac38344de0c70",
+    "main_sha256": "6fc417c9b3df6b0ddaffb09c02c092ff9753830361d5528ce5bf9fd39ca4a0f0",
+    "version": "0.21.13"
+  },
+  "format": "cpg-independent-immutable-final-delivery-record-v1",
+  "new_only_public_recovery_checks": {
+    "dataset_resource_frozen_set_replay": "passed: independent 1700/1862, Dataset 88/195",
+    "stage1": "passed: saved new-only tool ZIP + original published wheel and delta inputs, 4987/4987",
+    "stage2": "passed: saved new-only stage2 ZIP + saved stage1 toolkit and original formal wheel, 4882/4882"
+  },
+  "old_formal_wheel_bytes_repacked": 0,
+  "old_resource_SHA_payload_bytes_repacked": 0,
+  "original_source_pins_versions_commits_modified": 0,
+  "our_local_payloads_deleted": 0,
+  "owned_round": "20261031T0307Z-independent-wheel-source-restoration-frozen1862",
+  "prior_or_peer_local_files_deleted": 0,
+  "project_fixed_1862": {
+    "APT_thin_wrappers_trusted_only": 1247,
+    "Ubuntu_24_04_OCI_or_hardware_qualified_this_run": false,
+    "dataset_denominator": 195,
+    "dataset_pending": 107,
+    "dataset_verified": 88,
+    "denominator": 1862,
+    "functional_profiles_inherited": 343,
+    "functional_static_overlap": 14,
+    "independent_prebuilt_resource_qualified_this_run": 0,
+    "managed": 1700,
+    "managed_percent": 91.299678,
+    "native_source_resource_built_this_run": 0,
+    "new_dataset_card_admitted_this_run": 0,
+    "new_source_generated_or_static_resource_admission_this_run": 0,
+    "non_APT_managed": 453,
+    "official_benchmark_admitted_this_run": 0,
+    "pending": 162,
+    "static_material_profiles_inherited": 124
+  },
+  "published_library_folder": "/CompilerPlayground/parallel-handoffs/20261031T0307Z-independent-wheel-source-restoration-frozen1862",
+  "saved_and_all_readback_verified_existing_files": 22,
+  "saved_new_artifacts": [
+    {
+      "bytes": 2812,
+      "library_file_id": "libfile_3dc2e8ef5384819185e51b366bdd80ce",
+      "library_path": "/CompilerPlayground/parallel-handoffs/20261031T0307Z-independent-wheel-source-restoration-frozen1862/README-independent-handoff.md",
+      "mode_original": "0o644",
+      "mode_readback": "0o644",
+      "name": "README-independent-handoff.md",
+      "saved_Library_readback_verified": true,
+      "sha256": "425ac8480edb995f447f16924b5adf9521890e3f680244fe66ad3675ac69340d"
+    },
+    {
+      "bytes": 3491,
+      "library_file_id": "libfile_fb09813771208191b7f96b876f508ef0",
+      "library_path": "/CompilerPlayground/parallel-handoffs/20261031T0307Z-independent-wheel-source-restoration-frozen1862/all-11-Library-readback-verified.json",
+      "mode_original": "0o644",
+      "mode_readback": "0o644",
+      "name": "all-11-Library-readback-verified.json",
+      "saved_Library_readback_verified": true,
+      "sha256": "c2353a55fb2305bca73ddefb4118d219f043b5ed6b8c9c88e4d9c98b2d76a26e"
+    },
+    {
+      "bytes": 895736,
+      "library_file_id": "libfile_3105999c2e3c8191a002a492c3786a03",
+      "library_path": "/CompilerPlayground/parallel-handoffs/20261031T0307Z-independent-wheel-source-restoration-frozen1862/complete-next-queue-original-162-plus-107.json",
+      "mode_original": "0o644",
+      "mode_readback": "0o644",
+      "name": "complete-next-queue-original-162-plus-107.json",
+      "saved_Library_readback_verified": true,
+      "sha256": "c8e9eff007ff1aebd08c797a1108d28a089770fe44fc2f12a78cf36462f1c460"
+    },
+    {
+      "bytes": 9121,
+      "library_file_id": "libfile_13219ffbe8fc8191aaa142c92b92fe0c",
+      "library_path": "/CompilerPlayground/parallel-handoffs/20261031T0307Z-independent-wheel-source-restoration-frozen1862/download-directory-all-new-only-saved.json",
+      "mode_original": "0o644",
+      "mode_readback": "0o644",
+      "name": "download-directory-all-new-only-saved.json",
+      "saved_Library_readback_verified": true,
+      "sha256": "091ee9581b7425aea15ee6e1ad5fc4479833ea60df349e71c489a7a56e13c0ef"
+    },
+    {
+      "bytes": 2759,
+      "library_file_id": "libfile_473b55da2c108191b6363d67bf3b1d50",
+      "library_path": "/CompilerPlayground/parallel-handoffs/20261031T0307Z-independent-wheel-source-restoration-frozen1862/download-directory-all-new-only-saved.md",
+      "mode_original": "0o644",
+      "mode_readback": "0o644",
+      "name": "download-directory-all-new-only-saved.md",
+      "saved_Library_readback_verified": true,
+      "sha256": "c26f302d6a3ce5f717414f105dfbfca86843ae4aa0072f900b849baebb89cec4"
+    },
+    {
+      "bytes": 1168,
+      "library_file_id": "libfile_dfed97efb8b88191adf8e646ebbc83cb",
+      "library_path": "/CompilerPlayground/parallel-handoffs/20261031T0307Z-independent-wheel-source-restoration-frozen1862/dual-prefix-runtime-application-validation.json",
+      "mode_original": "0o644",
+      "mode_readback": "0o644",
+      "name": "dual-prefix-runtime-application-validation.json",
+      "saved_Library_readback_verified": true,
+      "sha256": "176597471c7c6d69fb8ad303f4cd7154a8f877653e06d8bae0fa17f27fd54dc4"
+    },
+    {
+      "bytes": 400,
+      "library_file_id": "libfile_ec3f5d1ea7c88191b2c6ec976fd28eef",
+      "library_path": "/CompilerPlayground/parallel-handoffs/20261031T0307Z-independent-wheel-source-restoration-frozen1862/exact-cleanup-record.json",
+      "mode_original": "0o644",
+      "mode_readback": "0o644",
+      "name": "exact-cleanup-record.json",
+      "saved_Library_readback_verified": true,
+      "sha256": "42823584e1ab2f1df790c9d7c4fb0f5be2ec0d130792bd851bec10b1f22af10b"
+    },
+    {
+      "bytes": 6675,
+      "library_file_id": "libfile_534321267210819182c9cb70402fd745",
+      "library_path": "/CompilerPlayground/parallel-handoffs/20261031T0307Z-independent-wheel-source-restoration-frozen1862/fixed-1862-coverage.zh.md",
+      "mode_original": "0o644",
+      "mode_readback": "0o644",
+      "name": "fixed-1862-coverage.zh.md",
+      "saved_Library_readback_verified": true,
+      "sha256": "2e1931b7026c7ec685aa2c0dac7bf5ade8a5823deb194748158941b446fc1756"
+    },
+    {
+      "bytes": 12016,
+      "library_file_id": "libfile_4469ab1e1c188191a2863726fc13634c",
+      "library_path": "/CompilerPlayground/parallel-handoffs/20261031T0307Z-independent-wheel-source-restoration-frozen1862/framework-only-source-recovery-and-audit-toolkit-new-SHA.zip",
+      "mode_original": "0o644",
+      "mode_readback": "0o644",
+      "name": "framework-only-source-recovery-and-audit-toolkit-new-SHA.zip",
+      "saved_Library_readback_verified": true,
+      "sha256": "530f7fc454990882123dc7d32d67032b07f95a1349037b962988ff41c8c8a735"
+    },
+    {
+      "bytes": 1076,
+      "library_file_id": "libfile_92f9b0ac86148191a3478dadd4549626",
+      "library_path": "/CompilerPlayground/parallel-handoffs/20261031T0307Z-independent-wheel-source-restoration-frozen1862/framework-only-toolkit-sha-manifest.json",
+      "mode_original": "0o644",
+      "mode_readback": "0o644",
+      "name": "framework-only-toolkit-sha-manifest.json",
+      "saved_Library_readback_verified": true,
+      "sha256": "980afbff9f7d1ed46f2977b7637a7277fb3b25120059a9312efe90793303fc2a"
+    },
+    {
+      "bytes": 74377,
+      "library_file_id": "libfile_258dfdef85fc81918e1b6d778a34018d",
+      "library_path": "/CompilerPlayground/parallel-handoffs/20261031T0307Z-independent-wheel-source-restoration-frozen1862/frozen-1862-audit.json",
+      "mode_original": "0o644",
+      "mode_readback": "0o644",
+      "name": "frozen-1862-audit.json",
+      "saved_Library_readback_verified": true,
+      "sha256": "02ce05ec94fd87aa96349542f7811957064d2dd76f167e50773437f304550ae1"
+    },
+    {
+      "bytes": 280523,
+      "library_file_id": "libfile_462d5c29541c81919e7a84909fb37242",
+      "library_path": "/CompilerPlayground/parallel-handoffs/20261031T0307Z-independent-wheel-source-restoration-frozen1862/full-support-1862-definition-identity-audit.json",
+      "mode_original": "0o644",
+      "mode_readback": "0o644",
+      "name": "full-support-1862-definition-identity-audit.json",
+      "saved_Library_readback_verified": true,
+      "sha256": "4eb31a79356c13df6886e9181cc121e30a5a4d4ee12969c91d3741804f4dcff9"
+    },
+    {
+      "bytes": 13890,
+      "library_file_id": "libfile_f335553de8a081918f23eeba74ba05ab",
+      "library_path": "/CompilerPlayground/parallel-handoffs/20261031T0307Z-independent-wheel-source-restoration-frozen1862/independent-validation-evidence-new-SHA.zip",
+      "mode_original": "0o644",
+      "mode_readback": "0o644",
+      "name": "independent-validation-evidence-new-SHA.zip",
+      "saved_Library_readback_verified": true,
+      "sha256": "ea4b059096b069a89bf9c9d67163ff6a77bbb96caa5a0c15f42039ba3f5aac69"
+    },
+    {
+      "bytes": 3357,
+      "library_file_id": "libfile_78a5a13361d081919300e3e7e81f6329",
+      "library_path": "/CompilerPlayground/parallel-handoffs/20261031T0307Z-independent-wheel-source-restoration-frozen1862/release-preflight.json",
+      "mode_original": "0o644",
+      "mode_readback": "0o644",
+      "name": "release-preflight.json",
+      "saved_Library_readback_verified": true,
+      "sha256": "84027dd70ffd20bbadaa19e6e8225bfc61252349825d88b5c54d7243efe99ae9"
+    },
+    {
+      "bytes": 1231,
+      "library_file_id": "libfile_c407361198f4819198c5ec55bd75116f",
+      "library_path": "/CompilerPlayground/parallel-handoffs/20261031T0307Z-independent-wheel-source-restoration-frozen1862/saved-newonly-actual-complete-recovery-proof.json",
+      "mode_original": "0o644",
+      "mode_readback": "0o644",
+      "name": "saved-newonly-actual-complete-recovery-proof.json",
+      "saved_Library_readback_verified": true,
+      "sha256": "50343ccefa63f2d638e34197c5fef67cb8b8da7a25f0e2fbb6be93adc5417e24"
+    },
+    {
+      "bytes": 1261,
+      "library_file_id": "libfile_7b16888e03808191a38afe73476d1fd2",
+      "library_path": "/CompilerPlayground/parallel-handoffs/20261031T0307Z-independent-wheel-source-restoration-frozen1862/saved-stage2-real-restoration-replay.json",
+      "mode_original": "0o644",
+      "mode_readback": "0o644",
+      "name": "saved-stage2-real-restoration-replay.json",
+      "saved_Library_readback_verified": true,
+      "sha256": "68b9c3a17a793751378b43c415c917703894c3f6ff0a81153f980a1c797fe744"
+    },
+    {
+      "bytes": 3226,
+      "library_file_id": "libfile_290092bc242c8191b1af66ddbddc4e6e",
+      "library_path": "/CompilerPlayground/parallel-handoffs/20261031T0307Z-independent-wheel-source-restoration-frozen1862/separate-safe-state-handoff-proposal.json",
+      "mode_original": "0o644",
+      "mode_readback": "0o644",
+      "name": "separate-safe-state-handoff-proposal.json",
+      "saved_Library_readback_verified": true,
+      "sha256": "5cba85d9a45247997c29c552332c27e99de952ca7118b41d0eb96cdd20bb7277"
+    },
+    {
+      "bytes": 5851,
+      "library_file_id": "libfile_cd80430424b881918f8e65e661cae6b2",
+      "library_path": "/CompilerPlayground/parallel-handoffs/20261031T0307Z-independent-wheel-source-restoration-frozen1862/stage2-framework-only-support-mirror-new-only-SHA.zip",
+      "mode_original": "0o644",
+      "mode_readback": "0o644",
+      "name": "stage2-framework-only-support-mirror-new-only-SHA.zip",
+      "saved_Library_readback_verified": true,
+      "sha256": "b53ce423f7e0d672bbd7794f2fe35a293d21bf798268220e9e30b43c0e00f1eb"
+    },
+    {
+      "bytes": 971,
+      "library_file_id": "libfile_b468e146bd7481919d73e40e1ca59527",
+      "library_path": "/CompilerPlayground/parallel-handoffs/20261031T0307Z-independent-wheel-source-restoration-frozen1862/stage2-only-sha-manifest.json",
+      "mode_original": "0o644",
+      "mode_readback": "0o644",
+      "name": "stage2-only-sha-manifest.json",
+      "saved_Library_readback_verified": true,
+      "sha256": "bdf203592f024000e1bbd5ab05576fd17d18dd666c95fa1d9876fa2b7dbfad6d"
+    },
+    {
+      "bytes": 2810,
+      "library_file_id": "libfile_c0d295270f3881918ae6ff0ec9d2a5f5",
+      "library_path": "/CompilerPlayground/parallel-handoffs/20261031T0307Z-independent-wheel-source-restoration-frozen1862/stage2-validation-evidence-new-only-SHA.zip",
+      "mode_original": "0o644",
+      "mode_readback": "0o644",
+      "name": "stage2-validation-evidence-new-only-SHA.zip",
+      "saved_Library_readback_verified": true,
+      "sha256": "fdce5a530229edd2a4ff04ff0f87b4e40cc68ecaa18939b8d95d2f13940cc020"
+    },
+    {
+      "bytes": 1221,
+      "library_file_id": "libfile_de27b46f7a6c81918bcb78d96663694f",
+      "library_path": "/CompilerPlayground/parallel-handoffs/20261031T0307Z-independent-wheel-source-restoration-frozen1862/verified-formal-wheel-source-restoration.json",
+      "mode_original": "0o644",
+      "mode_readback": "0o644",
+      "name": "verified-formal-wheel-source-restoration.json",
+      "saved_Library_readback_verified": true,
+      "sha256": "bbad7a3d3b7ed9ca0ba1b46e58199a959ac694b607290915a3073187276aa6ee"
+    },
+    {
+      "bytes": 1253,
+      "library_file_id": "libfile_1868ab23c43c81919c648231804a62e0",
+      "library_path": "/CompilerPlayground/parallel-handoffs/20261031T0307Z-independent-wheel-source-restoration-frozen1862/verified-full-support-mirror-report.json",
+      "mode_original": "0o644",
+      "mode_readback": "0o644",
+      "name": "verified-full-support-mirror-report.json",
+      "saved_Library_readback_verified": true,
+      "sha256": "93b310b12f7af9aea306c4b3e134c21f8c2bb1aef0c1d3f88bb6f4a69fc33ffe"
+    }
+  ],
+  "self_reference_policy": "This immutable receipt intentionally excludes its own Library identity; final readback companion records the receipt identity and hash.",
+  "shared_mutable_state": {
+    "latest_in_stale_state": "0.21.4",
+    "library_file_id": "libfile_767472ae8e7881919e82a3c36ae533cd",
+    "not_overwritten_to_avoid_conflicting_active_work": true,
+    "observed_active_owner": "manual-current-conversation-r07",
+    "observed_active_version": "0.21.6",
+    "safe_update_proposal_file": "separate-safe-state-handoff-proposal.json"
+  },
+  "status": "completed_independent_handoff_not_canonical",
+  "version_semantics": "formal main stays 0.21.13, independent sidecar only; patch number must be increased by authorized formal release owner on integration"
+}

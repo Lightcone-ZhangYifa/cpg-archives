@@ -1,0 +1,325 @@
+{
+  "Dataset_cards_newly_promoted_by_handoff": 0,
+  "artifact_count": 26,
+  "artifact_records": [
+    {
+      "Library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/README-independent-handoff.zh.md",
+      "Library_visible_name": "README-independent-handoff.zh.md",
+      "file_id": "file_00000000f47481f78e7f5f0541058eee",
+      "library_file_id": "libfile_faadfc546c28819189293cc72bed738f",
+      "mode_local": "0o644",
+      "readback_status": "independently rematerialized from saved Library and SHA256/size/mode exact verified",
+      "sha256": "4670742090a9b1e944648daea74156c82821500a5471a0bda5a876b05f318aa6",
+      "size_bytes": 5143,
+      "title": "README-independent-handoff.zh.md"
+    },
+    {
+      "Library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-framework-only-python-sql-source-tree-candidate(1).zip",
+      "Library_visible_name": "compiler-playground-20261031T1003-framework-only-python-sql-source-tree-candidate(1).zip",
+      "file_id": "file_00000000ffb081f7ad06d28f62ecde03",
+      "library_file_id": "libfile_4748f897af388191a5824289a40d5bf2",
+      "mode_local": "0o644",
+      "readback_status": "independently rematerialized from saved Library and SHA256/size/mode exact verified",
+      "sha256": "eb02671aaa1312a561b23a3e0b6476097c9281e9c740cfb5b27949a1771ee45e",
+      "size_bytes": 9085,
+      "title": "compiler-playground-20261031T1003-framework-only-python-sql-source-tree-candidate.zip"
+    },
+    {
+      "Library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-framework-only-python-sql-source-tree-candidate.zip.manifest.json",
+      "Library_visible_name": "compiler-playground-20261031T1003-framework-only-python-sql-source-tree-candidate.zip.manifest.json",
+      "file_id": "file_00000000afd481f6a3bfde2e74aaf619",
+      "library_file_id": "libfile_6d7f72232d488191befaa9d57eaff28a",
+      "mode_local": "0o644",
+      "readback_status": "independently rematerialized from saved Library and SHA256/size/mode exact verified",
+      "sha256": "0d49845289e22332973813e5b2e83e7d72131913254f29bb9d9e49e747c078be",
+      "size_bytes": 1185,
+      "title": "compiler-playground-20261031T1003-framework-only-python-sql-source-tree-candidate.zip.manifest.json"
+    },
+    {
+      "Library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-17-saved-files-SHA-size-mode-readback.json",
+      "Library_visible_name": "compiler-playground-20261031T1003-independent-17-saved-files-SHA-size-mode-readback.json",
+      "file_id": "file_0000000002a881f793e3cd3a8dba9764",
+      "library_file_id": "libfile_f0668f9e86e881918aeb3d23765a3cf3",
+      "mode_local": "0o644",
+      "readback_status": "independently rematerialized from saved Library and SHA256/size/mode exact verified",
+      "sha256": "e6eee3465bce44b231eb8adfbabe9a08b820e0cd9c8d6d0dc9bacbe34ed1cd56",
+      "size_bytes": 4690,
+      "title": "compiler-playground-20261031T1003-independent-17-saved-files-SHA-size-mode-readback.json"
+    },
+    {
+      "Library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-CCG-debug-prefix-map-source-reproducibility.json",
+      "Library_visible_name": "compiler-playground-20261031T1003-independent-CCG-debug-prefix-map-source-reproducibility.json",
+      "file_id": "file_000000004cc481f599bb1bed55b613f1",
+      "library_file_id": "libfile_1cc5bdd8d9008191b49cac8004d64040",
+      "mode_local": "0o644",
+      "readback_status": "independently rematerialized from saved Library and SHA256/size/mode exact verified",
+      "sha256": "c2f43d9b41b89016f7e317c65a28928df30f21d4288faf9798ec272563d41c1b",
+      "size_bytes": 10916,
+      "title": "compiler-playground-20261031T1003-independent-CCG-debug-prefix-map-source-reproducibility.json"
+    },
+    {
+      "Library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-Library-framework-patch-exact-apply-audit.json",
+      "Library_visible_name": "compiler-playground-20261031T1003-independent-Library-framework-patch-exact-apply-audit.json",
+      "file_id": "file_000000002c5c81f595f59fe0a17ef538",
+      "library_file_id": "libfile_b232caf24d908191ad4cd15e0a748075",
+      "mode_local": "0o644",
+      "readback_status": "independently rematerialized from saved Library and SHA256/size/mode exact verified",
+      "sha256": "aabeb41c99af2133d00cc97c6e0bc4710baf91d55f43c5ed24e7acb8f58c603e",
+      "size_bytes": 945,
+      "title": "compiler-playground-20261031T1003-independent-Library-framework-patch-exact-apply-audit.json"
+    },
+    {
+      "Library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-Library-fresh-newonly-restore-stdout.log",
+      "Library_visible_name": "compiler-playground-20261031T1003-independent-Library-fresh-newonly-restore-stdout.log",
+      "file_id": "file_00000000d3a081f5ab1d9a753fbf8ecd",
+      "library_file_id": "libfile_3bb20cf1806c81919958dfaeb5227a29",
+      "mode_local": "0o644",
+      "readback_status": "independently rematerialized from saved Library and SHA256/size/mode exact verified",
+      "sha256": "05ff6f783b0bf96d504e61d09b472c306781d05f91e8a3fc306727af9720bb1b",
+      "size_bytes": 240,
+      "title": "compiler-playground-20261031T1003-independent-Library-fresh-newonly-restore-stdout.log"
+    },
+    {
+      "Library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-after-Library-four-card-real-installed-app.json",
+      "Library_visible_name": "compiler-playground-20261031T1003-independent-after-Library-four-card-real-installed-app.json",
+      "file_id": "file_0000000039ec81f58def2551d9de9dd7",
+      "library_file_id": "libfile_60ec186148a08191a302f61c24bf6449",
+      "mode_local": "0o644",
+      "readback_status": "independently rematerialized from saved Library and SHA256/size/mode exact verified",
+      "sha256": "f44fed2ddf470cad925b7064798c68d2f7d78e8904e99c034345944abe9675fa",
+      "size_bytes": 2681,
+      "title": "compiler-playground-20261031T1003-independent-after-Library-four-card-real-installed-app.json"
+    },
+    {
+      "Library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-after-Library-public-delta-only-real-restore.json",
+      "Library_visible_name": "compiler-playground-20261031T1003-independent-after-Library-public-delta-only-real-restore.json",
+      "file_id": "file_00000000dd9481f5bac5b774d6592221",
+      "library_file_id": "libfile_6943e59c8e5081918f9157980d7d233d",
+      "mode_local": "0o644",
+      "readback_status": "independently rematerialized from saved Library and SHA256/size/mode exact verified",
+      "sha256": "ec2127bc5f6c49765c9eba370da69ba02facba25a12e4cb18f07151faea047ea",
+      "size_bytes": 6773,
+      "title": "compiler-playground-20261031T1003-independent-after-Library-public-delta-only-real-restore.json"
+    },
+    {
+      "Library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-ccg-remccg-bundle-construction-report.json",
+      "Library_visible_name": "compiler-playground-20261031T1003-independent-ccg-remccg-bundle-construction-report.json",
+      "file_id": "file_000000008d2881f7ac354ba48a860809",
+      "library_file_id": "libfile_95071a2021cc8191adbb8bdb4bac7fbf",
+      "mode_local": "0o644",
+      "readback_status": "independently rematerialized from saved Library and SHA256/size/mode exact verified",
+      "sha256": "88c0f1e1fbec79a2bd7be031817bbe8ed825dabcf12402c09345994f1e2dff69",
+      "size_bytes": 714,
+      "title": "compiler-playground-20261031T1003-independent-ccg-remccg-bundle-construction-report.json"
+    },
+    {
+      "Library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-ccg-remccg-new-only-manifest.json",
+      "Library_visible_name": "compiler-playground-20261031T1003-independent-ccg-remccg-new-only-manifest.json",
+      "file_id": "file_000000009bbc81f5a35aa23f85671b90",
+      "library_file_id": "libfile_bec3a7eea0c08191881bfcb442079bf0",
+      "mode_local": "0o644",
+      "readback_status": "independently rematerialized from saved Library and SHA256/size/mode exact verified",
+      "sha256": "c85ec6a5a9379e6e1d40bd435edf4526ee05e2e689f4960f6ee41d1acf215a6d",
+      "size_bytes": 24470,
+      "title": "compiler-playground-20261031T1003-independent-ccg-remccg-new-only-manifest.json"
+    },
+    {
+      "Library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-ccg-remccg-new-only-sha-objects.zip",
+      "Library_visible_name": "compiler-playground-20261031T1003-independent-ccg-remccg-new-only-sha-objects.zip",
+      "file_id": "file_00000000283481f5ab515a596d36f92c",
+      "library_file_id": "libfile_0c8ec38aa1e88191b4aa9141ddaa8173",
+      "mode_local": "0o644",
+      "readback_status": "independently rematerialized from saved Library and SHA256/size/mode exact verified",
+      "sha256": "688bf9924fe0fe9bf2708d1ced88928710df43a27efb47c7369db0154fb8691f",
+      "size_bytes": 74474,
+      "title": "compiler-playground-20261031T1003-independent-ccg-remccg-new-only-sha-objects.zip"
+    },
+    {
+      "Library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-exact-cleanup-record.json",
+      "Library_visible_name": "compiler-playground-20261031T1003-independent-exact-cleanup-record.json",
+      "file_id": "file_000000009d2881f58c9b22f3f81774e8",
+      "library_file_id": "libfile_43394c524e708191b06ca58dcf51ca01",
+      "mode_local": "0o644",
+      "readback_status": "independently rematerialized from saved Library and SHA256/size/mode exact verified",
+      "sha256": "c0ada704f88fcf651d0742acfe52820a532dc77e8a50c08c92fcf4faa58030c2",
+      "size_bytes": 1150,
+      "title": "compiler-playground-20261031T1003-independent-exact-cleanup-record.json"
+    },
+    {
+      "Library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-exact-pending-and-next-queue.json",
+      "Library_visible_name": "compiler-playground-20261031T1003-independent-exact-pending-and-next-queue.json",
+      "file_id": "file_00000000b20081f7b86daa618ccdc86c",
+      "library_file_id": "libfile_d4fecd214afc8191a4905da3046b31bc",
+      "mode_local": "0o644",
+      "readback_status": "independently rematerialized from saved Library and SHA256/size/mode exact verified",
+      "sha256": "9680b091a91193fa40a55e7ad59600c47e970f43b195e3582d50439821cd3950",
+      "size_bytes": 838644,
+      "title": "compiler-playground-20261031T1003-independent-exact-pending-and-next-queue.json"
+    },
+    {
+      "Library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-fixed-1862-coverage-audit.json",
+      "Library_visible_name": "compiler-playground-20261031T1003-independent-fixed-1862-coverage-audit.json",
+      "file_id": "file_00000000c62881f7b7a82f81a5417716",
+      "library_file_id": "libfile_1d4b28eb83d48191934b9d8e3d35260b",
+      "mode_local": "0o644",
+      "readback_status": "independently rematerialized from saved Library and SHA256/size/mode exact verified",
+      "sha256": "62870912c314018f832102c1ec32204402a1955dbfb27044588a406716ca3104",
+      "size_bytes": 27017,
+      "title": "compiler-playground-20261031T1003-independent-fixed-1862-coverage-audit.json"
+    },
+    {
+      "Library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-job-deepfuzz-bundle-construction-report.json",
+      "Library_visible_name": "compiler-playground-20261031T1003-independent-job-deepfuzz-bundle-construction-report.json",
+      "file_id": "file_00000000c05881fd82eaf15ebe053756",
+      "library_file_id": "libfile_e1ff500ec950819184f4adae7752d132",
+      "mode_local": "0o644",
+      "readback_status": "independently rematerialized from saved Library and SHA256/size/mode exact verified",
+      "sha256": "cf6a5b8d9bb1fc9537e8643b858aa08bd5a5dd13dd6ee2d9f1c3e83454093a9e",
+      "size_bytes": 543,
+      "title": "compiler-playground-20261031T1003-independent-job-deepfuzz-bundle-construction-report.json"
+    },
+    {
+      "Library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-job-deepfuzz-new-only-manifest.json",
+      "Library_visible_name": "compiler-playground-20261031T1003-independent-job-deepfuzz-new-only-manifest.json",
+      "file_id": "file_00000000d80881f7ae51be636ffefb64",
+      "library_file_id": "libfile_7ee7028023e481919553f52d73722f94",
+      "mode_local": "0o644",
+      "readback_status": "independently rematerialized from saved Library and SHA256/size/mode exact verified",
+      "sha256": "2747de1e65bd630624fbae97dba6f000a9634149c6e696a9ad6a1bf2ca845208",
+      "size_bytes": 38816,
+      "title": "compiler-playground-20261031T1003-independent-job-deepfuzz-new-only-manifest.json"
+    },
+    {
+      "Library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-job-deepfuzz-new-only-sha-objects.zip",
+      "Library_visible_name": "compiler-playground-20261031T1003-independent-job-deepfuzz-new-only-sha-objects.zip",
+      "file_id": "file_00000000126081fdac9c631b86bae78e",
+      "library_file_id": "libfile_a2b4f78208f0819189a43b6f6f3f1dba",
+      "mode_local": "0o644",
+      "readback_status": "independently rematerialized from saved Library and SHA256/size/mode exact verified",
+      "sha256": "1e7e7f8bd0a450101dcb3c3faccb13de0fe7667ae074d35a3e9b48aa813a4549",
+      "size_bytes": 56961,
+      "title": "compiler-playground-20261031T1003-independent-job-deepfuzz-new-only-sha-objects.zip"
+    },
+    {
+      "Library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-new-SHA-exclusivity.json",
+      "Library_visible_name": "compiler-playground-20261031T1003-independent-new-SHA-exclusivity.json",
+      "file_id": "file_00000000e12081f7bfe027a2a66488f6",
+      "library_file_id": "libfile_d7ffe4e868608191a31bd4d0c40ff6c3",
+      "mode_local": "0o644",
+      "readback_status": "independently rematerialized from saved Library and SHA256/size/mode exact verified",
+      "sha256": "a40652f501ed7efbfd5ba984fc2cb358ab61c6813f6a1452896d31493fc027b4",
+      "size_bytes": 1081,
+      "title": "compiler-playground-20261031T1003-independent-new-SHA-exclusivity.json"
+    },
+    {
+      "Library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-original-1862-coverage-by-kind-provider-category-source.md",
+      "Library_visible_name": "compiler-playground-20261031T1003-independent-original-1862-coverage-by-kind-provider-category-source.md",
+      "file_id": "file_0000000021c081f7bdcefb4decbde07e",
+      "library_file_id": "libfile_f75e39f499688191b588cc07d7d80e3f",
+      "mode_local": "0o644",
+      "readback_status": "independently rematerialized from saved Library and SHA256/size/mode exact verified",
+      "sha256": "c782b16e1a22533a0d001ed592fa3d6dc9381ceef8460754a6fe55e59a6f34fc",
+      "size_bytes": 6872,
+      "title": "compiler-playground-20261031T1003-independent-original-1862-coverage-by-kind-provider-category-source.md"
+    },
+    {
+      "Library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-release-preflight.json",
+      "Library_visible_name": "compiler-playground-20261031T1003-independent-release-preflight.json",
+      "file_id": "file_000000005eb881f5a2857700186bba1e",
+      "library_file_id": "libfile_017363429c0c8191bcd1a59581d7a4c0",
+      "mode_local": "0o644",
+      "readback_status": "independently rematerialized from saved Library and SHA256/size/mode exact verified",
+      "sha256": "3df66eb0e8eb80b3bbec4eaac1c66ae2c4ff2e528778eac3bfb8d91277e5c44d",
+      "size_bytes": 3068,
+      "title": "compiler-playground-20261031T1003-independent-release-preflight.json"
+    },
+    {
+      "Library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-restore-toolkit.zip",
+      "Library_visible_name": "compiler-playground-20261031T1003-independent-restore-toolkit.zip",
+      "file_id": "file_0000000070dc81f7be5997bb4b298991",
+      "library_file_id": "libfile_9a0e325cc88081918e87965b9d8ea5f7",
+      "mode_local": "0o644",
+      "readback_status": "independently rematerialized from saved Library and SHA256/size/mode exact verified",
+      "sha256": "a58e05b07dd33ffc6b561b15fd77de9d45439d3bfee32e29acdc06dda034368b",
+      "size_bytes": 16871,
+      "title": "compiler-playground-20261031T1003-independent-restore-toolkit.zip"
+    },
+    {
+      "Library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-restore-toolkit.zip.manifest.json",
+      "Library_visible_name": "compiler-playground-20261031T1003-independent-restore-toolkit.zip.manifest.json",
+      "file_id": "file_00000000109081f5bb58932cf5ff199b",
+      "library_file_id": "libfile_a7292c8264e88191a5d32f41d505aab9",
+      "mode_local": "0o644",
+      "readback_status": "independently rematerialized from saved Library and SHA256/size/mode exact verified",
+      "sha256": "8daa8b7c5cd63b50811af26c74da3ad1111411d96bb4fb10794c5c4b0f6b8ddc",
+      "size_bytes": 1357,
+      "title": "compiler-playground-20261031T1003-independent-restore-toolkit.zip.manifest.json"
+    },
+    {
+      "Library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-saved-Library-five-ZIP-byte-mode-audit.json",
+      "Library_visible_name": "compiler-playground-20261031T1003-independent-saved-Library-five-ZIP-byte-mode-audit.json",
+      "file_id": "file_00000000e90881f790d5688ba8681146",
+      "library_file_id": "libfile_e3846a08e99c819182bcb918d886b1e9",
+      "mode_local": "0o644",
+      "readback_status": "independently rematerialized from saved Library and SHA256/size/mode exact verified",
+      "sha256": "5f172bb2eeced1017f96d79be8c3d4f7169cf5de707031249a332b5f6690bd68",
+      "size_bytes": 1987,
+      "title": "compiler-playground-20261031T1003-independent-saved-Library-five-ZIP-byte-mode-audit.json"
+    },
+    {
+      "Library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-validation-evidence.zip",
+      "Library_visible_name": "compiler-playground-20261031T1003-independent-validation-evidence.zip",
+      "file_id": "file_00000000884081f5b80e4e9a5518f122",
+      "library_file_id": "libfile_83552c3558f08191a37c3368add34e1b",
+      "mode_local": "0o644",
+      "readback_status": "independently rematerialized from saved Library and SHA256/size/mode exact verified",
+      "sha256": "827e358d483ce89a1c05a13c5dd7b27519771a5d78c23e38b817693564fbe4dc",
+      "size_bytes": 202046,
+      "title": "compiler-playground-20261031T1003-independent-validation-evidence.zip"
+    },
+    {
+      "Library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-validation-evidence.zip.manifest.json",
+      "Library_visible_name": "compiler-playground-20261031T1003-independent-validation-evidence.zip.manifest.json",
+      "file_id": "file_00000000dad481f6a14052a13cc8d55c",
+      "library_file_id": "libfile_545de6318210819194e6b2a037f88232",
+      "mode_local": "0o644",
+      "readback_status": "independently rematerialized from saved Library and SHA256/size/mode exact verified",
+      "sha256": "66be8112df9ce68933ee4c836ba956a40dc32dea8033b03d9d474707f207f394",
+      "size_bytes": 15092,
+      "title": "compiler-playground-20261031T1003-independent-validation-evidence.zip.manifest.json"
+    }
+  ],
+  "directory": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives",
+  "exact_formal_completed_02113_receipt": {
+    "library_file_id": "libfile_b006b66d9194819198a9fb7196e91eb9",
+    "name": "compiler-playground-v0.21.13-final-delivery-receipt.json",
+    "sha256": "d2c5fa4f2846d5d56e2e5239fc3d9aaca7f8483db9c1cd77d938db48417d0783",
+    "size_bytes": 67906
+  },
+  "exact_inherited_existing_volumes_not_repackaged": [
+    {
+      "library_file_id": "libfile_20afc30d50908191b47f998ed2d2ce5c",
+      "name": "compiler-playground-v0.21.4-objects-001.zip",
+      "sha256": "3cfa06d68223d45fef179b9e037eff2e5f49c4229d22b869a2aecbffac3148c9",
+      "size_bytes": 258168292
+    },
+    {
+      "library_file_id": "libfile_933ad889f51081919ab40eb29a6a10e4",
+      "name": "compiler-playground-v0.21.3-objects-003.zip",
+      "sha256": "c8bebf47cfaa51756a60f84a350df319384178244c7bc30bdea54e50a629ff1b",
+      "size_bytes": 116259475
+    }
+  ],
+  "formal_published_version_not_modified": true,
+  "formal_version": "0.21.13",
+  "format": "compiler-playground-independent-newSHA-download-index-v1",
+  "inherited_original_source_regular_files_unrepacked": 178,
+  "new_SHA_payloads_distinct": 34,
+  "owner_round": "20261031T0203Z-independent-four-datasets-natives",
+  "resource_catalog_IDs_newly_accepted_by_handoff": 0,
+  "separate_framework_changed_source_files": 1,
+  "this_handoff_formally_merged": false,
+  "unknown_invisible_original_framework_single-upload_identity": "libfile_2fc2091397308191bac9d721dbf846aa",
+  "user_requested_unknown_files_not_cleaned": true,
+  "written_at_utc": "2026-10-31T02:42:03.847560+00:00"
+}

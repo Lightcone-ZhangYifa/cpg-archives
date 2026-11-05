@@ -1,0 +1,88 @@
+{
+  "all_three_actual_steps_executed_and_passed": true,
+  "candidate_only": true,
+  "commands": [
+    {
+      "cmd": [
+        "/mnt/data/cpg-auto-20261031T1003/venv/bin/python",
+        "/mnt/data/cpg-auto-20261031T1003/from-Library-recovery-tools/restore_ccg_remccg_newonly.py",
+        "--new-only-zip",
+        "/mnt/data/cpg-auto-20261031T1003/from-persistent-Library-readback/compiler-playground-20261031T1003-independent-ccg-remccg-new-only-sha-objects.zip",
+        "--inherited-ready-volume",
+        "/mnt/data/cpg-automation-20261031T1003-inputs/compiler-playground-v0.21.4-objects-001.zip",
+        "--output",
+        "/mnt/data/cpg-auto-20261031T1003/.cpg-four-dataset-newSHA-stage-_uar_88i/restored-ccg-remccg",
+        "--report",
+        "/mnt/data/cpg-auto-20261031T1003/.cpg-four-dataset-newSHA-stage-_uar_88i/restore-ccg-remccg.json"
+      ],
+      "exit_code": 0,
+      "stderr_tail": "",
+      "stdout_tail": "{\"dataset_card_candidates\": 2, \"expected_dataset_fingerprints\": {\"ccg\": \"5bdcbc33e40f16ccbe537efc39f50adc1815715d69eb742d62ed8bb028d1e9ad\", \"remccg\": \"dc1418cf151eebbfb4c3d5eb4d42ee8693f06b9040bc1182a5462e42599721e5\"}, \"formal_baseline\": \"0.21.13\", \"formal_dataset_cards_already\": 88, \"formal_resource_denominator\": 1862, \"formal_resource_managed\": 1700, \"formally_promoted\": false, \"format\": \"cpg-ccg-remccg-new-only-actual-restore-v1\", \"full_original_repo_files_present\": true, \"generated_programs_executed\": false, \"inherited_ready_volume_bytes\": 258168292, \"inherited_ready_volume_sha256\": \"3cfa06d68223d45fef179b9e037eff2e5f49c4229d22b869a2aecbffac3148c9\", \"network_used\": false, \"new_binary_host_only\": true, \"new_only_bundle_bytes\": 74474, \"new_only_bundle_sha256\": \"688bf9924fe0fe9bf2708d1ced88928710df43a27efb47c7369db0154fb8691f\", \"offline\": true, \"original_source_objects_in_new_bundle\": 0, \"output_dir\": \"/mnt/data/cpg-auto-20261031T1003/.cpg-four-dataset-newSHA-stage-_uar_88i/restored-ccg-remccg\", \"restored_inherited_original_files\": 54, \"restored_new_files\": 30, \"success\": true}\n"
+    },
+    {
+      "cmd": [
+        "/mnt/data/cpg-auto-20261031T1003/venv/bin/python",
+        "/mnt/data/cpg-auto-20261031T1003/from-Library-recovery-tools/restore_job_deepfuzz_newonly.py",
+        "--new-only-zip",
+        "/mnt/data/cpg-auto-20261031T1003/from-persistent-Library-readback/compiler-playground-20261031T1003-independent-job-deepfuzz-new-only-sha-objects.zip",
+        "--inherited-job-volume",
+        "/mnt/data/cpg-automation-20261031T1003-inputs/compiler-playground-v0.21.3-objects-003.zip",
+        "--inherited-deepfuzz-volume",
+        "/mnt/data/cpg-automation-20261031T1003-inputs/compiler-playground-v0.21.4-objects-001.zip",
+        "--output",
+        "/mnt/data/cpg-auto-20261031T1003/.cpg-four-dataset-newSHA-stage-_uar_88i/restored-job-deepfuzz",
+        "--report",
+        "/mnt/data/cpg-auto-20261031T1003/.cpg-four-dataset-newSHA-stage-_uar_88i/restore-job-deepfuzz.json"
+      ],
+      "exit_code": 0,
+      "stderr_tail": "",
+      "stdout_tail": "{\"DeepFuzz_training_or_generation_executions\": 0, \"baseline\": \"0.21.13\", \"deepfuzz_legacy_volume_sha256\": \"3cfa06d68223d45fef179b9e037eff2e5f49c4229d22b869a2aecbffac3148c9\", \"file_count_physically_verified\": 128, \"formally_published\": false, \"format\": \"cpg-job-deepfuzz-new-only-restoration-v1\", \"job_legacy_volume_sha256\": \"c8bebf47cfaa51756a60f84a350df319384178244c7bc30bdea54e50a629ff1b\", \"manifest_cards_fingerprints\": {\"deepfuzz\": \"84ae7de6adb1f8ab258872a8206c2d05156eb4f159b8f9a81727e717eb100b5c\", \"join-order-benchmark\": \"5ae17e160c77187ff82a70bd0f8bfcf286463a9e984aa5ffece3e1107337f06b\"}, \"network_used\": false, \"new_formal_dataset_cards_qualified\": 0, \"new_layer_sha256\": \"1e7e7f8bd0a450101dcb3c3faccb13de0fe7667ae074d35a3e9b48aa813a4549\", \"new_original_resource_ids_qualified\": 0, \"official_JOB_query_executions\": 0, \"offline\": true, \"output\": \"/mnt/data/cpg-auto-20261031T1003/.cpg-four-dataset-newSHA-stage-_uar_88i/restored-job-deepfuzz\", \"restored_inherited_unmodified_original_files\": 124, \"restored_new_metadata_SHA_objects\": 4, \"sample_source_counts\": {\"deepfuzz\": 6, \"join-order-benchmark\": 113}, \"source_original_data_repacked\": 0, \"success\": true}\n"
+    },
+    {
+      "cmd": [
+        "/mnt/data/cpg-auto-20261031T1003/venv/bin/python",
+        "/mnt/data/cpg-auto-20261031T1003/from-Library-recovery-tools/verify_four_source_datasets_installed.py",
+        "--ccg-remccg-root",
+        "/mnt/data/cpg-auto-20261031T1003/.cpg-four-dataset-newSHA-stage-_uar_88i/restored-ccg-remccg",
+        "--job-deepfuzz-root",
+        "/mnt/data/cpg-auto-20261031T1003/.cpg-four-dataset-newSHA-stage-_uar_88i/restored-job-deepfuzz",
+        "--report",
+        "/mnt/data/cpg-auto-20261031T1003/.cpg-four-dataset-newSHA-stage-_uar_88i/installed-postrestore-four-dataset-app.json"
+      ],
+      "exit_code": 0,
+      "stderr_tail": "",
+      "stdout_tail": "{\n  \"actual_compiler_playground_version\": \"0.21.13\",\n  \"card_sample_counts\": {\n    \"ccg\": 24,\n    \"remccg\": 18,\n    \"join-order-benchmark\": 113,\n    \"deepfuzz\": 6\n  },\n  \"total_distinct_primary_samples\": 161,\n  \"original_dataset_primary_lineage_group_count\": 35,\n  \"group_split_set_disjoint\": true,\n  \"data_loader_resume_steps_verified\": 13\n}\n"
+    }
+  ],
+  "distinct_new_SHA_object_files": 34,
+  "distinct_original_source_regular_files_reused": 178,
+  "external_DB_data_loaded": false,
+  "formal_Dataset_interfaces_unchanged": "88/195",
+  "formal_resource_coverage_unchanged": "1700/1862",
+  "format": "cpg-four-original-datasets-public-all-new-SHA-restore-v1",
+  "former_main_release": "0.21.13",
+  "four_independent_candidate_cards": [
+    "ccg",
+    "remccg",
+    "join-order-benchmark",
+    "deepfuzz"
+  ],
+  "generated_programs_executed": false,
+  "host": "Linux amd64 Debian 13 Python 3.13 only; original Ubuntu 24.04 OCI and hardware untested",
+  "legacy_volumes_reused": [
+    {
+      "name": "compiler-playground-v0.21.4-objects-001.zip",
+      "sha256": "3cfa06d68223d45fef179b9e037eff2e5f49c4229d22b869a2aecbffac3148c9"
+    },
+    {
+      "name": "compiler-playground-v0.21.3-objects-003.zip",
+      "sha256": "c8bebf47cfaa51756a60f84a350df319384178244c7bc30bdea54e50a629ff1b"
+    }
+  ],
+  "licensed_for_all_uses": false,
+  "new_delta_zips_SHA256": {
+    "compiler-playground-20261031T1003-independent-ccg-remccg-new-only-sha-objects.zip": "688bf9924fe0fe9bf2708d1ced88928710df43a27efb47c7369db0154fb8691f",
+    "compiler-playground-20261031T1003-independent-job-deepfuzz-new-only-sha-objects.zip": "1e7e7f8bd0a450101dcb3c3faccb13de0fe7667ae074d35a3e9b48aa813a4549"
+  },
+  "unique_candidate_primary_samples": 161
+}

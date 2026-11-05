@@ -1,0 +1,142 @@
+{
+  "OCI_Ubuntu_24_04_qualified": false,
+  "binary_from_this_new_build_is_not_in_earlier_saved_newSHA_zip": true,
+  "builds": [
+    {
+      "build": {
+        "argv": [
+          "make",
+          "-j4",
+          "CFLAGS=-c -g -pipe -Wall -Wextra -std=c11 -fdebug-prefix-map=/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/reproducible-debug-prefixmap-check/source-C=. -ffile-prefix-map=/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/reproducible-debug-prefixmap-check/source-C=."
+        ],
+        "status": 0,
+        "stderr": "expression.c: In function ‘buildOperand’:\nexpression.c:91:77: warning: unused parameter ‘nesting’ [-Wunused-parameter]\n   91 | static void buildOperand(Expression *expression, Context *context, unsigned nesting)\n      |                                                                    ~~~~~~~~~^~~~~~~\nstatement.c: In function ‘buildAssignment’:\nstatement.c:143:78: warning: unused parameter ‘nesting’ [-Wunused-parameter]\n  143 | static void buildAssignment(Statement *statement, Context *context, unsigned nesting)\n      |                                                                     ~~~~~~~~~^~~~~~~\nstatement.c: In function ‘buildPtrAssignment’:\nstatement.c:156:81: warning: unused parameter ‘nesting’ [-Wunused-parameter]\n  156 | static void buildPtrAssignment(Statement *statement, Context *context, unsigned nesting)\n      |                                                                        ~~~~~~~~~^~~~~~~\nstatement.c: In function ‘buildReturn’:\nstatement.c:172:74: warning: unused parameter ‘nesting’ [-Wunused-parameter]\n  172 | static void buildReturn(Statement *statement, Context *context, unsigned nesting)\n      |                                                                 ~~~~~~~~~^~~~~~~\nstatement.c: In function ‘buildGoto’:\nstatement.c:181:72: warning: unused parameter ‘nesting’ [-Wunused-parameter]\n  181 | static void buildGoto(Statement *statement, Context *context, unsigned nesting)\n      |                                                               ~~~~~~~~~^~~~~~~\n",
+        "stdout": "-Wextra -std=c11 -fdebug-prefix-map=/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/reproducible-debug-prefixmap-check/source-C=. -ffile-prefix-map=/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/reproducible-debug-prefixmap-check/source-C=. statement.c -o statement.o\ngcc -c -g -pipe -Wall -Wextra -std=c11 -fdebug-prefix-map=/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/reproducible-debug-prefixmap-check/source-C=. -ffile-prefix-map=/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/reproducible-debug-prefixmap-check/source-C=. utils.c -o utils.o\ngcc -c -g -pipe -Wall -Wextra -std=c11 -fdebug-prefix-map=/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/reproducible-debug-prefixmap-check/source-C=. -ffile-prefix-map=/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/reproducible-debug-prefixmap-check/source-C=. variable.c -o variable.o\ngcc block.o ccg.o commandline.o constant.o expression.o function.o integer.o label.o operand.o pointer.o statement.o utils.o variable.o -lm -o ccg\n"
+      },
+      "bytes": 96904,
+      "id": "C",
+      "mode": "0o755",
+      "seed_1000": {
+        "argv": [
+          "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/reproducible-debug-prefixmap-check/source-C/ccg",
+          "--seed",
+          "1000",
+          "--max-functions",
+          "3",
+          "--max-localvars",
+          "3",
+          "--max-function-parameters",
+          "3",
+          "--min-statements-per-block",
+          "1",
+          "--max-statements-per-block",
+          "3",
+          "--max-expression-nesting",
+          "3",
+          "--max-block-nesting",
+          "3",
+          "--max-pointer-depth",
+          "2",
+          "--no-omitted-operand-conditional"
+        ],
+        "status": 0,
+        "stderr": "",
+        "stdout": "/* Seed: 1000 */\n#include <stdint.h>\n#include <stdlib.h>\n\n/* Global variables */\nuint16_t us_0 = 0xE45B;\nint16_t s_1 = 0x0;\nuint64_t uli_2 = 0x32B110CB0D5B2C6F;\nint8_t c_3 = 0xC8;\nint32_t i_4 = 0x0;\nuint8_t uc_5 = 0xC6;\nuint32_t ui_6 = 0x2C16EC70;\nint32_t i_7 = 0x0;\n\n/* Function prototypes */\nuint16_t func_0();\n\nuint16_t func_0()\n{\nint32_t *ptr_8 = &i_7;\nuint32_t ui_9 = 0x3DBF6F77;\nuint32_t *ptr_10 = &ui_6;\nlblA368FE8B:\nus_0 <<= ((*ptr_10 + 0xAF6A) / (0xB48BEB27 && 0x62));\n}\n\nint main(void)\n{\nfunc_0();\nreturn 0;\n}\n"
+      },
+      "sha256": "e8d4fd218a34875a391109e0ad9813e03524d75ce9c472c917e15d2caccf10c9",
+      "source_files_unchanged_before": true,
+      "version": {
+        "argv": [
+          "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/reproducible-debug-prefixmap-check/source-C/ccg",
+          "--version"
+        ],
+        "status": 0,
+        "stderr": "",
+        "stdout": "This is ccg version 0.3\n"
+      }
+    },
+    {
+      "build": {
+        "argv": [
+          "make",
+          "-j4",
+          "CFLAGS=-c -g -pipe -Wall -Wextra -std=c11 -fdebug-prefix-map=/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/reproducible-debug-prefixmap-check/source-D=. -ffile-prefix-map=/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/reproducible-debug-prefixmap-check/source-D=."
+        ],
+        "status": 0,
+        "stderr": "expression.c: In function ‘buildOperand’:\nexpression.c:91:77: warning: unused parameter ‘nesting’ [-Wunused-parameter]\n   91 | static void buildOperand(Expression *expression, Context *context, unsigned nesting)\n      |                                                                    ~~~~~~~~~^~~~~~~\nstatement.c: In function ‘buildAssignment’:\nstatement.c:143:78: warning: unused parameter ‘nesting’ [-Wunused-parameter]\n  143 | static void buildAssignment(Statement *statement, Context *context, unsigned nesting)\n      |                                                                     ~~~~~~~~~^~~~~~~\nstatement.c: In function ‘buildPtrAssignment’:\nstatement.c:156:81: warning: unused parameter ‘nesting’ [-Wunused-parameter]\n  156 | static void buildPtrAssignment(Statement *statement, Context *context, unsigned nesting)\n      |                                                                        ~~~~~~~~~^~~~~~~\nstatement.c: In function ‘buildReturn’:\nstatement.c:172:74: warning: unused parameter ‘nesting’ [-Wunused-parameter]\n  172 | static void buildReturn(Statement *statement, Context *context, unsigned nesting)\n      |                                                                 ~~~~~~~~~^~~~~~~\nstatement.c: In function ‘buildGoto’:\nstatement.c:181:72: warning: unused parameter ‘nesting’ [-Wunused-parameter]\n  181 | static void buildGoto(Statement *statement, Context *context, unsigned nesting)\n      |                                                               ~~~~~~~~~^~~~~~~\n",
+        "stdout": "-Wextra -std=c11 -fdebug-prefix-map=/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/reproducible-debug-prefixmap-check/source-D=. -ffile-prefix-map=/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/reproducible-debug-prefixmap-check/source-D=. statement.c -o statement.o\ngcc -c -g -pipe -Wall -Wextra -std=c11 -fdebug-prefix-map=/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/reproducible-debug-prefixmap-check/source-D=. -ffile-prefix-map=/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/reproducible-debug-prefixmap-check/source-D=. utils.c -o utils.o\ngcc -c -g -pipe -Wall -Wextra -std=c11 -fdebug-prefix-map=/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/reproducible-debug-prefixmap-check/source-D=. -ffile-prefix-map=/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/reproducible-debug-prefixmap-check/source-D=. variable.c -o variable.o\ngcc block.o ccg.o commandline.o constant.o expression.o function.o integer.o label.o operand.o pointer.o statement.o utils.o variable.o -lm -o ccg\n"
+      },
+      "bytes": 96904,
+      "id": "D",
+      "mode": "0o755",
+      "seed_1000": {
+        "argv": [
+          "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/reproducible-debug-prefixmap-check/source-D/ccg",
+          "--seed",
+          "1000",
+          "--max-functions",
+          "3",
+          "--max-localvars",
+          "3",
+          "--max-function-parameters",
+          "3",
+          "--min-statements-per-block",
+          "1",
+          "--max-statements-per-block",
+          "3",
+          "--max-expression-nesting",
+          "3",
+          "--max-block-nesting",
+          "3",
+          "--max-pointer-depth",
+          "2",
+          "--no-omitted-operand-conditional"
+        ],
+        "status": 0,
+        "stderr": "",
+        "stdout": "/* Seed: 1000 */\n#include <stdint.h>\n#include <stdlib.h>\n\n/* Global variables */\nuint16_t us_0 = 0xE45B;\nint16_t s_1 = 0x0;\nuint64_t uli_2 = 0x32B110CB0D5B2C6F;\nint8_t c_3 = 0xC8;\nint32_t i_4 = 0x0;\nuint8_t uc_5 = 0xC6;\nuint32_t ui_6 = 0x2C16EC70;\nint32_t i_7 = 0x0;\n\n/* Function prototypes */\nuint16_t func_0();\n\nuint16_t func_0()\n{\nint32_t *ptr_8 = &i_7;\nuint32_t ui_9 = 0x3DBF6F77;\nuint32_t *ptr_10 = &ui_6;\nlblA368FE8B:\nus_0 <<= ((*ptr_10 + 0xAF6A) / (0xB48BEB27 && 0x62));\n}\n\nint main(void)\n{\nfunc_0();\nreturn 0;\n}\n"
+      },
+      "sha256": "e8d4fd218a34875a391109e0ad9813e03524d75ce9c472c917e15d2caccf10c9",
+      "source_files_unchanged_before": true,
+      "version": {
+        "argv": [
+          "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/reproducible-debug-prefixmap-check/source-D/ccg",
+          "--version"
+        ],
+        "status": 0,
+        "stderr": "",
+        "stdout": "This is ccg version 0.3\n"
+      }
+    }
+  ],
+  "candidate_no_resource_qualification_added": true,
+  "format": "cpg-independent-CCG-native-compiler-reproducible-C-D-source-build-v1",
+  "generated_C_programs_executed": false,
+  "generated_seed_identical": true,
+  "host": {
+    "compiler": "gcc (Debian 14.2.0-19) 14.2.0",
+    "os": "Debian 13 Linux x86_64"
+  },
+  "normalized_binary_identical": true,
+  "old_A_B_builds_with_upstream_flags": [
+    {
+      "orig_bytes": 96968,
+      "orig_sha256": "e102d829cf630d587c031cd6e48a6fc817972be183767e67a775129298b71dff",
+      "status": 0,
+      "stripped_bytes": 41792,
+      "stripped_sha256": "4117cabe7d8202b2322fee3f8c9ee33e120f5c52a44ad16c005c74ee49eb8521"
+    },
+    {
+      "orig_bytes": 96968,
+      "orig_sha256": "6e86644b04ce2824be6803e6d2584d92bcca7f58e1a768d864e18af1efab89fc",
+      "status": 0,
+      "stripped_bytes": 41792,
+      "stripped_sha256": "077a141aa9109fd158541e019bc0acf20d52c2ebbd722518f9f27df886973bc2"
+    }
+  ],
+  "old_A_B_strip_debug_identical": false,
+  "original_input_sha256": "5ce850a78f49665919ccdcb0fe759827c039e49632695f35b4a47d59c6c915b9",
+  "original_source_commit": "108f4304f9b2f187173a44749b56b3eb64dd4590",
+  "original_source_tree_unchanged": true,
+  "timestamp_utc": "2026-10-31T02:37:32.537749+00:00"
+}
