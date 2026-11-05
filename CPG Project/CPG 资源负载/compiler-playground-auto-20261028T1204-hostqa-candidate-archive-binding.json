@@ -1,0 +1,10 @@
+{
+  "format": "cpg-disjoint-hostqa-archive-binding-v1",
+  "archive": "compiler-playground-auto-20261028T1204-disjoint-hostqa.zip",
+  "sha256": "1a76fe925fe82d26f8a4087545a72ea5de8c2d6366a2e13e19b2abaf731b0303",
+  "bytes": 203343,
+  "mode": "0o644",
+  "entry_count": 21,
+  "canonical_release_delta": 0,
+  "public_incremental_restore_requires_original_v0.21.4_volumes": true
+}

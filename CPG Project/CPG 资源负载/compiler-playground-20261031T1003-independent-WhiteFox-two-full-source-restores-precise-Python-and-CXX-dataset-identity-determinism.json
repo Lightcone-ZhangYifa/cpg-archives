@@ -1,0 +1,38 @@
+{
+  "format": "cpg-whitefox-complete-original-74313-twice-restored-and-source-datasets-reproduced-v1",
+  "utc": "2026-10-31T03:10:31.499544+00:00",
+  "raw_archive_source": "already formally saved v0.21.13, exact SHA, no re-download, no repack",
+  "original_resource_id": "dataset-ref.whitefox",
+  "original_dataset_card_id": "whitefox",
+  "checks": {
+    "dataset-index": {
+      "same_dataset_fingerprint": true,
+      "fingerprint": "a245d37c5a5b8b2b267901939b79ebaf442dca7de8cc7a1dd0305c9d44bb425a",
+      "sample_count": 61255,
+      "same_index_bytes_and_sha": true,
+      "index_sha256": "02991dc0a0ad64315df3fe591e87bb56ceb74942d81e36a2053379d9fc0a9193",
+      "index_bytes": 107606016,
+      "same_actual_index_SQLite_sha": true,
+      "physical_A_index_location": "/mnt/data/cpg-auto-20261031T1003/whitefox-lane/full-original-source-and-dataset-installed-B/dataset-index/index.json",
+      "physical_B_index_location": "/mnt/data/cpg-auto-20261031T1003/whitefox-lane/full-original-source-and-dataset-installed-C/dataset-index/index.json"
+    },
+    "dataset-index-cpp": {
+      "same_dataset_fingerprint": true,
+      "fingerprint": "49caba9bcbe8c68a69ac1219345d2573aee9e62a841912f2ec1d8ec4322157c2",
+      "sample_count": 173,
+      "same_index_bytes_and_sha": true,
+      "index_sha256": "e297d64ac33410f35a62c3e537f8d7312cbab987cd54d3e8bb7af36bc83df175",
+      "index_bytes": 319488,
+      "same_actual_index_SQLite_sha": true,
+      "physical_A_index_location": "/mnt/data/cpg-auto-20261031T1003/whitefox-lane/full-original-source-and-dataset-installed-B/dataset-index-cpp/index.json",
+      "physical_B_index_location": "/mnt/data/cpg-auto-20261031T1003/whitefox-lane/full-original-source-and-dataset-installed-C/dataset-index-cpp/index.json"
+    }
+  },
+  "fresh_independent_prefixes": 2,
+  "original_files_covered_each": 74313,
+  "original_corpus_source_published_new_SHA": 0,
+  "original_archived_payload_reused_directly": true,
+  "dataset_card_formally_admitted": false,
+  "tested_distribution": "Debian host; no Ubuntu24.04 target OCI",
+  "native_source_qualification": "No WhiteFox C++ or model compilation or execution; Python generated programs only AST audited"
+}

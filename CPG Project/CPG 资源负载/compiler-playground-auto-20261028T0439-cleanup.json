@@ -1,0 +1,15 @@
+{
+  "all_round_qa_processes_completed": true,
+  "canonical_owner_directory_not_modified": "/mnt/data/cpg-r07/development/compiler-playground",
+  "created_utc": "2026-10-28T04:59:49.389128+00:00",
+  "deleted_historical_volumes": [],
+  "deleted_other_conversation_files": [],
+  "deleted_resource_payloads": [],
+  "deleted_unknown_files": [],
+  "format": "compiler-playground-isolated-cleanup-audit-v1",
+  "local_wheelhouse_and_venvs_retained_for_followup": true,
+  "old_payload_shas_reuploaded": [],
+  "other_active_canonical_writer_unmodified": true,
+  "owner_directory": "/mnt/data/cpg-auto-20261028-0439",
+  "reason": "Active canonical release owner plus still-needed local test prefix; do not delete or overwrite independently consumed material without verified release."
+}

@@ -1,0 +1,15 @@
+{
+  "format": "cpg-whitefox-saved-Library-new-only-actual-exact-extract-verify-v1",
+  "datetime_utc": "2026-10-31T03:12:15.532756+00:00",
+  "library_file_id": "libfile_6df14f36b6c88191b615af415dabc2c8",
+  "library_original_manifest_id": "libfile_1a24e6f962ac8191b42ab8986980fc47",
+  "saved_archive_sha256": "4e6c23d2756e79bcac99ac1518084d01c8c8612f97e53096a5dab963ca4f164e",
+  "saved_archive_bytes": 4219373,
+  "saved_member_count": 23,
+  "all_SHA_size_mode_checked_post_extraction": true,
+  "actual_extract_target": "/mnt/data/cpg-auto-20261031T1003/from-persistent-Library-readback-whitefox/fresh-original-Library-only-WhiteFox-new-SHA-extracted",
+  "old_raw_WhiteFox_source_material_included_in_new_payload": false,
+  "inherited_source_SHA": "010b736b9b802f20a5177ff259dcb9b02e69ce42335a600d05831b20ff3e615a",
+  "new_SHA_qualification_only_independent_candidate": true,
+  "formal_original_1862_coverage_unchanged": 1700
+}

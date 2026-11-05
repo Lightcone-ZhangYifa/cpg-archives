@@ -1,0 +1,194 @@
+{
+  "active_conflict": {
+    "continuation_state_file_id": "libfile_767472ae8e7881919e82a3c36ae533cd",
+    "continuation_state_last_seen": "2026-10-27T18:47:46.857014+00:00",
+    "continuation_state_unmodified_by_this_round": true,
+    "other_ongoing_round": "0.21.6/r07 manual-current-conversation-r07",
+    "other_paths_not_touched": true,
+    "r09_candidates": "separately saved; no canonical acceptance asserted",
+    "reason": "current canonical writer/active consumers not released; do not clobber latest_completed_delivery"
+  },
+  "automation": {
+    "existing_schedule": "FREQ=HOURLY;INTERVAL=2; DTSTART=20261027T073936Z",
+    "new_automation_created": false,
+    "schedule_anchor_changed": false,
+    "task_disabled": false,
+    "task_id": "6ae0511879ec81919b31f10e974409ad"
+  },
+  "canonical_coverage": {
+    "exact_input_integrity_verified": 1720,
+    "functional_passed": 145,
+    "hardware_passed": 0,
+    "managed_percent": 80.182599,
+    "managed_union": 1493,
+    "material_passed": 101,
+    "oci_passed": 0,
+    "pending": 369,
+    "python_installation_passed": 285,
+    "total": 1862,
+    "trusted_apt_wrappers": 1247
+  },
+  "canonical_delta_in_this_branch": {
+    "dataset_cards": 0,
+    "hardware_executions": 0,
+    "new_qualified_materials": 0,
+    "newly_qualified_complete_binary_profiles": 0,
+    "newly_qualified_native_source_profiles": 0,
+    "oci_executions": 0,
+    "official_benchmarks": 0,
+    "resources": 0
+  },
+  "created_utc": "2026-10-28T03:32:24.900160+00:00",
+  "end_state": "independent branch complete; canonical release remains owner-held; automation retained",
+  "format": "compiler-playground-disjoint-automation-handoff-v1",
+  "historical_cleanup": {
+    "deleted_other_conversation_files": 0,
+    "new_sha_reuploads_of_old_payloads": 0,
+    "removed_saved_library_old_volumes": 0
+  },
+  "immutable_main_qualification_release": {
+    "bytes": 1336989,
+    "full_restore_kit_sha256": "18e2c313f381b5c19cb4f4508b64c05c6a3475c451b5b7e8317ff253aeed6816",
+    "library_file_id": "libfile_a68800413d80819183195b42233aec5e",
+    "name": "compiler-playground-v0.21.4-final-delivery.json",
+    "round": "r05",
+    "sha256": "ae05c647aee40a672cb01b64e1e10c46a8de2b586ab7e0a0feb1d966caf210bd",
+    "version": "0.21.4"
+  },
+  "independent_build_and_test_ledger": {
+    "aflplusplus": {
+      "binary_two_prefix_host_core_only_passed": true,
+      "binary_two_prefix_host_fuzz_execs": [
+        2108,
+        2099
+      ],
+      "diagnostic_core_binaries_built": 6,
+      "full_binary_qualified": false,
+      "incorrect_existing_availability_test": {
+        "definition_candidate_sha256": "10f86ee12e8d94d60b9bfb8914e3e583d339f1c1561aa0ee03b131ab2341a158",
+        "expected_returncode": 0,
+        "observed_help_returncode": 1,
+        "observed_replacement_returncode": 0,
+        "original_argv": [
+          "{source}/afl-fuzz",
+          "-h"
+        ],
+        "original_definition_sha256": "e695b7af6f32fd530bb12ce4ed790f00debb489a83f5d711a088968fa4395979",
+        "tested_replacement_argv": [
+          "{source}/afl-fuzz",
+          "--version"
+        ]
+      },
+      "llvm_gcc_qemu_unicorn_frida_fully_built": false,
+      "native_build_exit": 2,
+      "native_source_install_exit": 2,
+      "original_source_sha256": "d5f4f72c830526654bebbc637f6164a93c22d7309ce8ba73979abadc42ce5974",
+      "original_source_volume": "compiler-playground-resource-base-v0.20.0-032.zip",
+      "readback_public_zip_only_fuzz_execs": 2091,
+      "resource_id": "aflplusplus",
+      "root_archive_submodules_without_gitlink_count": 9,
+      "version": "v5.03c"
+    },
+    "heaptrack": {
+      "missing_development_components": [
+        "Boost libraries: system filesystem iostreams container",
+        "Libunwind headers/library"
+      ],
+      "native_cmake_configure_exit": 1,
+      "original_source_sha256": "a8b993bab4feb01d9cf63ea46e257164ddfa75586d9decfb60346136791527d1",
+      "resource_id": "heaptrack",
+      "source_binary_qualified": false,
+      "version": "1.5.0"
+    },
+    "intel_pcm": {
+      "binary_independent_prefix_tests": {
+        "A_cli_count": 7,
+        "A_passed": true,
+        "B_cli_count": 7,
+        "B_passed": true,
+        "readback_public_zip_only_cli_count": 7,
+        "readback_public_zip_only_passed": true
+      },
+      "cpg_source_binary_profile_passed": false,
+      "hardware_measurement_exit": 1,
+      "hardware_measurement_passed": false,
+      "native_build_final_exit": 0,
+      "native_cmake_configure_exit": 0,
+      "native_full_build_steps_observed": "94/94",
+      "native_upstream_install_exit": 0,
+      "native_upstream_installed_regular_files": 64,
+      "original_source_sha256": "11a307e88477b4d808aaaa5d43ada326400e4a9558b734cb5a3e6e217bbddd3c",
+      "original_source_volume": "compiler-playground-resource-base-v0.20.0-023.zip",
+      "original_submodules_missing_count": 5,
+      "resource_id": "intel-pcm",
+      "ubuntu2404_target_built": false,
+      "upstream_registered_ctest_tests": 0,
+      "version": "202604"
+    }
+  },
+  "owner": "automation-6ae0511879ec81919b31f10e974409ad:20261028T0308:aflplusplus-heaptrack-audit",
+  "owner_path": "/mnt/data/cpg-auto-20261028T0308",
+  "public_incremental_restore": {
+    "new_candidate_zip_files_used": 2,
+    "official_CPG_source_binary_profiles": "not executed",
+    "official_CPG_split_release_restore": "not applicable; this branch is not a canonical release",
+    "old_volume_files_used": 0,
+    "readback_AFL_actual_noninstrumented_execs": 2091,
+    "readback_AFL_zip_verified": true,
+    "readback_PCM_native_CLI_checks": 7,
+    "readback_PCM_zip_verified": true
+  },
+  "record_kind": "immutable branch handoff, explicitly NOT an official 0.21.x patch release",
+  "saved_files": [
+    {
+      "bytes": 1785043,
+      "description": "AFL++ host-core only, package-smoke fix, heaptrack blockers, coverage audit, reproducible offline candidate restore",
+      "file_id": "file_00000000398081f58b80d42ffa17d02b",
+      "library_file_id": "libfile_379055d986b88191ac66c87ec96e922c",
+      "library_folder": "/训练编译器",
+      "library_materialized_verified": true,
+      "library_path": "/训练编译器/compiler-playground-auto-20261028T0308-disjoint-candidate.zip",
+      "mode": 420,
+      "name": "compiler-playground-auto-20261028T0308-disjoint-candidate.zip",
+      "sha256": "7b840cf4836df34bceea490026e775ae53ab434d8fd9e1be5a839387ed4d25e4"
+    },
+    {
+      "bytes": 10248329,
+      "description": "Intel PCM native CMake source-built + actual upstream install, independent host binaries, hardware denial evidence",
+      "file_id": "file_000000003eb881f5930259bfbe547c1f",
+      "library_file_id": "libfile_88df2b37c9948191a5acf74ecfc4c87e",
+      "library_folder": "/训练编译器",
+      "library_materialized_verified": true,
+      "library_path": "/训练编译器/compiler-playground-auto-20261028T0308-intel-pcm-native-candidate.zip",
+      "mode": 420,
+      "name": "compiler-playground-auto-20261028T0308-intel-pcm-native-candidate.zip",
+      "sha256": "225526841b35770fabbc6ad37eed3311024fe8d12813bcc7dcd6562ce4e738f9"
+    },
+    {
+      "bytes": 1315601,
+      "description": "Full independent 1862-ID coverage by origin/provider/type/category, 369 resource backlog",
+      "file_id": "file_00000000fc3481f59e417bc806256f41",
+      "library_file_id": "libfile_0e940bd0bed88191ad167cc8c5ec4ad5",
+      "library_folder": "/训练编译器",
+      "library_materialized_verified": true,
+      "library_path": "/训练编译器/compiler-playground-auto-20261028T0308-independent-coverage.json",
+      "mode": 420,
+      "name": "compiler-playground-auto-20261028T0308-independent-coverage.json",
+      "sha256": "2e00a73a0dee81b7120bfc9478e116c10f7920d3b617e4890406cb94d430c846"
+    }
+  ],
+  "static_source_closure": {
+    "aflplusplus_exact_submodule_gitlinks_unresolved": 9,
+    "intel_pcm_exact_submodule_gitlinks_unresolved": 5,
+    "root_archive_not_confused_with_complete_git_checkout": true,
+    "root_original_sha_verified": true
+  },
+  "workflow_next_actions": [
+    "canonical 0.21.6/r07 owner may review these branch candidate files after its active work stops",
+    "complete exact gitlink submodule source closure of AFL++ and Intel PCM; never HEAD or subset substitution",
+    "on Ubuntu 24.04 compile and run all required modes, original source installation and independent binary prefix",
+    "run real PMU on supported Intel CPU with privileges separately from application CLI qualification",
+    "run original full CPG package manager verify-installed, install-after CLI/application, regression, public delta restore before adding IDs",
+    "preserve original 369 pending IDs until independently accepted via immutable official release"
+  ]
+}

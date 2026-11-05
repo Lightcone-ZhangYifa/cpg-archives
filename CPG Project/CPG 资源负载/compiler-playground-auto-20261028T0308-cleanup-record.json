@@ -1,0 +1,37 @@
+{
+  "canonical_mutable_continuation_state_changed": false,
+  "consumer_blocker": "canonical r07 round is active; do not operate its checkpoint or source tree.",
+  "deleted_paths": [],
+  "deletion_whitelist": [],
+  "format": "cpg-20261028T0308-immutable-cleanup-record-v1",
+  "new_files_verified": [
+    {
+      "bytes": 1785043,
+      "file": "compiler-playground-auto-20261028T0308-disjoint-candidate.zip",
+      "sha256": "7b840cf4836df34bceea490026e775ae53ab434d8fd9e1be5a839387ed4d25e4"
+    },
+    {
+      "bytes": 10248329,
+      "file": "compiler-playground-auto-20261028T0308-intel-pcm-native-candidate.zip",
+      "sha256": "225526841b35770fabbc6ad37eed3311024fe8d12813bcc7dcd6562ce4e738f9"
+    },
+    {
+      "bytes": 1315601,
+      "file": "audit/coverage-independent.json",
+      "sha256": "2e00a73a0dee81b7120bfc9478e116c10f7920d3b617e4890406cb94d430c846"
+    }
+  ],
+  "old_saved_resource_volumes_deleted_from_library": [],
+  "other_conversation_directories_modified": [],
+  "owned_directory": "/mnt/data/cpg-auto-20261028T0308",
+  "owner": "automation-6ae0511879ec81919b31f10e974409ad:20261028T0308:aflplusplus-heaptrack-audit",
+  "preconditions": {
+    "library_readback_sha_bytes_modes_verified": true,
+    "new_candidate_zip_files_uploaded_to_library": true,
+    "new_volume_only_public_candidate_restores_verified": true,
+    "owned_candidate_test_consumers_ended": true
+  },
+  "record_time_utc": "2026-10-28T03:32:46.638817+00:00",
+  "retention_reason": "This branch does not need free-space reclamation; retain exact local evidence and source build trees for handoff. No exact deletion whitelist was approved or necessary.",
+  "unknown_or_reappearing_files_deleted": []
+}

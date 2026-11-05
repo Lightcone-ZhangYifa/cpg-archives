@@ -1,0 +1,28 @@
+{
+  "format": "cpg-disjoint-qa-cleanup-v1",
+  "original_canonical_release_artifacts_deleted": [],
+  "other_active_conversation_files_touched": [],
+  "other_canonical_state_mutations": [],
+  "new_artifact_payloads_created": [],
+  "preexisting_canonical_volumes_repacked": [],
+  "local_deleted_qa_prefixes": [
+    "/mnt/data/cpg-auto-20261028T1204Z/work/isolated_qa/py-isoduration/prefix-A",
+    "/mnt/data/cpg-auto-20261028T1204Z/work/isolated_qa/py-narwhals/prefix-A",
+    "/mnt/data/cpg-auto-20261028T1204Z/work/isolated_qa/py-pip/prefix-A",
+    "/mnt/data/cpg-auto-20261028T1204Z/work/isolated_qa/py-polars-runtime-32/prefix-A",
+    "/mnt/data/cpg-auto-20261028T1204Z/work/isolated_qa/py-soupsieve/prefix-A",
+    "/mnt/data/cpg-auto-20261028T1204Z/work/isolated_qa/py-urllib3/prefix-A",
+    "/mnt/data/cpg-auto-20261028T1204Z/work/isolated_qa/py-wheel/prefix-A"
+  ],
+  "local_retained_for_readback": [
+    "/mnt/data/cpg-auto-20261028T1204Z/work/isolated_qa/py-isoduration/prefix-B",
+    "/mnt/data/cpg-auto-20261028T1204Z/work/isolated_qa/py-narwhals/prefix-B",
+    "/mnt/data/cpg-auto-20261028T1204Z/work/isolated_qa/py-pip/prefix-B",
+    "/mnt/data/cpg-auto-20261028T1204Z/work/isolated_qa/py-polars-runtime-32/prefix-B",
+    "/mnt/data/cpg-auto-20261028T1204Z/work/isolated_qa/py-soupsieve/prefix-B",
+    "/mnt/data/cpg-auto-20261028T1204Z/work/isolated_qa/py-urllib3/prefix-B",
+    "/mnt/data/cpg-auto-20261028T1204Z/work/isolated_qa/py-wheel/prefix-B"
+  ],
+  "local_input_copies_owned_by_this_disjoint_round": "preserve until own archive saved and verified; no external cleanup",
+  "data_preservation_note": "The immutable 0.21.4 volumes and other user Library objects were not deleted or rewritten."
+}

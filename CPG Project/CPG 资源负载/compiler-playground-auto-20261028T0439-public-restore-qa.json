@@ -1,0 +1,518 @@
+{
+  "OCI_tested": false,
+  "all_statuses": "passed",
+  "archive_bytes": 446874,
+  "archive_sha256": "22d1e944b4d0f29013cac52817cc7b62d6cf716aa7857933ef4b5cabdc94905e",
+  "candidate_archive_name": "compiler-playground-auto-20261028T0439-python-wheel-qa-candidate.zip",
+  "candidate_status": "unpromoted_host_qualification",
+  "canonical_resource_coverage_increment": 0,
+  "format": "compiler-playground-public-zip-incremental-restoration-qa-v1",
+  "historical_manager_check_invocations": 52,
+  "initial_original_subset_package_count": 26,
+  "new_resource_payloads_repackaged": 0,
+  "original_historical_subset_required": true,
+  "original_ubuntu_24_04_target_tested": false,
+  "positive_check_results": 104,
+  "resource_results": [
+    {
+      "artifact": "attrs",
+      "checks": [
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.dataset-import.attrs/source_install",
+          "side": "source_install",
+          "status": "passed",
+          "version_and_functional": 2
+        },
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.dataset-import.attrs/independent_install",
+          "side": "independent_install",
+          "status": "passed",
+          "version_and_functional": 2
+        }
+      ],
+      "id": "py.dataset-import.attrs",
+      "source_sha256": "c647aa4a12dfbad9333ca4e71fe62ddc36f4e63b2d260a37a8b83d2f043ac309"
+    },
+    {
+      "artifact": "attrs",
+      "checks": [
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.gcc-contrib.attrs/source_install",
+          "side": "source_install",
+          "status": "passed",
+          "version_and_functional": 2
+        },
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.gcc-contrib.attrs/independent_install",
+          "side": "independent_install",
+          "status": "passed",
+          "version_and_functional": 2
+        }
+      ],
+      "id": "py.gcc-contrib.attrs",
+      "source_sha256": "c647aa4a12dfbad9333ca4e71fe62ddc36f4e63b2d260a37a8b83d2f043ac309"
+    },
+    {
+      "artifact": "idna",
+      "checks": [
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.dataset-import.idna/source_install",
+          "side": "source_install",
+          "status": "passed",
+          "version_and_functional": 2
+        },
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.dataset-import.idna/independent_install",
+          "side": "independent_install",
+          "status": "passed",
+          "version_and_functional": 2
+        }
+      ],
+      "id": "py.dataset-import.idna",
+      "source_sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c"
+    },
+    {
+      "artifact": "idna",
+      "checks": [
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.gcc-contrib.idna/source_install",
+          "side": "source_install",
+          "status": "passed",
+          "version_and_functional": 2
+        },
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.gcc-contrib.idna/independent_install",
+          "side": "independent_install",
+          "status": "passed",
+          "version_and_functional": 2
+        }
+      ],
+      "id": "py.gcc-contrib.idna",
+      "source_sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c"
+    },
+    {
+      "artifact": "h11",
+      "checks": [
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.dataset-import.h11/source_install",
+          "side": "source_install",
+          "status": "passed",
+          "version_and_functional": 2
+        },
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.dataset-import.h11/independent_install",
+          "side": "independent_install",
+          "status": "passed",
+          "version_and_functional": 2
+        }
+      ],
+      "id": "py.dataset-import.h11",
+      "source_sha256": "63cf8bbe7522de3bf65932fda1d9c2772064ffb3dae62d55932da54b31cb6c86"
+    },
+    {
+      "artifact": "six",
+      "checks": [
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.dataset-import.six/source_install",
+          "side": "source_install",
+          "status": "passed",
+          "version_and_functional": 2
+        },
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.dataset-import.six/independent_install",
+          "side": "independent_install",
+          "status": "passed",
+          "version_and_functional": 2
+        }
+      ],
+      "id": "py.dataset-import.six",
+      "source_sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274"
+    },
+    {
+      "artifact": "typing_extensions",
+      "checks": [
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.dataset-import.typing-extensions/source_install",
+          "side": "source_install",
+          "status": "passed",
+          "version_and_functional": 2
+        },
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.dataset-import.typing-extensions/independent_install",
+          "side": "independent_install",
+          "status": "passed",
+          "version_and_functional": 2
+        }
+      ],
+      "id": "py.dataset-import.typing-extensions",
+      "source_sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8"
+    },
+    {
+      "artifact": "typing_extensions",
+      "checks": [
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.gcc-contrib.typing-extensions/source_install",
+          "side": "source_install",
+          "status": "passed",
+          "version_and_functional": 2
+        },
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.gcc-contrib.typing-extensions/independent_install",
+          "side": "independent_install",
+          "status": "passed",
+          "version_and_functional": 2
+        }
+      ],
+      "id": "py.gcc-contrib.typing-extensions",
+      "source_sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8"
+    },
+    {
+      "artifact": "typing_extensions",
+      "checks": [
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.mlir.typing-extensions/source_install",
+          "side": "source_install",
+          "status": "passed",
+          "version_and_functional": 2
+        },
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.mlir.typing-extensions/independent_install",
+          "side": "independent_install",
+          "status": "passed",
+          "version_and_functional": 2
+        }
+      ],
+      "id": "py.mlir.typing-extensions",
+      "source_sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8"
+    },
+    {
+      "artifact": "certifi",
+      "checks": [
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.gcc-contrib.certifi/source_install",
+          "side": "source_install",
+          "status": "passed",
+          "version_and_functional": 2
+        },
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.gcc-contrib.certifi/independent_install",
+          "side": "independent_install",
+          "status": "passed",
+          "version_and_functional": 2
+        }
+      ],
+      "id": "py.gcc-contrib.certifi",
+      "source_sha256": "42d35340cc5b9ba78e818ddbff0c5b1c2b779de448a340fd1b989f5fa8670e1b"
+    },
+    {
+      "artifact": "iniconfig",
+      "checks": [
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.gcc-contrib.iniconfig/source_install",
+          "side": "source_install",
+          "status": "passed",
+          "version_and_functional": 2
+        },
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.gcc-contrib.iniconfig/independent_install",
+          "side": "independent_install",
+          "status": "passed",
+          "version_and_functional": 2
+        }
+      ],
+      "id": "py.gcc-contrib.iniconfig",
+      "source_sha256": "9121e2c1fdb355232495be3194c8dfe87ccc2d5dee45947b78e68f499790d7a7"
+    },
+    {
+      "artifact": "pluggy",
+      "checks": [
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.gcc-contrib.pluggy/source_install",
+          "side": "source_install",
+          "status": "passed",
+          "version_and_functional": 2
+        },
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.gcc-contrib.pluggy/independent_install",
+          "side": "independent_install",
+          "status": "passed",
+          "version_and_functional": 2
+        }
+      ],
+      "id": "py.gcc-contrib.pluggy",
+      "source_sha256": "7dd7b0d8832ba3cb632c306926ded123429211b83641b35dc5c41ad2d34f9bec"
+    },
+    {
+      "artifact": "threadpoolctl",
+      "checks": [
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.threadpoolctl/source_install",
+          "side": "source_install",
+          "status": "passed",
+          "version_and_functional": 2
+        },
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.threadpoolctl/independent_install",
+          "side": "independent_install",
+          "status": "passed",
+          "version_and_functional": 2
+        }
+      ],
+      "id": "py.threadpoolctl",
+      "source_sha256": "cd8b60b5641b45c67bbf73c64c843235fc2d8a480c87389f52f5dbee893b86be"
+    },
+    {
+      "artifact": "uri_template",
+      "checks": [
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.uri-template/source_install",
+          "side": "source_install",
+          "status": "passed",
+          "version_and_functional": 2
+        },
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.uri-template/independent_install",
+          "side": "independent_install",
+          "status": "passed",
+          "version_and_functional": 2
+        }
+      ],
+      "id": "py.uri-template",
+      "source_sha256": "a44a133ea12d44a0c0f06d7d42a52d71282e77e2f937d8abd5655b8d56fc1363"
+    },
+    {
+      "artifact": "tzdata",
+      "checks": [
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.dataset-import.tzdata/source_install",
+          "side": "source_install",
+          "status": "passed",
+          "version_and_functional": 2
+        },
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.dataset-import.tzdata/independent_install",
+          "side": "independent_install",
+          "status": "passed",
+          "version_and_functional": 2
+        }
+      ],
+      "id": "py.dataset-import.tzdata",
+      "source_sha256": "b683bd1b6659ddcd810ff02ad09ba821d4bf1065072805063eb35c49617905ac"
+    },
+    {
+      "artifact": "tzdata",
+      "checks": [
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.tzdata/source_install",
+          "side": "source_install",
+          "status": "passed",
+          "version_and_functional": 2
+        },
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.tzdata/independent_install",
+          "side": "independent_install",
+          "status": "passed",
+          "version_and_functional": 2
+        }
+      ],
+      "id": "py.tzdata",
+      "source_sha256": "b683bd1b6659ddcd810ff02ad09ba821d4bf1065072805063eb35c49617905ac"
+    },
+    {
+      "artifact": "packaging",
+      "checks": [
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.dataset-import.packaging/source_install",
+          "side": "source_install",
+          "status": "passed",
+          "version_and_functional": 2
+        },
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.dataset-import.packaging/independent_install",
+          "side": "independent_install",
+          "status": "passed",
+          "version_and_functional": 2
+        }
+      ],
+      "id": "py.dataset-import.packaging",
+      "source_sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c"
+    },
+    {
+      "artifact": "packaging",
+      "checks": [
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.gcc-contrib.packaging/source_install",
+          "side": "source_install",
+          "status": "passed",
+          "version_and_functional": 2
+        },
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.gcc-contrib.packaging/independent_install",
+          "side": "independent_install",
+          "status": "passed",
+          "version_and_functional": 2
+        }
+      ],
+      "id": "py.gcc-contrib.packaging",
+      "source_sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c"
+    },
+    {
+      "artifact": "packaging",
+      "checks": [
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.mlir.packaging/source_install",
+          "side": "source_install",
+          "status": "passed",
+          "version_and_functional": 2
+        },
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.mlir.packaging/independent_install",
+          "side": "independent_install",
+          "status": "passed",
+          "version_and_functional": 2
+        }
+      ],
+      "id": "py.mlir.packaging",
+      "source_sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c"
+    },
+    {
+      "artifact": "pycparser",
+      "checks": [
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.mlir.pycparser/source_install",
+          "side": "source_install",
+          "status": "passed",
+          "version_and_functional": 2
+        },
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.mlir.pycparser/independent_install",
+          "side": "independent_install",
+          "status": "passed",
+          "version_and_functional": 2
+        }
+      ],
+      "id": "py.mlir.pycparser",
+      "source_sha256": "51d5a8ba2be0bbe440b99d2112604c95bbbc3c2748a64260186c541e1729cd80"
+    },
+    {
+      "artifact": "setuptools",
+      "checks": [
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.mlir.setuptools/source_install",
+          "side": "source_install",
+          "status": "passed",
+          "version_and_functional": 2
+        },
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.mlir.setuptools/independent_install",
+          "side": "independent_install",
+          "status": "passed",
+          "version_and_functional": 2
+        }
+      ],
+      "id": "py.mlir.setuptools",
+      "source_sha256": "ca140b45d5325a9478f880e351484f62fef15f336462e449ca0c03c873d589c2"
+    },
+    {
+      "artifact": "setuptools",
+      "checks": [
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.setuptools/source_install",
+          "side": "source_install",
+          "status": "passed",
+          "version_and_functional": 2
+        },
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.setuptools/independent_install",
+          "side": "independent_install",
+          "status": "passed",
+          "version_and_functional": 2
+        }
+      ],
+      "id": "py.setuptools",
+      "source_sha256": "ca140b45d5325a9478f880e351484f62fef15f336462e449ca0c03c873d589c2"
+    },
+    {
+      "artifact": "anyio",
+      "checks": [
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.anyio/source_install",
+          "side": "source_install",
+          "status": "passed",
+          "version_and_functional": 2
+        },
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.anyio/independent_install",
+          "side": "independent_install",
+          "status": "passed",
+          "version_and_functional": 2
+        }
+      ],
+      "id": "py.anyio",
+      "source_sha256": "6152fdbbf9a77fdec97731721bebf7c4c44f7c29b424b0065826173efc7ed101"
+    },
+    {
+      "artifact": "anyio",
+      "checks": [
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.dataset-import.anyio/source_install",
+          "side": "source_install",
+          "status": "passed",
+          "version_and_functional": 2
+        },
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.dataset-import.anyio/independent_install",
+          "side": "independent_install",
+          "status": "passed",
+          "version_and_functional": 2
+        }
+      ],
+      "id": "py.dataset-import.anyio",
+      "source_sha256": "6152fdbbf9a77fdec97731721bebf7c4c44f7c29b424b0065826173efc7ed101"
+    },
+    {
+      "artifact": "typing_inspection",
+      "checks": [
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.typing-inspection/source_install",
+          "side": "source_install",
+          "status": "passed",
+          "version_and_functional": 2
+        },
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.typing-inspection/independent_install",
+          "side": "independent_install",
+          "status": "passed",
+          "version_and_functional": 2
+        }
+      ],
+      "id": "py.typing-inspection",
+      "source_sha256": "65b8397ba37ccbce054456aaccddfc91e6e3083c92824df348d96ca832f3f147"
+    },
+    {
+      "artifact": "rfc3987_syntax",
+      "checks": [
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.rfc3987-syntax/source_install",
+          "side": "source_install",
+          "status": "passed",
+          "version_and_functional": 2
+        },
+        {
+          "output_dir": "/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/manager-exec/py.rfc3987-syntax/independent_install",
+          "side": "independent_install",
+          "status": "passed",
+          "version_and_functional": 2
+        }
+      ],
+      "id": "py.rfc3987-syntax",
+      "source_sha256": "6c3d97604e4c5ce9f714898e05401a0445a641cfa276432b0a648c80856f6a3f"
+    }
+  ],
+  "restore_stdout": "{\n  \"baseline\": \"/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/historical-subset\",\n  \"canonical_coverage_delta\": 0,\n  \"output\": \"/mnt/data/cpg-auto-20261028-0439/branches/python-wheel-qa/public-replay/staged-unpromoted-overlay\",\n  \"promoted\": false,\n  \"restored_file_count\": 52,\n  \"restored_resource_ids\": [\n    \"py.anyio\",\n    \"py.dataset-import.anyio\",\n    \"py.dataset-import.attrs\",\n    \"py.dataset-import.h11\",\n    \"py.dataset-import.idna\",\n    \"py.dataset-import.packaging\",\n    \"py.dataset-import.six\",\n    \"py.dataset-import.typing-extensions\",\n    \"py.dataset-import.tzdata\",\n    \"py.gcc-contrib.attrs\",\n    \"py.gcc-contrib.certifi\",\n    \"py.gcc-contrib.idna\",\n    \"py.gcc-contrib.iniconfig\",\n    \"py.gcc-contrib.packaging\",\n    \"py.gcc-contrib.pluggy\",\n    \"py.gcc-contrib.typing-extensions\",\n    \"py.mlir.packaging\",\n    \"py.mlir.pycparser\",\n    \"py.mlir.setuptools\",\n    \"py.mlir.typing-extensions\",\n    \"py.rfc3987-syntax\",\n    \"py.setuptools\",\n    \"py.threadpoolctl\",\n    \"py.typing-inspection\",\n    \"py.tzdata\",\n    \"py.uri-template\"\n  ]\n}\n",
+  "restored_candidate_files": 52,
+  "restored_covered_unique_ids": 26,
+  "restored_original_resource_ids": 26,
+  "source_archive_verification_stdout": "{\n  \"canonical_coverage_delta\": 0,\n  \"entries\": 357,\n  \"resource_ids\": [\n    \"py.anyio\",\n    \"py.dataset-import.anyio\",\n    \"py.dataset-import.attrs\",\n    \"py.dataset-import.h11\",\n    \"py.dataset-import.idna\",\n    \"py.dataset-import.packaging\",\n    \"py.dataset-import.six\",\n    \"py.dataset-import.typing-extensions\",\n    \"py.dataset-import.tzdata\",\n    \"py.gcc-contrib.attrs\",\n    \"py.gcc-contrib.certifi\",\n    \"py.gcc-contrib.idna\",\n    \"py.gcc-contrib.iniconfig\",\n    \"py.gcc-contrib.packaging\",\n    \"py.gcc-contrib.pluggy\",\n    \"py.gcc-contrib.typing-extensions\",\n    \"py.mlir.packaging\",\n    \"py.mlir.pycparser\",\n    \"py.mlir.setuptools\",\n    \"py.mlir.typing-extensions\",\n    \"py.rfc3987-syntax\",\n    \"py.setuptools\",\n    \"py.threadpoolctl\",\n    \"py.typing-inspection\",\n    \"py.tzdata\",\n    \"py.uri-template\"\n  ],\n  \"status\": \"verified_only\"\n}\n",
+  "used_new_zip_as_only_incremental_payload": true
+}
