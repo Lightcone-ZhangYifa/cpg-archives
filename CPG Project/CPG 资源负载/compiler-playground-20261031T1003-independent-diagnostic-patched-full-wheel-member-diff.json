@@ -1,0 +1,32 @@
+{
+  "format": "compiler-playground-diagnostic-only-patched-wheel-exact-member-diff-v1",
+  "created_utc": "2026-10-31T02:56:15.245303+00:00",
+  "official_baseline_version": "0.21.13",
+  "not_formally_published": true,
+  "not_a_resource_payload": true,
+  "original_official_wheel_sha256": "616bc43859fcfd1c897b5aafb3002695dddd856a24e0d95fbeb533d16dd25d86",
+  "original_official_wheel_bytes": 46182910,
+  "diagnostic_wheel_sha256": "33b534d53ec4090adbb78bf9410c234821bba81baae31da21e62e76f0d2ee1fd",
+  "diagnostic_wheel_bytes": 46182926,
+  "wheel_member_count": 4992,
+  "only_2_modified_members": [
+    {
+      "path": "compiler_playground/datasets/sources.py",
+      "old_sha256": "4187416a24ea91fcc5c8dc2244fce0f44259b4511b8e3b2980f934fe1892fca4",
+      "new_sha256": "8343a031a7ccb936923ddeabe4d50812439b4496a4400e2f9170650eea4d62ad",
+      "old_bytes": 10131,
+      "new_bytes": 10180
+    },
+    {
+      "path": "compiler_playground-0.21.13.dist-info/RECORD",
+      "old_sha256": "e736d4993da3223ebc385f78e8492a82b6923715d7c247f570ac68b0eb1c8e04",
+      "new_sha256": "475ec470d6ba2613c56e217c15e8b0cde674f5da55560973e8a01b7ded39e498",
+      "old_bytes": 698034,
+      "new_bytes": 698034
+    }
+  ],
+  "all_4990_other_members_byte_unchanged": true,
+  "reason": "Full genuine official regression suite using the one reviewed .py/.sql language suffix change while avoiding PYTHONPATH injection or modifying original source tree",
+  "zip_testzip_pass": true,
+  "record_updated_correctly": true
+}

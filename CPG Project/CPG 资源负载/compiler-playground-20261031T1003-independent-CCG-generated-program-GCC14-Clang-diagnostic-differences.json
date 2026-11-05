@@ -1,0 +1,1798 @@
+{
+  "CCG_qualification_increment": 0,
+  "all_source_SHA_verified": true,
+  "clang_version": "clang version 17.0.0 (https://github.com/swiftlang/llvm-project.git 10999b6d034fe318f3d56c83bddb6572593a8bb0)",
+  "formal_coverage_increment": 0,
+  "format": "cpg-source-generated-CCG-GCC14-vs-Clang-C11-diagnostic-study-v1",
+  "gcc14_version": "gcc (Debian 14.2.0-19) 14.2.0",
+  "generated_under_exact_original_CCG_commit": "108f4304f9b2f187173a44749b56b3eb64dd4590",
+  "original_programs_executed": false,
+  "profiles": {
+    "clang_original": {
+      "fail": 0,
+      "pass": 24,
+      "results": [
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01000.c"
+          ],
+          "source": "seed-01000.c",
+          "source_sha256": "2e20e52f7b268a612c70a04bb83387ece76a76d7d7ab81caef70a4c58855c150",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01001.c"
+          ],
+          "source": "seed-01001.c",
+          "source_sha256": "f24499ef965e6e848b0566a7a590de839270f62febb4399ba89fb667b34d0101",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01002.c"
+          ],
+          "source": "seed-01002.c",
+          "source_sha256": "162a8618695d7ea3afe8089f99870d2ec3b0f0303b3acb9df3255930d2624f67",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01003.c"
+          ],
+          "source": "seed-01003.c",
+          "source_sha256": "da14502ae43abb19c623e9c4c337762774d3558130198c2fa2b3e6f642c13f8a",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01004.c"
+          ],
+          "source": "seed-01004.c",
+          "source_sha256": "f194a482770f925c7584fbf156549d0197c5850c672913da31f1573658466c90",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01005.c"
+          ],
+          "source": "seed-01005.c",
+          "source_sha256": "d25d133a7d305605261bc4c4e75ff84bff057b9315c407dcb5264665efb91627",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01006.c"
+          ],
+          "source": "seed-01006.c",
+          "source_sha256": "87456a55187fbd86cb78b3d5382d5ba387ec8e2f93c6a02dc29a317c1371cb4b",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01007.c"
+          ],
+          "source": "seed-01007.c",
+          "source_sha256": "3060075fb18fb9dc9f45b3a9cca627dae9c345f87f8e397966a7595a9de97cd6",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01008.c"
+          ],
+          "source": "seed-01008.c",
+          "source_sha256": "80b3bb36758839c61e955f85416a3607e4564cb7cd2054688a562089222323b1",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01009.c"
+          ],
+          "source": "seed-01009.c",
+          "source_sha256": "51e6f04728fa2381184b0061326aefedb5a3542d537435edc9f9fbf5c47db581",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01010.c"
+          ],
+          "source": "seed-01010.c",
+          "source_sha256": "0b48f334dd609b2104cf073dce9a91d4e7a1e9f195daad8bf83a6deccd326ec3",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01011.c"
+          ],
+          "source": "seed-01011.c",
+          "source_sha256": "1090c3c511e309cd49bed162362b977ed7813a4f5ad4787b505a09c7b0dc89a9",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01012.c"
+          ],
+          "source": "seed-01012.c",
+          "source_sha256": "bef4f41c45d9eda06f1c0d97ff2f33d3f608ef65934029e421fc18375ce1e95a",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01013.c"
+          ],
+          "source": "seed-01013.c",
+          "source_sha256": "457b5721a9f49f4460e0221b0def2f4a5ab6b2a225e03eba74fae2af71bafb39",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01014.c"
+          ],
+          "source": "seed-01014.c",
+          "source_sha256": "141d2f90cc92229fe2219cb7515a2e6ecc610660a77381f3210660ab090bb9a2",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01015.c"
+          ],
+          "source": "seed-01015.c",
+          "source_sha256": "4dbe81de204b413441a442218ed550c8c2210105a9339e86c72a1cdc374beb42",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01016.c"
+          ],
+          "source": "seed-01016.c",
+          "source_sha256": "0e751c8a4137899edf330237bb25b162a64ac8daa6686ecc0fef591a08857831",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01017.c"
+          ],
+          "source": "seed-01017.c",
+          "source_sha256": "f0cabace01e99960e70d3154d17df11f6c422a12a39f9da2fb895fff50da8a34",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01018.c"
+          ],
+          "source": "seed-01018.c",
+          "source_sha256": "bf812e4317df6ccbf7e13e1a3b110f38e0ab67498cbe5646767d274defbdd31b",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01019.c"
+          ],
+          "source": "seed-01019.c",
+          "source_sha256": "6a3a6737f2d1482a8f8e5e334a4f874c3caab84851c30440cf591094446c444c",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01020.c"
+          ],
+          "source": "seed-01020.c",
+          "source_sha256": "53f87de8cbf71a776487d1f49b034b0d71dd36b5200b2036184a70783d668cd5",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01021.c"
+          ],
+          "source": "seed-01021.c",
+          "source_sha256": "ea45ac38808a3e860427a82693ebea4e97c6dd966083d82a75e6a1afe7f608e4",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01022.c"
+          ],
+          "source": "seed-01022.c",
+          "source_sha256": "c7643cd3179b663427c77a407c53fc1c4b596e34705d4865943fcd05719be08e",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01023.c"
+          ],
+          "source": "seed-01023.c",
+          "source_sha256": "33cae4a270e03f8d03c2e772096bb64f66a04b6d1858e94c577305d6907819cd",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        }
+      ]
+    },
+    "clang_strict_incompatible_pointer": {
+      "fail": 9,
+      "pass": 15,
+      "results": [
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-Werror=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01000.c"
+          ],
+          "source": "seed-01000.c",
+          "source_sha256": "2e20e52f7b268a612c70a04bb83387ece76a76d7d7ab81caef70a4c58855c150",
+          "status": 0,
+          "stderr": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01000.c:24:44: warning: use of logical '&&' with constant operand [-Wconstant-logical-operand]\n   24 | us_0 <<= ((*ptr_10 + 0xAF6A) / (0xB48BEB27 && 0x62));\n      |                                            ^  ~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01000.c:24:44: note: use '&' for a bitwise operation\n   24 | us_0 <<= ((*ptr_10 + 0xAF6A) / (0xB48BEB27 && 0x62));\n      |                                            ^~\n      |                                            &\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01000.c:24:44: note: remove constant to silence this warning\n   24 | us_0 <<= ((*ptr_10 + 0xAF6A) / (0xB48BEB27 && 0x62));\n      |                                            ^~~~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01000.c:25:1: warning: non-void function does not return a value [-Wreturn-type]\n   25 | }\n      | ^\n2 warnings generated.\n",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-Werror=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01001.c"
+          ],
+          "source": "seed-01001.c",
+          "source_sha256": "f24499ef965e6e848b0566a7a590de839270f62febb4399ba89fb667b34d0101",
+          "status": 1,
+          "stderr": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01001.c:20:15: warning: unsequenced modification and access to 'li_6' [-Wunsequenced]\n   20 | li_6 ^= (li_6 >>= (c_1 && li_7));\n      |      ~~       ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01001.c:21:1: warning: non-void function does not return a value [-Wreturn-type]\n   21 | }\n      | ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01001.c:32:7: error: incompatible pointer types assigning to 'int16_t *' (aka 'short *') from 'uint64_t *' (aka 'unsigned long *') [-Werror,-Wincompatible-pointer-types]\n   32 | ptr_9 = &uli_4;\n      |       ^ ~~~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01001.c:39:1: warning: non-void function does not return a value in all control paths [-Wreturn-type]\n   39 | }\n      | ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01001.c:49:47: warning: shift count >= width of type [-Wshift-count-overflow]\n   49 | func_1((li_2 >>= 0x0), (ui_3 || *ptr_6), (0x0 << 0xC9DF4227));\n      |                                               ^  ~~~~~~~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01001.c:70:1: warning: non-void function does not return a value [-Wreturn-type]\n   70 | }\n      | ^\n5 warnings and 1 error generated.\n",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-Werror=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01002.c"
+          ],
+          "source": "seed-01002.c",
+          "source_sha256": "162a8618695d7ea3afe8089f99870d2ec3b0f0303b3acb9df3255930d2624f67",
+          "status": 0,
+          "stderr": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01002.c:32:1: warning: non-void function does not return a value [-Wreturn-type]\n   32 | }\n      | ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01002.c:39:27: warning: use of logical '||' with constant operand [-Wconstant-logical-operand]\n   39 | func_1((c_5 + us_3), (c_5 || 0x4755));\n      |                           ^  ~~~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01002.c:39:27: note: use '|' for a bitwise operation\n   39 | func_1((c_5 + us_3), (c_5 || 0x4755));\n      |                           ^~\n      |                           |\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01002.c:40:1: warning: non-void function does not return a value [-Wreturn-type]\n   40 | }\n      | ^\n3 warnings generated.\n",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-Werror=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01003.c"
+          ],
+          "source": "seed-01003.c",
+          "source_sha256": "da14502ae43abb19c623e9c4c337762774d3558130198c2fa2b3e6f642c13f8a",
+          "status": 0,
+          "stderr": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01003.c:24:1: warning: non-void function does not return a value in all control paths [-Wreturn-type]\n   24 | }\n      | ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01003.c:37:1: warning: non-void function does not return a value [-Wreturn-type]\n   37 | }\n      | ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01003.c:43:49: warning: shift count >= width of type [-Wshift-count-overflow]\n   43 | func_1((ui_1 ^= uli_2), (i_4 <= uli_2), (*ptr_3 <<= 0x7B));\n      |                                                 ^   ~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01003.c:44:1: warning: non-void function does not return a value [-Wreturn-type]\n   44 | }\n      | ^\n4 warnings generated.\n",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-Werror=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01004.c"
+          ],
+          "source": "seed-01004.c",
+          "source_sha256": "f194a482770f925c7584fbf156549d0197c5850c672913da31f1573658466c90",
+          "status": 0,
+          "stderr": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01004.c:25:1: warning: non-void function does not return a value [-Wreturn-type]\n   25 | }\n      | ^\n1 warning generated.\n",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-Werror=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01005.c"
+          ],
+          "source": "seed-01005.c",
+          "source_sha256": "d25d133a7d305605261bc4c4e75ff84bff057b9315c407dcb5264665efb91627",
+          "status": 0,
+          "stderr": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01005.c:19:1: warning: non-void function does not return a value [-Wreturn-type]\n   19 | }\n      | ^\n1 warning generated.\n",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-Werror=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01006.c"
+          ],
+          "source": "seed-01006.c",
+          "source_sha256": "87456a55187fbd86cb78b3d5382d5ba387ec8e2f93c6a02dc29a317c1371cb4b",
+          "status": 1,
+          "stderr": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01006.c:24:1: warning: non-void function does not return a value [-Wreturn-type]\n   24 | }\n      | ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01006.c:30:30: warning: shift count >= width of type [-Wshift-count-overflow]\n   30 | **ptr_7 >>= (*ptr_6 %= (us_0 >>= 0x596DFA03));\n      |                              ^   ~~~~~~~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01006.c:31:1: warning: non-void function does not return a value [-Wreturn-type]\n   31 | }\n      | ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01006.c:54:11: warning: use of logical '||' with constant operand [-Wconstant-logical-operand]\n   54 | if(((li_4 || 0xCCC6) && (0x9689 == *ptr_7)))\n      |           ^  ~~~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01006.c:54:11: note: use '|' for a bitwise operation\n   54 | if(((li_4 || 0xCCC6) && (0x9689 == *ptr_7)))\n      |           ^~\n      |           |\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01006.c:64:7: error: incompatible pointer types assigning to 'int32_t *' (aka 'int *') from 'uint64_t *' (aka 'unsigned long *') [-Werror,-Wincompatible-pointer-types]\n   64 | ptr_6 = &uli_9;\n      |       ^ ~~~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01006.c:67:1: warning: non-void function does not return a value [-Wreturn-type]\n   67 | }\n      | ^\n5 warnings and 1 error generated.\n",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-Werror=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01007.c"
+          ],
+          "source": "seed-01007.c",
+          "source_sha256": "3060075fb18fb9dc9f45b3a9cca627dae9c345f87f8e397966a7595a9de97cd6",
+          "status": 0,
+          "stderr": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01007.c:20:1: warning: non-void function does not return a value [-Wreturn-type]\n   20 | }\n      | ^\n1 warning generated.\n",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-Werror=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01008.c"
+          ],
+          "source": "seed-01008.c",
+          "source_sha256": "80b3bb36758839c61e955f85416a3607e4564cb7cd2054688a562089222323b1",
+          "status": 0,
+          "stderr": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01008.c:36:1: warning: non-void function does not return a value [-Wreturn-type]\n   36 | }\n      | ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01008.c:42:1: warning: non-void function does not return a value [-Wreturn-type]\n   42 | }\n      | ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01008.c:49:1: warning: non-void function does not return a value [-Wreturn-type]\n   49 | }\n      | ^\n3 warnings generated.\n",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-Werror=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01009.c"
+          ],
+          "source": "seed-01009.c",
+          "source_sha256": "51e6f04728fa2381184b0061326aefedb5a3542d537435edc9f9fbf5c47db581",
+          "status": 1,
+          "stderr": "ly/seed-01009.c:28:13: note: use '|' for a bitwise operation\n   28 | if(((0x0715 || 0x3052) == (c_5 / c_5)))\n      |             ^~\n      |             |\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01009.c:42:7: error: incompatible pointer types assigning to 'int8_t *' (aka 'signed char *') from 'int32_t *' (aka 'int *') [-Werror,-Wincompatible-pointer-types]\n   42 | ptr_8 = &i_3;\n      |       ^ ~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01009.c:50:7: error: incompatible pointer types assigning to 'int8_t *' (aka 'signed char *') from 'int32_t *' (aka 'int *') [-Werror,-Wincompatible-pointer-types]\n   50 | ptr_8 = &i_3;\n      |       ^ ~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01009.c:26:25: warning: result of comparison of constant 170 with expression of type 'int8_t' (aka 'signed char') is always true [-Wtautological-constant-out-of-range-compare]\n   26 | for(*ptr_8 = 62; *ptr_8 <= 170; *ptr_8 += 2)\n      |                  ~~~~~~ ^  ~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01009.c:61:1: warning: non-void function does not return a value [-Wreturn-type]\n   61 | }\n      | ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01009.c:125:8: error: incompatible pointer types assigning to 'int16_t *' (aka 'short *') from 'uint64_t *' (aka 'unsigned long *') [-Werror,-Wincompatible-pointer-types]\n  125 | ptr_13 = &uli_9;\n      |        ^ ~~~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01009.c:102:19: warning: result of comparison of constant 192 with expression of type 'int8_t' (aka 'signed char') is always true [-Wtautological-constant-out-of-range-compare]\n  102 | for(c_4 = 80; c_4 <= 192; c_4 += 2)\n      |               ~~~ ^  ~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01009.c:110:17: warning: unsequenced modification and access to 'c_4' [-Wunsequenced]\n  110 | if((c_4 %= (c_4 &= uli_7)))\n      |         ~~      ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01009.c:128:1: warning: non-void function does not return a value [-Wreturn-type]\n  128 | }\n      | ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01009.c:155:1: warning: non-void function does not return a value [-Wreturn-type]\n  155 | }\n      | ^\n7 warnings and 3 errors generated.\n",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-Werror=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01010.c"
+          ],
+          "source": "seed-01010.c",
+          "source_sha256": "0b48f334dd609b2104cf073dce9a91d4e7a1e9f195daad8bf83a6deccd326ec3",
+          "status": 0,
+          "stderr": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01010.c:25:1: warning: non-void function does not return a value [-Wreturn-type]\n   25 | }\n      | ^\n1 warning generated.\n",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-Werror=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01011.c"
+          ],
+          "source": "seed-01011.c",
+          "source_sha256": "1090c3c511e309cd49bed162362b977ed7813a4f5ad4787b505a09c7b0dc89a9",
+          "status": 0,
+          "stderr": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01011.c:28:18: warning: use of logical '||' with constant operand [-Wconstant-logical-operand]\n   28 | if((c_1 -= (us_6 || 0x96)))\n      |                  ^  ~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01011.c:28:18: note: use '|' for a bitwise operation\n   28 | if((c_1 -= (us_6 || 0x96)))\n      |                  ^~\n      |                  |\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01011.c:35:8: warning: assigning to 'uint16_t *' (aka 'unsigned short *') from 'int16_t *' (aka 'short *') converts between pointers to integer types with different sign [-Wpointer-sign]\n   35 | ptr_10 = &s_9;\n      |        ^ ~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01011.c:38:1: warning: non-void function does not return a value [-Wreturn-type]\n   38 | }\n      | ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01011.c:44:19: warning: shift count >= width of type [-Wshift-count-overflow]\n   44 | if((uli_0 -= (0x0 << 0x40)))\n      |                   ^  ~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01011.c:95:1: warning: non-void function does not return a value [-Wreturn-type]\n   95 | }\n      | ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01011.c:113:1: warning: non-void function does not return a value in all control paths [-Wreturn-type]\n  113 | }\n      | ^\n6 warnings generated.\n",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-Werror=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01012.c"
+          ],
+          "source": "seed-01012.c",
+          "source_sha256": "bef4f41c45d9eda06f1c0d97ff2f33d3f608ef65934029e421fc18375ce1e95a",
+          "status": 1,
+          "stderr": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01012.c:28:8: error: incompatible pointer types assigning to 'uint16_t *' (aka 'unsigned short *') from 'int64_t *' (aka 'long *') [-Werror,-Wincompatible-pointer-types]\n   28 | ptr_11 = &li_0;\n      |        ^ ~~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01012.c:30:8: error: incompatible pointer types assigning to 'uint16_t *' (aka 'unsigned short *') from 'int64_t *' (aka 'long *') [-Werror,-Wincompatible-pointer-types]\n   30 | ptr_11 = &li_9;\n      |        ^ ~~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01012.c:27:13: warning: unsequenced modification and access to 'i_4' [-Wunsequenced]\n   27 | i_4 -= (i_4 ^= (li_0 >>= li_9));\n      |     ~~      ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01012.c:32:1: warning: non-void function does not return a value [-Wreturn-type]\n   32 | }\n      | ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01012.c:65:1: warning: non-void function does not return a value [-Wreturn-type]\n   65 | }\n      | ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01012.c:70:36: warning: unsequenced modification and access to 'us_6' [-Wunsequenced]\n   70 | func_1((0xF8 ? li_0 : uc_1), (us_6 %= li_0), (us_6 / i_7));\n      |                                    ^          ~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01012.c:71:1: warning: non-void function does not return a value [-Wreturn-type]\n   71 | }\n      | ^\n5 warnings and 2 errors generated.\n",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-Werror=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01013.c"
+          ],
+          "source": "seed-01013.c",
+          "source_sha256": "457b5721a9f49f4460e0221b0def2f4a5ab6b2a225e03eba74fae2af71bafb39",
+          "status": 0,
+          "stderr": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01013.c:22:1: warning: non-void function does not return a value [-Wreturn-type]\n   22 | }\n      | ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01013.c:36:7: warning: assigning to 'int16_t *' (aka 'short *') from 'uint16_t *' (aka 'unsigned short *') converts between pointers to integer types with different sign [-Wpointer-sign]\n   36 | ptr_7 = &us_0;\n      |       ^ ~~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01013.c:42:1: warning: non-void function does not return a value [-Wreturn-type]\n   42 | }\n      | ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01013.c:49:1: warning: non-void function does not return a value [-Wreturn-type]\n   49 | }\n      | ^\n4 warnings generated.\n",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-Werror=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01014.c"
+          ],
+          "source": "seed-01014.c",
+          "source_sha256": "141d2f90cc92229fe2219cb7515a2e6ecc610660a77381f3210660ab090bb9a2",
+          "status": 1,
+          "stderr": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01014.c:21:16: warning: result of comparison of constant 44505 with expression of type 'uint8_t' (aka 'unsigned char') is always true [-Wtautological-constant-out-of-range-compare]\n   21 | i_1 <<= ((uc_0 <= 0xADD9) >> (0x0 & 0x35D0));\n      |           ~~~~ ^  ~~~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01014.c:22:1: warning: non-void function does not return a value [-Wreturn-type]\n   22 | }\n      | ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01014.c:33:7: error: incompatible pointer types assigning to 'int16_t *' (aka 'short *') from 'uint32_t *' (aka 'unsigned int *') [-Werror,-Wincompatible-pointer-types]\n   33 | ptr_7 = &ui_3;\n      |       ^ ~~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01014.c:37:1: warning: non-void function does not return a value [-Wreturn-type]\n   37 | }\n      | ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01014.c:43:18: warning: result of comparison of constant 132 with expression of type 'int8_t' (aka 'signed char') is always true [-Wtautological-constant-out-of-range-compare]\n   43 | for(c_6 = 1; c_6 <= 132; c_6 += 3)\n      |              ~~~ ^  ~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01014.c:66:1: warning: non-void function does not return a value [-Wreturn-type]\n   66 | }\n      | ^\n5 warnings and 1 error generated.\n",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-Werror=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01015.c"
+          ],
+          "source": "seed-01015.c",
+          "source_sha256": "4dbe81de204b413441a442218ed550c8c2210105a9339e86c72a1cdc374beb42",
+          "status": 1,
+          "stderr": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01015.c:30:8: error: incompatible pointer types assigning to 'uint8_t *' (aka 'unsigned char *') from 'int32_t *' (aka 'int *') [-Werror,-Wincompatible-pointer-types]\n   30 | ptr_10 = &i_2;\n      |        ^ ~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01015.c:32:1: warning: non-void function does not return a value [-Wreturn-type]\n   32 | }\n      | ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01015.c:37:19: warning: result of comparison of constant 196 with expression of type 'int8_t' (aka 'signed char') is always true [-Wtautological-constant-out-of-range-compare]\n   37 | for(c_4 = 37; c_4 <= 196; c_4 += 3)\n      |               ~~~ ^  ~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01015.c:40:31: warning: implicit conversion from 'int' to 'uint8_t' (aka 'unsigned char') changes value from 15181 to 77 [-Wconstant-conversion]\n   40 | func_2((s_6 -= ui_5), (0x2BFB ^ 0x10B6), (uc_1 ? s_6 : uli_0));\n      | ~~~~~~                 ~~~~~~~^~~~~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01015.c:40:13: warning: unsequenced modification and access to 's_6' [-Wunsequenced]\n   40 | func_2((s_6 -= ui_5), (0x2BFB ^ 0x10B6), (uc_1 ? s_6 : uli_0));\n      |             ^                                    ~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01015.c:42:1: warning: non-void function does not return a value [-Wreturn-type]\n   42 | }\n      | ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01015.c:50:29: warning: unsequenced modification and access to 'uc_6' [-Wunsequenced]\n   50 | if(((uc_6 -= uc_6) == (uc_6 = uli_0)))\n      |           ~~                ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01015.c:56:1: warning: non-void function does not return a value [-Wreturn-type]\n   56 | }\n      | ^\n7 warnings and 1 error generated.\n",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-Werror=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01016.c"
+          ],
+          "source": "seed-01016.c",
+          "source_sha256": "0e751c8a4137899edf330237bb25b162a64ac8daa6686ecc0fef591a08857831",
+          "status": 0,
+          "stderr": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01016.c:27:1: warning: non-void function does not return a value in all control paths [-Wreturn-type]\n   27 | }\n      | ^\n1 warning generated.\n",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-Werror=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01017.c"
+          ],
+          "source": "seed-01017.c",
+          "source_sha256": "f0cabace01e99960e70d3154d17df11f6c422a12a39f9da2fb895fff50da8a34",
+          "status": 0,
+          "stderr": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01017.c:21:1: warning: non-void function does not return a value [-Wreturn-type]\n   21 | }\n      | ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01017.c:28:1: warning: non-void function does not return a value [-Wreturn-type]\n   28 | }\n      | ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01017.c:37:19: warning: result of comparison of constant 162 with expression of type 'int8_t' (aka 'signed char') is always true [-Wtautological-constant-out-of-range-compare]\n   37 | for(c_0 = 92; c_0 <= 162; c_0 += 1)\n      |               ~~~ ^  ~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01017.c:41:25: warning: result of comparison of constant 163 with expression of type 'int8_t' (aka 'signed char') is always true [-Wtautological-constant-out-of-range-compare]\n   41 | for(*ptr_7 = 22; *ptr_7 <= 163; *ptr_7 += 1)\n      |                  ~~~~~~ ^  ~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01017.c:48:27: warning: result of comparison of constant 181 with expression of type 'int8_t' (aka 'signed char') is always true [-Wtautological-constant-out-of-range-compare]\n   48 | for(**ptr_8 = 58; **ptr_8 <= 181; **ptr_8 += 4)\n      |                   ~~~~~~~ ^  ~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01017.c:55:1: warning: non-void function does not return a value in all control paths [-Wreturn-type]\n   55 | }\n      | ^\n6 warnings generated.\n",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-Werror=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01018.c"
+          ],
+          "source": "seed-01018.c",
+          "source_sha256": "bf812e4317df6ccbf7e13e1a3b110f38e0ab67498cbe5646767d274defbdd31b",
+          "status": 0,
+          "stderr": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01018.c:19:1: warning: non-void function does not return a value [-Wreturn-type]\n   19 | }\n      | ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01018.c:31:1: warning: non-void function does not return a value [-Wreturn-type]\n   31 | }\n      | ^\n2 warnings generated.\n",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-Werror=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01019.c"
+          ],
+          "source": "seed-01019.c",
+          "source_sha256": "6a3a6737f2d1482a8f8e5e334a4f874c3caab84851c30440cf591094446c444c",
+          "status": 1,
+          "stderr": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01019.c:30:16: warning: self-comparison always evaluates to true [-Wtautological-compare]\n   30 | li_3 <<= ((c_8 == c_8) + (0x0 || c_9));\n      |                ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01019.c:33:1: warning: non-void function does not return a value [-Wreturn-type]\n   33 | }\n      | ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01019.c:46:8: warning: assigning to 'uint16_t *' (aka 'unsigned short *') from 'int16_t *' (aka 'short *') converts between pointers to integer types with different sign [-Wpointer-sign]\n   46 | ptr_12 = &s_4;\n      |        ^ ~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01019.c:39:19: warning: result of comparison of constant 192 with expression of type 'int8_t' (aka 'signed char') is always true [-Wtautological-constant-out-of-range-compare]\n   39 | for(c_8 = 26; c_8 <= 192; c_8 += 3)\n      |               ~~~ ^  ~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01019.c:49:1: warning: non-void function does not return a value [-Wreturn-type]\n   49 | }\n      | ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01019.c:63:7: error: incompatible pointer types assigning to 'int8_t *' (aka 'signed char *') from 'int64_t *' (aka 'long *') [-Werror,-Wincompatible-pointer-types]\n   63 | ptr_9 = &li_11;\n      |       ^ ~~~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01019.c:65:1: warning: non-void function does not return a value in all control paths [-Wreturn-type]\n   65 | }\n      | ^\n6 warnings and 1 error generated.\n",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-Werror=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01020.c"
+          ],
+          "source": "seed-01020.c",
+          "source_sha256": "53f87de8cbf71a776487d1f49b034b0d71dd36b5200b2036184a70783d668cd5",
+          "status": 0,
+          "stderr": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01020.c:25:28: warning: shift count >= width of type [-Wshift-count-overflow]\n   25 | *ptr_10 <<= ((s_8 ^= uc_1) >> (0x55 - 0x0));\n      |                            ^  ~~~~~~~~~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01020.c:32:1: warning: non-void function does not return a value in all control paths [-Wreturn-type]\n   32 | }\n      | ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01020.c:42:37: warning: implicit conversion from 'int' to 'int16_t' (aka 'short') changes value from 653853886 to 1214 [-Wconstant-conversion]\n   42 | *ptr_12 /= ((c_0 - 0x63E0) ? func_2(0x26F904BE, uc_1) : (0xA913 == c_0));\n      |                              ~~~~~~ ^~~~~~~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01020.c:42:65: warning: result of comparison of constant 43283 with expression of type 'int8_t' (aka 'signed char') is always false [-Wtautological-constant-out-of-range-compare]\n   42 | *ptr_12 /= ((c_0 - 0x63E0) ? func_2(0x26F904BE, uc_1) : (0xA913 == c_0));\n      |                                                          ~~~~~~ ^  ~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01020.c:50:1: warning: non-void function does not return a value [-Wreturn-type]\n   50 | }\n      | ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01020.c:55:37: warning: implicit conversion from 'int' to 'int8_t' (aka 'signed char') changes value from 12492 to -52 [-Wconstant-conversion]\n   55 | uli_6 %= (c_0 /= func_1(0x39E00AEC, 0x30CC, li_7));\n      |                  ~~~~~~             ^~~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01020.c:56:1: warning: non-void function does not return a value [-Wreturn-type]\n   56 | }\n      | ^\n7 warnings generated.\n",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-Werror=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01021.c"
+          ],
+          "source": "seed-01021.c",
+          "source_sha256": "ea45ac38808a3e860427a82693ebea4e97c6dd966083d82a75e6a1afe7f608e4",
+          "status": 1,
+          "stderr": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01021.c:27:8: warning: assigning to 'uint64_t *' (aka 'unsigned long *') from 'int64_t *' (aka 'long *') converts between pointers to integer types with different sign [-Wpointer-sign]\n   27 | ptr_12 = &li_2;\n      |        ^ ~~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01021.c:35:1: warning: non-void function does not return a value [-Wreturn-type]\n   35 | }\n      | ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01021.c:41:8: error: incompatible pointer types assigning to 'int8_t *' (aka 'signed char *') from 'int64_t *' (aka 'long *') [-Werror,-Wincompatible-pointer-types]\n   41 | ptr_11 = &li_2;\n      |        ^ ~~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01021.c:40:13: warning: shift count >= width of type [-Wshift-count-overflow]\n   40 | func_2((c_3 <<= 0xE50F5CCE), (0x0 ? i_4 : uli_6));\n      |             ^   ~~~~~~~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01021.c:42:1: warning: non-void function does not return a value [-Wreturn-type]\n   42 | }\n      | ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01021.c:47:1: warning: non-void function does not return a value [-Wreturn-type]\n   47 | }\n      | ^\n5 warnings and 1 error generated.\n",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-Werror=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01022.c"
+          ],
+          "source": "seed-01022.c",
+          "source_sha256": "c7643cd3179b663427c77a407c53fc1c4b596e34705d4865943fcd05719be08e",
+          "status": 1,
+          "stderr": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01022.c:25:8: error: incompatible pointer types assigning to 'int32_t *' (aka 'int *') from 'uint64_t *' (aka 'unsigned long *') [-Werror,-Wincompatible-pointer-types]\n   25 | ptr_10 = &uli_6;\n      |        ^ ~~~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01022.c:26:8: warning: assigning to 'int32_t *' (aka 'int *') from 'uint32_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [-Wpointer-sign]\n   26 | ptr_10 = &ui_11;\n      |        ^ ~~~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01022.c:27:1: warning: non-void function does not return a value [-Wreturn-type]\n   27 | }\n      | ^\n2 warnings and 1 error generated.\n",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "clang",
+            "-std=c11",
+            "-fsyntax-only",
+            "-Werror=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01023.c"
+          ],
+          "source": "seed-01023.c",
+          "source_sha256": "33cae4a270e03f8d03c2e772096bb64f66a04b6d1858e94c577305d6907819cd",
+          "status": 0,
+          "stderr": "e]\n   26 | for(c_2 = 94; c_2 <= 171; c_2 += 2)\n      |               ~~~ ^  ~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01023.c:32:19: warning: result of comparison of constant 160 with expression of type 'int8_t' (aka 'signed char') is always true [-Wtautological-constant-out-of-range-compare]\n   32 | for(c_2 = 63; c_2 <= 160; c_2 += 1)\n      |               ~~~ ^  ~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01023.c:34:14: warning: shift count >= width of type [-Wshift-count-overflow]\n   34 | ui_1 = ((c_2 << 0xAB03) <= (ui_1 % *ptr_7));\n      |              ^  ~~~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01023.c:38:1: warning: non-void function does not return a value in all control paths [-Wreturn-type]\n   38 | }\n      | ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01023.c:47:7: warning: assigning to 'uint32_t *' (aka 'unsigned int *') from 'int32_t *' (aka 'int *') converts between pointers to integer types with different sign [-Wpointer-sign]\n   47 | ptr_8 = &i_3;\n      |       ^ ~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01023.c:60:7: warning: assigning to 'uint32_t *' (aka 'unsigned int *') from 'int32_t *' (aka 'int *') converts between pointers to integer types with different sign [-Wpointer-sign]\n   60 | ptr_8 = &i_3;\n      |       ^ ~~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01023.c:48:19: warning: result of comparison of constant 153 with expression of type 'int8_t' (aka 'signed char') is always true [-Wtautological-constant-out-of-range-compare]\n   48 | for(c_2 = 49; c_2 <= 153; c_2 += 2)\n      |               ~~~ ^  ~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01023.c:52:18: warning: result of comparison of constant 173 with expression of type 'int8_t' (aka 'signed char') is always true [-Wtautological-constant-out-of-range-compare]\n   52 | for(c_2 = 2; c_2 <= 173; c_2 += 2)\n      |              ~~~ ^  ~~~\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01023.c:62:1: warning: non-void function does not return a value [-Wreturn-type]\n   62 | }\n      | ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01023.c:80:1: warning: non-void function does not return a value [-Wreturn-type]\n   80 | }\n      | ^\n10 warnings generated.\n",
+          "stdout": ""
+        }
+      ]
+    },
+    "gcc14_Wno_error_incompatible_pointer": {
+      "fail": 0,
+      "pass": 24,
+      "results": [
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01000.c"
+          ],
+          "source": "seed-01000.c",
+          "source_sha256": "2e20e52f7b268a612c70a04bb83387ece76a76d7d7ab81caef70a4c58855c150",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01001.c"
+          ],
+          "source": "seed-01001.c",
+          "source_sha256": "f24499ef965e6e848b0566a7a590de839270f62febb4399ba89fb667b34d0101",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01002.c"
+          ],
+          "source": "seed-01002.c",
+          "source_sha256": "162a8618695d7ea3afe8089f99870d2ec3b0f0303b3acb9df3255930d2624f67",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01003.c"
+          ],
+          "source": "seed-01003.c",
+          "source_sha256": "da14502ae43abb19c623e9c4c337762774d3558130198c2fa2b3e6f642c13f8a",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01004.c"
+          ],
+          "source": "seed-01004.c",
+          "source_sha256": "f194a482770f925c7584fbf156549d0197c5850c672913da31f1573658466c90",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01005.c"
+          ],
+          "source": "seed-01005.c",
+          "source_sha256": "d25d133a7d305605261bc4c4e75ff84bff057b9315c407dcb5264665efb91627",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01006.c"
+          ],
+          "source": "seed-01006.c",
+          "source_sha256": "87456a55187fbd86cb78b3d5382d5ba387ec8e2f93c6a02dc29a317c1371cb4b",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01007.c"
+          ],
+          "source": "seed-01007.c",
+          "source_sha256": "3060075fb18fb9dc9f45b3a9cca627dae9c345f87f8e397966a7595a9de97cd6",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01008.c"
+          ],
+          "source": "seed-01008.c",
+          "source_sha256": "80b3bb36758839c61e955f85416a3607e4564cb7cd2054688a562089222323b1",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01009.c"
+          ],
+          "source": "seed-01009.c",
+          "source_sha256": "51e6f04728fa2381184b0061326aefedb5a3542d537435edc9f9fbf5c47db581",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01010.c"
+          ],
+          "source": "seed-01010.c",
+          "source_sha256": "0b48f334dd609b2104cf073dce9a91d4e7a1e9f195daad8bf83a6deccd326ec3",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01011.c"
+          ],
+          "source": "seed-01011.c",
+          "source_sha256": "1090c3c511e309cd49bed162362b977ed7813a4f5ad4787b505a09c7b0dc89a9",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01012.c"
+          ],
+          "source": "seed-01012.c",
+          "source_sha256": "bef4f41c45d9eda06f1c0d97ff2f33d3f608ef65934029e421fc18375ce1e95a",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01013.c"
+          ],
+          "source": "seed-01013.c",
+          "source_sha256": "457b5721a9f49f4460e0221b0def2f4a5ab6b2a225e03eba74fae2af71bafb39",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01014.c"
+          ],
+          "source": "seed-01014.c",
+          "source_sha256": "141d2f90cc92229fe2219cb7515a2e6ecc610660a77381f3210660ab090bb9a2",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01015.c"
+          ],
+          "source": "seed-01015.c",
+          "source_sha256": "4dbe81de204b413441a442218ed550c8c2210105a9339e86c72a1cdc374beb42",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01016.c"
+          ],
+          "source": "seed-01016.c",
+          "source_sha256": "0e751c8a4137899edf330237bb25b162a64ac8daa6686ecc0fef591a08857831",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01017.c"
+          ],
+          "source": "seed-01017.c",
+          "source_sha256": "f0cabace01e99960e70d3154d17df11f6c422a12a39f9da2fb895fff50da8a34",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01018.c"
+          ],
+          "source": "seed-01018.c",
+          "source_sha256": "bf812e4317df6ccbf7e13e1a3b110f38e0ab67498cbe5646767d274defbdd31b",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01019.c"
+          ],
+          "source": "seed-01019.c",
+          "source_sha256": "6a3a6737f2d1482a8f8e5e334a4f874c3caab84851c30440cf591094446c444c",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01020.c"
+          ],
+          "source": "seed-01020.c",
+          "source_sha256": "53f87de8cbf71a776487d1f49b034b0d71dd36b5200b2036184a70783d668cd5",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01021.c"
+          ],
+          "source": "seed-01021.c",
+          "source_sha256": "ea45ac38808a3e860427a82693ebea4e97c6dd966083d82a75e6a1afe7f608e4",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01022.c"
+          ],
+          "source": "seed-01022.c",
+          "source_sha256": "c7643cd3179b663427c77a407c53fc1c4b596e34705d4865943fcd05719be08e",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01023.c"
+          ],
+          "source": "seed-01023.c",
+          "source_sha256": "33cae4a270e03f8d03c2e772096bb64f66a04b6d1858e94c577305d6907819cd",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        }
+      ]
+    },
+    "gcc14_Wno_error_incompatible_pointer_int": {
+      "fail": 0,
+      "pass": 24,
+      "results": [
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "-Wno-error=int-conversion",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01000.c"
+          ],
+          "source": "seed-01000.c",
+          "source_sha256": "2e20e52f7b268a612c70a04bb83387ece76a76d7d7ab81caef70a4c58855c150",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "-Wno-error=int-conversion",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01001.c"
+          ],
+          "source": "seed-01001.c",
+          "source_sha256": "f24499ef965e6e848b0566a7a590de839270f62febb4399ba89fb667b34d0101",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "-Wno-error=int-conversion",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01002.c"
+          ],
+          "source": "seed-01002.c",
+          "source_sha256": "162a8618695d7ea3afe8089f99870d2ec3b0f0303b3acb9df3255930d2624f67",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "-Wno-error=int-conversion",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01003.c"
+          ],
+          "source": "seed-01003.c",
+          "source_sha256": "da14502ae43abb19c623e9c4c337762774d3558130198c2fa2b3e6f642c13f8a",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "-Wno-error=int-conversion",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01004.c"
+          ],
+          "source": "seed-01004.c",
+          "source_sha256": "f194a482770f925c7584fbf156549d0197c5850c672913da31f1573658466c90",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "-Wno-error=int-conversion",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01005.c"
+          ],
+          "source": "seed-01005.c",
+          "source_sha256": "d25d133a7d305605261bc4c4e75ff84bff057b9315c407dcb5264665efb91627",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "-Wno-error=int-conversion",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01006.c"
+          ],
+          "source": "seed-01006.c",
+          "source_sha256": "87456a55187fbd86cb78b3d5382d5ba387ec8e2f93c6a02dc29a317c1371cb4b",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "-Wno-error=int-conversion",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01007.c"
+          ],
+          "source": "seed-01007.c",
+          "source_sha256": "3060075fb18fb9dc9f45b3a9cca627dae9c345f87f8e397966a7595a9de97cd6",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "-Wno-error=int-conversion",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01008.c"
+          ],
+          "source": "seed-01008.c",
+          "source_sha256": "80b3bb36758839c61e955f85416a3607e4564cb7cd2054688a562089222323b1",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "-Wno-error=int-conversion",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01009.c"
+          ],
+          "source": "seed-01009.c",
+          "source_sha256": "51e6f04728fa2381184b0061326aefedb5a3542d537435edc9f9fbf5c47db581",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "-Wno-error=int-conversion",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01010.c"
+          ],
+          "source": "seed-01010.c",
+          "source_sha256": "0b48f334dd609b2104cf073dce9a91d4e7a1e9f195daad8bf83a6deccd326ec3",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "-Wno-error=int-conversion",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01011.c"
+          ],
+          "source": "seed-01011.c",
+          "source_sha256": "1090c3c511e309cd49bed162362b977ed7813a4f5ad4787b505a09c7b0dc89a9",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "-Wno-error=int-conversion",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01012.c"
+          ],
+          "source": "seed-01012.c",
+          "source_sha256": "bef4f41c45d9eda06f1c0d97ff2f33d3f608ef65934029e421fc18375ce1e95a",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "-Wno-error=int-conversion",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01013.c"
+          ],
+          "source": "seed-01013.c",
+          "source_sha256": "457b5721a9f49f4460e0221b0def2f4a5ab6b2a225e03eba74fae2af71bafb39",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "-Wno-error=int-conversion",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01014.c"
+          ],
+          "source": "seed-01014.c",
+          "source_sha256": "141d2f90cc92229fe2219cb7515a2e6ecc610660a77381f3210660ab090bb9a2",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "-Wno-error=int-conversion",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01015.c"
+          ],
+          "source": "seed-01015.c",
+          "source_sha256": "4dbe81de204b413441a442218ed550c8c2210105a9339e86c72a1cdc374beb42",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "-Wno-error=int-conversion",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01016.c"
+          ],
+          "source": "seed-01016.c",
+          "source_sha256": "0e751c8a4137899edf330237bb25b162a64ac8daa6686ecc0fef591a08857831",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "-Wno-error=int-conversion",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01017.c"
+          ],
+          "source": "seed-01017.c",
+          "source_sha256": "f0cabace01e99960e70d3154d17df11f6c422a12a39f9da2fb895fff50da8a34",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "-Wno-error=int-conversion",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01018.c"
+          ],
+          "source": "seed-01018.c",
+          "source_sha256": "bf812e4317df6ccbf7e13e1a3b110f38e0ab67498cbe5646767d274defbdd31b",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "-Wno-error=int-conversion",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01019.c"
+          ],
+          "source": "seed-01019.c",
+          "source_sha256": "6a3a6737f2d1482a8f8e5e334a4f874c3caab84851c30440cf591094446c444c",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "-Wno-error=int-conversion",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01020.c"
+          ],
+          "source": "seed-01020.c",
+          "source_sha256": "53f87de8cbf71a776487d1f49b034b0d71dd36b5200b2036184a70783d668cd5",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "-Wno-error=int-conversion",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01021.c"
+          ],
+          "source": "seed-01021.c",
+          "source_sha256": "ea45ac38808a3e860427a82693ebea4e97c6dd966083d82a75e6a1afe7f608e4",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "-Wno-error=int-conversion",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01022.c"
+          ],
+          "source": "seed-01022.c",
+          "source_sha256": "c7643cd3179b663427c77a407c53fc1c4b596e34705d4865943fcd05719be08e",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "-Wno-error=incompatible-pointer-types",
+            "-Wno-error=int-conversion",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01023.c"
+          ],
+          "source": "seed-01023.c",
+          "source_sha256": "33cae4a270e03f8d03c2e772096bb64f66a04b6d1858e94c577305d6907819cd",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        }
+      ]
+    },
+    "gcc14_original": {
+      "fail": 9,
+      "pass": 15,
+      "results": [
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01000.c"
+          ],
+          "source": "seed-01000.c",
+          "source_sha256": "2e20e52f7b268a612c70a04bb83387ece76a76d7d7ab81caef70a4c58855c150",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01001.c"
+          ],
+          "source": "seed-01001.c",
+          "source_sha256": "f24499ef965e6e848b0566a7a590de839270f62febb4399ba89fb667b34d0101",
+          "status": 1,
+          "stderr": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01001.c: In function \u2018func_2\u2019:\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01001.c:32:7: error: assignment to \u2018int16_t *\u2019 {aka \u2018short int *\u2019} from incompatible pointer type \u2018uint64_t *\u2019 {aka \u2018long unsigned int *\u2019} [-Wincompatible-pointer-types]\n   32 | ptr_9 = &uli_4;\n      |       ^\n",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01002.c"
+          ],
+          "source": "seed-01002.c",
+          "source_sha256": "162a8618695d7ea3afe8089f99870d2ec3b0f0303b3acb9df3255930d2624f67",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01003.c"
+          ],
+          "source": "seed-01003.c",
+          "source_sha256": "da14502ae43abb19c623e9c4c337762774d3558130198c2fa2b3e6f642c13f8a",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01004.c"
+          ],
+          "source": "seed-01004.c",
+          "source_sha256": "f194a482770f925c7584fbf156549d0197c5850c672913da31f1573658466c90",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01005.c"
+          ],
+          "source": "seed-01005.c",
+          "source_sha256": "d25d133a7d305605261bc4c4e75ff84bff057b9315c407dcb5264665efb91627",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01006.c"
+          ],
+          "source": "seed-01006.c",
+          "source_sha256": "87456a55187fbd86cb78b3d5382d5ba387ec8e2f93c6a02dc29a317c1371cb4b",
+          "status": 1,
+          "stderr": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01006.c: In function \u2018func_0\u2019:\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01006.c:64:7: error: assignment to \u2018int32_t *\u2019 {aka \u2018int *\u2019} from incompatible pointer type \u2018uint64_t *\u2019 {aka \u2018long unsigned int *\u2019} [-Wincompatible-pointer-types]\n   64 | ptr_6 = &uli_9;\n      |       ^\n",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01007.c"
+          ],
+          "source": "seed-01007.c",
+          "source_sha256": "3060075fb18fb9dc9f45b3a9cca627dae9c345f87f8e397966a7595a9de97cd6",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01008.c"
+          ],
+          "source": "seed-01008.c",
+          "source_sha256": "80b3bb36758839c61e955f85416a3607e4564cb7cd2054688a562089222323b1",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01009.c"
+          ],
+          "source": "seed-01009.c",
+          "source_sha256": "51e6f04728fa2381184b0061326aefedb5a3542d537435edc9f9fbf5c47db581",
+          "status": 1,
+          "stderr": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01009.c: In function \u2018func_2\u2019:\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01009.c:42:7: error: assignment to \u2018int8_t *\u2019 {aka \u2018signed char *\u2019} from incompatible pointer type \u2018int32_t *\u2019 {aka \u2018int *\u2019} [-Wincompatible-pointer-types]\n   42 | ptr_8 = &i_3;\n      |       ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01009.c:50:7: error: assignment to \u2018int8_t *\u2019 {aka \u2018signed char *\u2019} from incompatible pointer type \u2018int32_t *\u2019 {aka \u2018int *\u2019} [-Wincompatible-pointer-types]\n   50 | ptr_8 = &i_3;\n      |       ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01009.c: In function \u2018func_1\u2019:\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01009.c:125:8: error: assignment to \u2018int16_t *\u2019 {aka \u2018short int *\u2019} from incompatible pointer type \u2018uint64_t *\u2019 {aka \u2018long unsigned int *\u2019} [-Wincompatible-pointer-types]\n  125 | ptr_13 = &uli_9;\n      |        ^\n",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01010.c"
+          ],
+          "source": "seed-01010.c",
+          "source_sha256": "0b48f334dd609b2104cf073dce9a91d4e7a1e9f195daad8bf83a6deccd326ec3",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01011.c"
+          ],
+          "source": "seed-01011.c",
+          "source_sha256": "1090c3c511e309cd49bed162362b977ed7813a4f5ad4787b505a09c7b0dc89a9",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01012.c"
+          ],
+          "source": "seed-01012.c",
+          "source_sha256": "bef4f41c45d9eda06f1c0d97ff2f33d3f608ef65934029e421fc18375ce1e95a",
+          "status": 1,
+          "stderr": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01012.c: In function \u2018func_2\u2019:\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01012.c:28:8: error: assignment to \u2018uint16_t *\u2019 {aka \u2018short unsigned int *\u2019} from incompatible pointer type \u2018int64_t *\u2019 {aka \u2018long int *\u2019} [-Wincompatible-pointer-types]\n   28 | ptr_11 = &li_0;\n      |        ^\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01012.c:30:8: error: assignment to \u2018uint16_t *\u2019 {aka \u2018short unsigned int *\u2019} from incompatible pointer type \u2018int64_t *\u2019 {aka \u2018long int *\u2019} [-Wincompatible-pointer-types]\n   30 | ptr_11 = &li_9;\n      |        ^\n",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01013.c"
+          ],
+          "source": "seed-01013.c",
+          "source_sha256": "457b5721a9f49f4460e0221b0def2f4a5ab6b2a225e03eba74fae2af71bafb39",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01014.c"
+          ],
+          "source": "seed-01014.c",
+          "source_sha256": "141d2f90cc92229fe2219cb7515a2e6ecc610660a77381f3210660ab090bb9a2",
+          "status": 1,
+          "stderr": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01014.c: In function \u2018func_1\u2019:\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01014.c:33:7: error: assignment to \u2018int16_t *\u2019 {aka \u2018short int *\u2019} from incompatible pointer type \u2018uint32_t *\u2019 {aka \u2018unsigned int *\u2019} [-Wincompatible-pointer-types]\n   33 | ptr_7 = &ui_3;\n      |       ^\n",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01015.c"
+          ],
+          "source": "seed-01015.c",
+          "source_sha256": "4dbe81de204b413441a442218ed550c8c2210105a9339e86c72a1cdc374beb42",
+          "status": 1,
+          "stderr": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01015.c: In function \u2018func_2\u2019:\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01015.c:30:8: error: assignment to \u2018uint8_t *\u2019 {aka \u2018unsigned char *\u2019} from incompatible pointer type \u2018int32_t *\u2019 {aka \u2018int *\u2019} [-Wincompatible-pointer-types]\n   30 | ptr_10 = &i_2;\n      |        ^\n",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01016.c"
+          ],
+          "source": "seed-01016.c",
+          "source_sha256": "0e751c8a4137899edf330237bb25b162a64ac8daa6686ecc0fef591a08857831",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01017.c"
+          ],
+          "source": "seed-01017.c",
+          "source_sha256": "f0cabace01e99960e70d3154d17df11f6c422a12a39f9da2fb895fff50da8a34",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01018.c"
+          ],
+          "source": "seed-01018.c",
+          "source_sha256": "bf812e4317df6ccbf7e13e1a3b110f38e0ab67498cbe5646767d274defbdd31b",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01019.c"
+          ],
+          "source": "seed-01019.c",
+          "source_sha256": "6a3a6737f2d1482a8f8e5e334a4f874c3caab84851c30440cf591094446c444c",
+          "status": 1,
+          "stderr": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01019.c: In function \u2018func_0\u2019:\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01019.c:63:7: error: assignment to \u2018int8_t *\u2019 {aka \u2018signed char *\u2019} from incompatible pointer type \u2018int64_t *\u2019 {aka \u2018long int *\u2019} [-Wincompatible-pointer-types]\n   63 | ptr_9 = &li_11;\n      |       ^\n",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01020.c"
+          ],
+          "source": "seed-01020.c",
+          "source_sha256": "53f87de8cbf71a776487d1f49b034b0d71dd36b5200b2036184a70783d668cd5",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01021.c"
+          ],
+          "source": "seed-01021.c",
+          "source_sha256": "ea45ac38808a3e860427a82693ebea4e97c6dd966083d82a75e6a1afe7f608e4",
+          "status": 1,
+          "stderr": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01021.c: In function \u2018func_1\u2019:\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01021.c:41:8: error: assignment to \u2018int8_t *\u2019 {aka \u2018signed char *\u2019} from incompatible pointer type \u2018int64_t *\u2019 {aka \u2018long int *\u2019} [-Wincompatible-pointer-types]\n   41 | ptr_11 = &li_2;\n      |        ^\n",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01022.c"
+          ],
+          "source": "seed-01022.c",
+          "source_sha256": "c7643cd3179b663427c77a407c53fc1c4b596e34705d4865943fcd05719be08e",
+          "status": 1,
+          "stderr": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01022.c: In function \u2018func_0\u2019:\n/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01022.c:25:8: error: assignment to \u2018int32_t *\u2019 {aka \u2018int *\u2019} from incompatible pointer type \u2018uint64_t *\u2019 {aka \u2018long unsigned int *\u2019} [-Wincompatible-pointer-types]\n   25 | ptr_10 = &uli_6;\n      |        ^\n",
+          "stdout": ""
+        },
+        {
+          "cmd": [
+            "gcc",
+            "-std=c11",
+            "-fsyntax-only",
+            "-w",
+            "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/generated-compile-only/seed-01023.c"
+          ],
+          "source": "seed-01023.c",
+          "source_sha256": "33cae4a270e03f8d03c2e772096bb64f66a04b6d1858e94c577305d6907819cd",
+          "status": 0,
+          "stderr": "",
+          "stdout": ""
+        }
+      ]
+    }
+  },
+  "pure_compile_syntax_only_no_run": true,
+  "source_program_files": 24,
+  "success_not_proof_of_defined_runtime_behavior": true,
+  "timestamp_utc": "2026-10-31T02:44:10.560681+00:00"
+}

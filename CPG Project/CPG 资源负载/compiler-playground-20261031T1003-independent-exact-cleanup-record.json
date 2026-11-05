@@ -1,0 +1,22 @@
+{
+  "Library_file_deletion_performed": 0,
+  "active_consumers_interrupted": 0,
+  "created_utc": "2026-10-31T02:37:58.891860+00:00",
+  "format": "cpg-independent-round-20261031T0203Z-exact-cleanup-history-v1",
+  "historical_volume_files_deleted": 0,
+  "new_SHA_resource_payload_deleted_before_save": 0,
+  "other_automation_schedule_modified": false,
+  "other_conversation_paths_modified": 0,
+  "our_local_completed_test_prefix_only": [
+    {
+      "before_removal_sha256": "6e86644b04ce2824be6803e6d2584d92bcca7f58e1a768d864e18af1efab89fc",
+      "bytes_before_removal": 96968,
+      "path": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/prefix-C-only-prebuilt",
+      "removed_member": "bin/ccg",
+      "safe_reason": "exact candidate-local prefix C retired only after independent D consumer and A/B installed checks; historical source and all released member bytes retained"
+    }
+  ],
+  "remaining_local_working_tree_deleted": false,
+  "snapshot_notes": "All 17 visible Library files independently materialized and SHA/bytes/mode verified; no broad cleanup, no change to Oct27 r07 active owner.",
+  "unknown_or_reappearing_files_cleaned": 0
+}

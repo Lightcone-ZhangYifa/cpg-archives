@@ -1,0 +1,51 @@
+.......................................................................................................... [  5%]
+................................................................................................ [ 10%]
+........................................................................................... [ 14%]
+.................................... [ 16%]
+.......................................sss...................... [ 19%]
+..............................................s....................ssss.........ssss...................................................... [ 26%]
+......................................sss [ 29%]
+........................................... [ 31%]
+................................................................ [ 34%]
+..................................................... [ 37%]
+...................................................................................... [ 41%]
+.................................................................................................................................................................................................................. [ 52%]
+.................................................... [ 54%]
+................................................. [ 57%]
+..................................... [ 59%]
+.......................................s................... [ 62%]
+................................................................................................. [ 67%]
+............................................................................................................................... [ 73%]
+........................................ [ 75%]
+................................... [ 77%]
+.................................................. [ 79%]
+............................................. [ 82%]
+........................................................................ [ 85%]
+................................................... [ 88%]
+........................................... [ 90%]
+................................................. [ 93%]
+......................................................................... [ 96%]
+............................. [ 98%]
+...................................                             [100%]
+=============================== warnings summary ===============================
+tests/test_resource_deploy.py::ArchiveTests::test_zip_traversal_links_and_duplicate_members_are_rejected
+  /mnt/data/cpg-auto-20261031T1003/venv-clean-isolated-diagnostic-patched-02113/lib/python3.13/site-packages/compiler_playground/resource_deploy.py:334: UserWarning: Overlapped entries: 'duplicate' (possible zip bomb)
+    with source.open(entry) as reader, target.open("xb") as writer:
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+SKIPPED [1] ../regression-all-official-tests-from-exact-wheel/tests/test_dataset_corpora.py:280: Pinned optional pyarrow dependency is not installed
+SKIPPED [1] ../regression-all-official-tests-from-exact-wheel/tests/test_dataset_corpora.py:292: Pinned optional datasets dependency is not installed
+SKIPPED [1] ../regression-all-official-tests-from-exact-wheel/tests/test_dataset_corpora.py:307: Real acquired corpus fixtures were not supplied
+SKIPPED [1] ../regression-all-official-tests-from-exact-wheel/tests/test_dataset_native_suites.py:188: Set CPG_NATIVE_SUITE_SOURCE_ROOT for actual pinned source checks
+SKIPPED [1] ../regression-all-official-tests-from-exact-wheel/tests/test_dataset_optional_sources.py:36: Prepared optional datasets package is absent
+SKIPPED [1] ../regression-all-official-tests-from-exact-wheel/tests/test_dataset_optional_sources.py:54: Prepared optional datasets package is absent
+SKIPPED [1] ../regression-all-official-tests-from-exact-wheel/tests/test_dataset_optional_sources.py:72: Prepared optional pyarrow package is absent
+SKIPPED [1] ../regression-all-official-tests-from-exact-wheel/tests/test_dataset_optional_sources.py:94: Prepared optional pyarrow package is absent
+SKIPPED [1] ../regression-all-official-tests-from-exact-wheel/tests/test_dataset_registry_materials.py:159: Set CPG_BENCHMARK_UPSTREAM_ROOT to the identity-verified probe materials
+SKIPPED [1] ../regression-all-official-tests-from-exact-wheel/tests/test_dataset_registry_materials.py:163: Set CPG_BENCHMARK_UPSTREAM_ROOT to the identity-verified probe materials
+SKIPPED [1] ../regression-all-official-tests-from-exact-wheel/tests/test_dataset_registry_materials.py:151: Set CPG_BENCHMARK_UPSTREAM_ROOT to the identity-verified probe materials
+SKIPPED [1] ../regression-all-official-tests-from-exact-wheel/tests/test_dataset_registry_materials.py:155: Set CPG_BENCHMARK_UPSTREAM_ROOT to the identity-verified probe materials
+SKIPPED [3] ../venv-clean-isolated-diagnostic-patched-02113/lib/python3.13/site-packages/_pytest/unittest.py:498: Exact Ubuntu ELF-tool payloads and a C compiler are required; no host-version substitution
+SKIPPED [1] ../regression-all-official-tests-from-exact-wheel/tests/test_native_research_resources.py:25: Full-workspace archive evidence is intentionally absent from the source-only distribution
+1955 passed, 16 skipped, 1 warning, 4841 subtests passed in 222.13s (0:03:42)

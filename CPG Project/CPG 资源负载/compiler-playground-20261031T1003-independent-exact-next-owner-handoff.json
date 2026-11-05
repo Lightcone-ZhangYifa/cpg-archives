@@ -1,0 +1,275 @@
+{
+  "automation_unchanged": {
+    "dtstart_utc": "2026-10-27T07:39:36+00:00",
+    "enabled_until_original_1862_pass": true,
+    "id": "6ae0511879ec81919b31f10e974409ad",
+    "period_hours": 2,
+    "schedule_reset_per_round": false
+  },
+  "cleanup": {
+    "old_volume_delete": 0,
+    "other_shared_path_delete": 0,
+    "own_bin_C_deleted_after_consumer_finish": true,
+    "unknown_files_deleted": 0
+  },
+  "created_utc": "2026-10-31T02:44:51.113111+00:00",
+  "formal_base": {
+    "dataset_pending": 107,
+    "dataset_qualified": 88,
+    "dataset_total": 195,
+    "final_receipt_exact": {
+      "library_file_id": "libfile_b006b66d9194819198a9fb7196e91eb9",
+      "name": "compiler-playground-v0.21.13-final-delivery-receipt.json",
+      "sha256": "d2c5fa4f2846d5d56e2e5239fc3d9aaca7f8483db9c1cd77d938db48417d0783",
+      "size_bytes": 67906
+    },
+    "official_release_version_not_changed": true,
+    "resource_managed": 1700,
+    "resource_pending": 162,
+    "resource_total": 1862,
+    "version": "0.21.13"
+  },
+  "format": "cpg-20261031T0203Z-independent-four-Dataset-cards-source-and-binary-next-owner-lock-v1",
+  "independent_changed": {
+    "candidate_Dataset_cards_exact_original_records": [
+      {
+        "candidate_primary_samples": 24,
+        "catalog_card_record_SHA256": "70eda8b4eacc501a15e0009e5b35bf56ea0838a03947996dca1b75641f712dd7",
+        "current_next_action": "复用已绑定19文件完整原料；先核NOASSERTION及原C生成器完整程序边界，保留README不运行的声明，随后才设计compile_only源码接口。",
+        "current_original_blocker_record": [],
+        "official_dataset_admitted": false,
+        "original_dataset_card_id": "ccg",
+        "original_original_license_unchanged": {
+          "expression": "NOASSERTION",
+          "notes": "Top-level project license where verified; generated materials, seed corpora, and bundled dependencies require separate provenance review."
+        },
+        "original_resource_relations": [
+          {
+            "dataset_revision_matches_resource": true,
+            "relation": "exact_original_revision",
+            "resource_id": "dataset-ref.ccg"
+          }
+        ],
+        "original_roles": [
+          "compile_only"
+        ],
+        "original_urls_preserved_exactly": [
+          "https://github.com/Mrktn/ccg"
+        ],
+        "original_version_preserved_exactly": {
+          "ref": "HEAD observed 2026-10-23",
+          "revision": "108f4304f9b2f187173a44749b56b3eb64dd4590",
+          "status": "source_revision_resolved_not_deployment_qualified"
+        }
+      },
+      {
+        "candidate_primary_samples": 18,
+        "catalog_card_record_SHA256": "b703870ea452f6ca61debe05188c88a8aa85959b5d9797514ac4156d048abe1d",
+        "current_next_action": "复用原35文件原料，保留RemCCG/CCG同族和不执行a.out；核NOASSERTION及完整生成器边界，旧Clang6/protobuf3.11运行另审。",
+        "current_original_blocker_record": [],
+        "official_dataset_admitted": false,
+        "original_dataset_card_id": "remccg",
+        "original_original_license_unchanged": {
+          "expression": "NOASSERTION",
+          "notes": "Top-level project license where verified; generated materials, seed corpora, and bundled dependencies require separate provenance review."
+        },
+        "original_resource_relations": [
+          {
+            "dataset_revision_matches_resource": true,
+            "relation": "exact_original_revision",
+            "resource_id": "dataset-ref.remccg"
+          }
+        ],
+        "original_roles": [
+          "compile_only"
+        ],
+        "original_urls_preserved_exactly": [
+          "https://github.com/haoxintu/RemCCG"
+        ],
+        "original_version_preserved_exactly": {
+          "ref": "HEAD observed 2026-10-23",
+          "revision": "e181f6525ef83ff332130deacf5e8df062c44ee3",
+          "status": "source_revision_resolved_not_deployment_qualified"
+        }
+      },
+      {
+        "candidate_primary_samples": 113,
+        "catalog_card_record_SHA256": "af0e9ebdca422dbfd3dd8feea57253ccc4371dd38908643270a01bb4550d8ed0",
+        "current_next_action": "复用完整SQL/DDL原材料，先确证查询分发权与IMDb条款分别成立；缺IMDb时只能审输入/查询源码，保留模板和统计快照族。",
+        "current_original_blocker_record": [],
+        "official_dataset_admitted": false,
+        "original_dataset_card_id": "join-order-benchmark",
+        "original_original_license_unchanged": {
+          "expression": "LicenseRef-JOB-Queries AND LicenseRef-IMDb-Data",
+          "notes": "Common distribution repository is not maintained by the paper authors; IMDb data terms and query distribution rights must be separately established."
+        },
+        "original_resource_relations": [
+          {
+            "dataset_revision_matches_resource": true,
+            "relation": "exact_original_revision",
+            "resource_id": "dataset-ref.join-order-benchmark"
+          }
+        ],
+        "original_roles": [
+          "input_generation",
+          "reference"
+        ],
+        "original_urls_preserved_exactly": [
+          "https://github.com/gregrahn/join-order-benchmark"
+        ],
+        "original_version_preserved_exactly": {
+          "ref": "HEAD observed at retrieval; use the full recorded commit",
+          "revision": "a39603662e023e449cb2121997a5034df9e02ebf",
+          "status": "git_ref_and_small_documents_verified"
+        }
+      },
+      {
+        "candidate_primary_samples": 6,
+        "catalog_card_record_SHA256": "03458071d4fe17220c58675b6002eda9c0ab8a81778811cafa5a4f71236fd27a",
+        "current_next_action": "复用原8文件工具源码，核NOASSERTION并判断完整训练/生成/预处理程序的独立意义；外部seed/model不在包中，不部署历史训练栈。",
+        "current_original_blocker_record": [],
+        "official_dataset_admitted": false,
+        "original_dataset_card_id": "deepfuzz",
+        "original_original_license_unchanged": {
+          "expression": "NOASSERTION",
+          "notes": "Top-level project license where verified; generated materials, seed corpora, and bundled dependencies require separate provenance review."
+        },
+        "original_resource_relations": [
+          {
+            "dataset_revision_matches_resource": true,
+            "relation": "exact_original_revision",
+            "resource_id": "dataset-ref.deepfuzz"
+          }
+        ],
+        "original_roles": [
+          "reference"
+        ],
+        "original_urls_preserved_exactly": [
+          "https://github.com/s3team/DeepFuzz"
+        ],
+        "original_version_preserved_exactly": {
+          "ref": "HEAD observed 2026-10-23",
+          "revision": "6079bef655b471b82c70e51024d3d4824092f396",
+          "status": "source_revision_resolved_not_deployment_qualified"
+        }
+      }
+    ],
+    "canonical_original_input_source_SHA": {
+      "ccg": {
+        "bytes": 12898,
+        "commit": "108f4304f9b2f187173a44749b56b3eb64dd4590",
+        "sha256": "5ce850a78f49665919ccdcb0fe759827c039e49632695f35b4a47d59c6c915b9"
+      },
+      "deepfuzz": {
+        "bytes": 4762,
+        "commit": "6079bef655b471b82c70e51024d3d4824092f396",
+        "sha256": "1b051cf91e31f15a5415a7e377a6f8047f920fa9a9939fa71baed181babb5f25"
+      },
+      "join-order-benchmark": {
+        "bytes": 12313,
+        "commit": "a39603662e023e449cb2121997a5034df9e02ebf",
+        "sha256": "6a57357a67950dbd507f8a7cebdbed1d0a3806b3de445b8dd20f82f0d4aa7593"
+      },
+      "remccg": {
+        "bytes": 137841,
+        "commit": "e181f6525ef83ff332130deacf5e8df062c44ee3",
+        "sha256": "6c57247dde51b1ea24fc5433f57b11cbb6e8cd6bb065515496a98a9c28a824ca"
+      }
+    },
+    "extra_native_CCG_reproducibility_without_new_resource_admission": {
+      "new_repro_binary_not_repacked": true,
+      "normalized_C_D_byte_identical": true,
+      "recompiled_from_original_source": true,
+      "strip_debug_original_A_B_still_different": true
+    },
+    "framework_source_diff_only": {
+      "candidate_source_SHA": "8343a031a7ccb936923ddeabe4d50812439b4496a4400e2f9170650eea4d62ad",
+      "formally_merged": false,
+      "original_source_SHA": "4187416a24ea91fcc5c8dc2244fce0f44259b4511b8e3b2980f934fe1892fca4"
+    },
+    "inherited_exact_source_regular_files": 178,
+    "new_SHA_objects": 34,
+    "new_only_zip_archive_library": [
+      [
+        "libfile_0c8ec38aa1e88191b4aa9141ddaa8173",
+        "688bf9924fe0fe9bf2708d1ced88928710df43a27efb47c7369db0154fb8691f"
+      ],
+      [
+        "libfile_a2b4f78208f0819189a43b6f6f3f1dba",
+        "1e7e7f8bd0a450101dcb3c3faccb13de0fe7667ae074d35a3e9b48aa813a4549"
+      ]
+    ],
+    "original_programs_shipped_again": 0
+  },
+  "model_agent_spawn_capability": "No separate subagent spawning action available in this automation tool view; independent native/CCG, Dataset, framework and release validation work lanes were isolated and concurrent where safe. Do not claim delegated model agents or inactive sources became qualified.",
+  "owner": {
+    "Libary_handoff_directory": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives",
+    "active_separate_users_work_interrupted": false,
+    "in_canonical_publication_critical_section": false,
+    "other_conversation_files_touched": false,
+    "owned_workspace_only": "/mnt/data/cpg-auto-20261031T1003",
+    "owner_round": "20261031T0203Z-independent-four-datasets-natives",
+    "status": "independent_candidate_complete_release_saved_and_verified"
+  },
+  "protected_nonowned_areas": [
+    {
+      "path": "/训练编译器",
+      "reason": "Formal shared publication, only read exact existing release artifacts; no overwrite, no delete."
+    },
+    {
+      "path": "/CompilerPlayground/parallel-handoffs/20261031T0837Z-osaca-fixed-source-wheel",
+      "reason": "Another saved peer candidate; no direct ownership."
+    },
+    {
+      "path": "/CompilerPlayground/parallel-handoffs/20261031T0808Z-pinned-archive-codex-exebench-dataset",
+      "reason": "Other independent branch, do not update or count twice."
+    },
+    {
+      "path": "/CompilerPlayground/parallel-handoffs/20261031T0740Z-ck-xnnpack-fixed-audit",
+      "reason": "Other independent branch, unmerged."
+    },
+    {
+      "path": "/CompilerPlayground/parallel-handoffs/20261031T0608Z-polybench-tacle-native",
+      "reason": "Other independent branch, unmerged."
+    },
+    {
+      "path": "/mnt/data/cpg-r07",
+      "reason": "Original state marked other session active; never inspect or mutate its directory."
+    }
+  ],
+  "source_integration_priority_sequence": [
+    {
+      "priority": 1,
+      "requirements": "Install exact official 0.21.13 baseline and extract source from existing old ready ZIPs only; replay saved four-card public-newSHA restore using the saved tool; rerun user environment checks; do not claim official 4 card promotion until canonical merge and new final publication.",
+      "task": "Independent canonical review 4 new Dataset cards and optional framework suffix patch"
+    },
+    {
+      "priority": 2,
+      "requirements": "No successful native qualification yet: preserve existing complete source and cmake failure; original compiler/Protobuf header-API and system dependencies must be pinned for target; do not retarget HEAD, weaken original target or silently install APT.",
+      "task": "Resolve RemCCG full generator dependencies"
+    },
+    {
+      "priority": 3,
+      "requirements": "heaptrack/autofdo/STP exact pinned original source CMake actually attempted and blocked; inspect evidence in original 69-file ZIP; source archive alone does not confer feature qualification; prioritize bounded host closure before source build and independent prebuilt.",
+      "task": "Native host source recipe frontier"
+    },
+    {
+      "priority": 4,
+      "requirements": "Keep exact 107 frozen original cards and 162 original resource IDs, preserving per-ID source URL/license/commit and failure. After canonical adoption subtract only unique original Dataset card IDs; never multiply by samples, media, package variants or repository entries.",
+      "task": "Dataset backlog"
+    },
+    {
+      "priority": 5,
+      "requirements": "Original CCG GCC14 -Werror default rejects 9/24 generated C sources due incompatible-pointer-types, Clang accepts24/24; seeded source bytes valid as compile_only dataset but do not infer GCC canonical correctness or execute random C due UB.",
+      "task": "Independent source and binary behavior differentials"
+    }
+  ],
+  "unresolved": {
+    "external_data": "JOB original IMDB database, DeepFuzz external training corpus/model",
+    "native_build": "RemCCG full generator, heaptrack, AutoFDO, STP",
+    "official_Benchmark": "Original JOB DB/official query runtime benchmark",
+    "pending_dataset_cards": 107,
+    "pending_resources": 162,
+    "target": "Ubuntu24.04 OCI + hardware"
+  }
+}

@@ -1,0 +1,756 @@
+{
+  "created_utc": "2026-10-31T02:16:00Z",
+  "download_without_baseline_not_supported": "Original source bytes are inherited by exact previous volume identity; use strict restorer and saved volume.",
+  "expected_dataset_fingerprints": {
+    "ccg": "5bdcbc33e40f16ccbe537efc39f50adc1815715d69eb742d62ed8bb028d1e9ad",
+    "remccg": "dc1418cf151eebbfb4c3d5eb4d42ee8693f06b9040bc1182a5462e42599721e5"
+  },
+  "fixed_denominator": {
+    "dataset_cards": 195,
+    "non_apt": 615,
+    "resources": 1862,
+    "trusted_apt": 1247
+  },
+  "formal_baseline": "0.21.13",
+  "formally_published": false,
+  "format": "cpg-ccg-remccg-new-only-layer-v1",
+  "generated_programs_run": false,
+  "host_qualification": "Debian13 Linux x86_64 only; Ubuntu24.04 target not verified",
+  "independent_candidate_counts": {
+    "dataset_cards": 2,
+    "generated_programs": 24,
+    "remccg_original_source_units": 18,
+    "replacement_mixture_draws_not_extra_original_samples": 60,
+    "unique_primary_samples": 42
+  },
+  "inherited_entries": [
+    {
+      "bytes": 286,
+      "mode": 365,
+      "path": "ccg/upstream/Makefile",
+      "sha256": "20e1cea0f35eaaa888c5f96bbf0b0980ff913f0da6289cd4e50bde3a9395d790",
+      "source": "inherited_exact_original",
+      "source_id": "ccg"
+    },
+    {
+      "bytes": 458,
+      "mode": 292,
+      "path": "ccg/upstream/README",
+      "sha256": "27a5a2b902de53765f04ce64367bd6f4d60402fd292a6b675b4bc9bb0dc034f4",
+      "source": "inherited_exact_original",
+      "source_id": "ccg"
+    },
+    {
+      "bytes": 82,
+      "mode": 292,
+      "path": "ccg/upstream/TODO",
+      "sha256": "05942e49647b3fb24500c7819acb5ff155e0b0214b1ab942e7075837e9d2a67b",
+      "source": "inherited_exact_original",
+      "source_id": "ccg"
+    },
+    {
+      "bytes": 2852,
+      "mode": 292,
+      "path": "ccg/upstream/block.c",
+      "sha256": "e96a1d681acb5236eec44073c7383c6a7790ffb98de0df29c9a8c05512f995e5",
+      "source": "inherited_exact_original",
+      "source_id": "ccg"
+    },
+    {
+      "bytes": 2997,
+      "mode": 292,
+      "path": "ccg/upstream/ccg.c",
+      "sha256": "4aba51ea4eb1e9f1025e0f2f8c2707bb75f63c50c2f93196b662816ca1e56ea5",
+      "source": "inherited_exact_original",
+      "source_id": "ccg"
+    },
+    {
+      "bytes": 4350,
+      "mode": 292,
+      "path": "ccg/upstream/ccg.h",
+      "sha256": "b528efc47900cd856c43d65749867af8e842299854d94fc83a053118f6fb5275",
+      "source": "inherited_exact_original",
+      "source_id": "ccg"
+    },
+    {
+      "bytes": 4537,
+      "mode": 292,
+      "path": "ccg/upstream/commandline.c",
+      "sha256": "845b45ccaa9f940a05b8fec32bde4a4860cd7225c254bf396dd800f91b524835",
+      "source": "inherited_exact_original",
+      "source_id": "ccg"
+    },
+    {
+      "bytes": 2029,
+      "mode": 292,
+      "path": "ccg/upstream/constant.c",
+      "sha256": "a5b5ff15ef25198b54c8019a20035fa0475e256c39e5c09cb71c4258523db9e9",
+      "source": "inherited_exact_original",
+      "source_id": "ccg"
+    },
+    {
+      "bytes": 8202,
+      "mode": 292,
+      "path": "ccg/upstream/expression.c",
+      "sha256": "ad88e6e162dcdcce1680fe0926f4a6831879a1e5f9dd392502cd3e6bc1dea913",
+      "source": "inherited_exact_original",
+      "source_id": "ccg"
+    },
+    {
+      "bytes": 3690,
+      "mode": 292,
+      "path": "ccg/upstream/function.c",
+      "sha256": "5118731a1d29730d8028b1687e74fb4a7b88e4743e8c7a284f220d9499cadcdf",
+      "source": "inherited_exact_original",
+      "source_id": "ccg"
+    },
+    {
+      "bytes": 2077,
+      "mode": 292,
+      "path": "ccg/upstream/integer.c",
+      "sha256": "8793dc76cdfb54311a68379187f0159077f4cd86892820f5427e872aaa39e2b1",
+      "source": "inherited_exact_original",
+      "source_id": "ccg"
+    },
+    {
+      "bytes": 2142,
+      "mode": 292,
+      "path": "ccg/upstream/label.c",
+      "sha256": "d44a1859e433afcd9ae41ce28e440331266856f70e612854aeb692a9266a1da6",
+      "source": "inherited_exact_original",
+      "source_id": "ccg"
+    },
+    {
+      "bytes": 1557,
+      "mode": 292,
+      "path": "ccg/upstream/operand.c",
+      "sha256": "f265a63135d82124d0b853bdfd5d59514981e0a494ed78f655c4340c22982293",
+      "source": "inherited_exact_original",
+      "source_id": "ccg"
+    },
+    {
+      "bytes": 2885,
+      "mode": 292,
+      "path": "ccg/upstream/pointer.c",
+      "sha256": "6c5b56cf66b3e8257148d233f0872671cb97bd2d1bc40ea89f053d1394a56265",
+      "source": "inherited_exact_original",
+      "source_id": "ccg"
+    },
+    {
+      "bytes": 6180,
+      "mode": 292,
+      "path": "ccg/upstream/reported_bugs",
+      "sha256": "f53d74cdfc9edacc6f31f46b8a6e21ef7c380b15600bb26fa21cfcc8568abe63",
+      "source": "inherited_exact_original",
+      "source_id": "ccg"
+    },
+    {
+      "bytes": 9799,
+      "mode": 292,
+      "path": "ccg/upstream/statement.c",
+      "sha256": "e446825d31fc9590fdf092c06b8fdbcedd3bd3b60a24144ade828a33ffbff44e",
+      "source": "inherited_exact_original",
+      "source_id": "ccg"
+    },
+    {
+      "bytes": 6460,
+      "mode": 292,
+      "path": "ccg/upstream/types.h",
+      "sha256": "09ae82ccb8f0d0d338683eed4c96029316431aacff5ecc8ed9daf620d0c838c2",
+      "source": "inherited_exact_original",
+      "source_id": "ccg"
+    },
+    {
+      "bytes": 2025,
+      "mode": 292,
+      "path": "ccg/upstream/utils.c",
+      "sha256": "b9cb36c1953a903d9d4df4be9b747e1df76ffed6835cb461984ec8610ae19125",
+      "source": "inherited_exact_original",
+      "source_id": "ccg"
+    },
+    {
+      "bytes": 3676,
+      "mode": 292,
+      "path": "ccg/upstream/variable.c",
+      "sha256": "e4891f3d6d461cb6c6aad53441ab0bd76f8e887456109b1455729ddfd43514d8",
+      "source": "inherited_exact_original",
+      "source_id": "ccg"
+    },
+    {
+      "bytes": 397,
+      "mode": 292,
+      "path": "remccg/CMakeLists.txt",
+      "sha256": "277587ca9784f539cf8a30cbfff2e20c9470efc76f43fdb88903d3c5511bea0a",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 5394,
+      "mode": 292,
+      "path": "remccg/README.md",
+      "sha256": "445e7c714e27492d9f8663cb6bc9277d3a9fdfee4483756657818eebd6d11c03",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 629,
+      "mode": 292,
+      "path": "remccg/install.sh",
+      "sha256": "19630b55b505f2d65b15d4bd54c455c3b0273651c192a656c97e6b4f2f30d462",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 497,
+      "mode": 292,
+      "path": "remccg/lib/ccg/CMakeLists.txt",
+      "sha256": "bb57aed001194dc1d51407fb3f69703db6ee8fef163f77003e31cfb1ce6e6ee6",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 290,
+      "mode": 292,
+      "path": "remccg/lib/ccg/Makefile",
+      "sha256": "ca16360f2417c0d5be3199753de40291adc794a49fc863cf0e5cf1cc6519903f",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 458,
+      "mode": 292,
+      "path": "remccg/lib/ccg/README",
+      "sha256": "27a5a2b902de53765f04ce64367bd6f4d60402fd292a6b675b4bc9bb0dc034f4",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 82,
+      "mode": 292,
+      "path": "remccg/lib/ccg/TODO",
+      "sha256": "05942e49647b3fb24500c7819acb5ff155e0b0214b1ab942e7075837e9d2a67b",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 10640,
+      "mode": 292,
+      "path": "remccg/lib/ccg/a.out",
+      "sha256": "8d34eb359cfbcd6bcd4340f9addf51a50d83cc7c672fa535a0800bda384700e4",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 6470,
+      "mode": 292,
+      "path": "remccg/lib/ccg/block.c",
+      "sha256": "6c10720ca91b8483ea8802133615c1ccfdb17b237ed86d1ddcf85d26246a9852",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 2961,
+      "mode": 292,
+      "path": "remccg/lib/ccg/ccg.c",
+      "sha256": "54e6df9d4d7204c50650e3f2a9a07d9fbc6eae28b435cad3de5758631db11c96",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 5018,
+      "mode": 292,
+      "path": "remccg/lib/ccg/ccg.h",
+      "sha256": "cb90b200f71a052421a3423070c1cdfadc9e0e12ecbc22e024f78599cd02a5ca",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 4079,
+      "mode": 292,
+      "path": "remccg/lib/ccg/commandline.c",
+      "sha256": "86189574d6734c3b0e0b52b854f050161e6416b35a76355f04a56dd022d887fa",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 2313,
+      "mode": 292,
+      "path": "remccg/lib/ccg/constant.c",
+      "sha256": "5a62282be92f7551e79744cf946447a53eeecbfcd218cd7a16cb29ed4407a734",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 13737,
+      "mode": 292,
+      "path": "remccg/lib/ccg/expression.c",
+      "sha256": "6e5a8a129ca818a9a421da339d2d0134b5cea48fc532682cb1ccaa08ad6914db",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 7006,
+      "mode": 292,
+      "path": "remccg/lib/ccg/func.c",
+      "sha256": "9e9e15a99631886dc17290af553f143968c170d9249d3c6fe24e321479aabef9",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 3871,
+      "mode": 292,
+      "path": "remccg/lib/ccg/integer.c",
+      "sha256": "9d77a0161b6617935b792d63b3e6f1246af23e807abf4be43956e07375fd0aa9",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 2217,
+      "mode": 292,
+      "path": "remccg/lib/ccg/label.c",
+      "sha256": "7739379794f0daab8a1fe2456e90c7556374493ff7abae479075e7577dff3dc9",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 685,
+      "mode": 292,
+      "path": "remccg/lib/ccg/map-test.c",
+      "sha256": "26f9e57e6250911d710a3742912f99a0032c396bce9c2133b83fc06d1d945e2b",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 1555,
+      "mode": 292,
+      "path": "remccg/lib/ccg/operand.c",
+      "sha256": "9224c16ed02ebc155487396266eb531bf791dec03eef1517e22c7e72ee27fcd2",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 5228,
+      "mode": 292,
+      "path": "remccg/lib/ccg/pointer.c",
+      "sha256": "f71579f29d28411ad2aff76ccb0b00e8a04acc5741c596ceabe9511ce731eaea",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 6164,
+      "mode": 292,
+      "path": "remccg/lib/ccg/reported_bugs",
+      "sha256": "8af0f091f11b5a2f02444fb0c8f7f879cf7405b5003f53c7b240fa09450fb80f",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 24150,
+      "mode": 292,
+      "path": "remccg/lib/ccg/statement.c",
+      "sha256": "d009112f7cdc30d3c1856b562e72354199fb95ed840ce154900484945bea9a86",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 1793,
+      "mode": 292,
+      "path": "remccg/lib/ccg/temp",
+      "sha256": "b56e6fa838eb91479840006e9956bdb34c5c814e8270d7432975dbf42ca37dba",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 314936,
+      "mode": 292,
+      "path": "remccg/lib/ccg/test.c",
+      "sha256": "4e3353ab58dd35954be6a575762e54d997b372cfba02e68bd2ced5e9e0d46b63",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 7115,
+      "mode": 292,
+      "path": "remccg/lib/ccg/types.h",
+      "sha256": "0bdfb0b8775651db6bc66f20832082c1f3b50feb66cfdfae812d576460a6f2bd",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 2150,
+      "mode": 292,
+      "path": "remccg/lib/ccg/utils.c",
+      "sha256": "a9921b8bd25baf7ffb44b0a404fe098f3ff706340c60286e9c0f29e973df06b8",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 5062,
+      "mode": 292,
+      "path": "remccg/lib/ccg/variable.c",
+      "sha256": "d9ee01bbb17e00f8fbccd443dcb5b4959b5eb34c24948e7b716dbdee65f549ab",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 17784,
+      "mode": 292,
+      "path": "remccg/src/C.g4",
+      "sha256": "209768a86932136f5a8afc12ecf62dfde489930348fe5cf6670d0de192ba421e",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 877,
+      "mode": 292,
+      "path": "remccg/src/CMakeLists.txt",
+      "sha256": "01493d79e1d60cf6a42499aa009ca2b8cc29389c12197a25fbc50c5bfad5d980",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 5084,
+      "mode": 292,
+      "path": "remccg/src/c_proto.proto",
+      "sha256": "9af545a4f6f1874002b3817eebd6e1280d557ee8e49dd627592bdd6a36d6b8fa",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 46749,
+      "mode": 292,
+      "path": "remccg/src/proto_to_c.cc",
+      "sha256": "c5a305e44a983f35a959b9e03152b444dd5749790d34bc0fb67f1c8f2ad5d778",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 1945,
+      "mode": 292,
+      "path": "remccg/src/proto_to_c.h",
+      "sha256": "7e56c76d4eff016add31583b48913743f704f0a271c935b4624e6b71e0716560",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 22291,
+      "mode": 292,
+      "path": "remccg/src/remccg.cc",
+      "sha256": "665faf9d8be0bca298c726d21ac9b632ff90c51a5948027b753d080d999c1392",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 3497,
+      "mode": 292,
+      "path": "remccg/src/util.cc",
+      "sha256": "029936cbdd021d9ddb1fef980b6b766f5ee365d42771f3e0240a7f8975ca209f",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    },
+    {
+      "bytes": 638,
+      "mode": 292,
+      "path": "remccg/src/util.h",
+      "sha256": "ceb6bf8d1a897d609f1f6dfb96adb19ba07c8e93fa8e8b4495357a550d3c4b7f",
+      "source": "inherited_exact_original",
+      "source_id": "remccg"
+    }
+  ],
+  "inherited_formal_counts": {
+    "dataset_card_pending_ids": 107,
+    "dataset_cards_verified": 88,
+    "dataset_primary_samples": 2238,
+    "managed_resource_ids": 1700,
+    "pending_original_resource_ids": 162
+  },
+  "inherited_source_volume": {
+    "bytes": 258168292,
+    "complete_original_trees_must_be_recovered": true,
+    "exact_library_file_id": "libfile_20afc30d50908191b47f998ed2d2ce5c",
+    "name": "compiler-playground-v0.21.4-objects-001.zip",
+    "old_original_tar_objects_redelivered": 0,
+    "sha256": "3cfa06d68223d45fef179b9e037eff2e5f49c4229d22b869a2aecbffac3148c9"
+  },
+  "lineage_group_policy": "ccg-remccg-shared-ancestry-v1; variants across these two adapters must not leak train->test",
+  "network_access_during_preparation": false,
+  "new_entries": [
+    {
+      "bytes": 123354,
+      "kind": "dataset_manifest_or_receipt",
+      "mode": 384,
+      "path": "ccg/dataset.json",
+      "sha256": "f60c2520ebecf494cadd8ff6124d59f6a4001d97be1054804f3e42775f8240e3",
+      "source": "new_derived_SHA"
+    },
+    {
+      "bytes": 520,
+      "kind": "new_seeded_dataset_material",
+      "mode": 292,
+      "path": "ccg/generated/seed-01000.c",
+      "sha256": "2e20e52f7b268a612c70a04bb83387ece76a76d7d7ab81caef70a4c58855c150",
+      "source": "new_derived_SHA"
+    },
+    {
+      "bytes": 1449,
+      "kind": "new_seeded_dataset_material",
+      "mode": 292,
+      "path": "ccg/generated/seed-01001.c",
+      "sha256": "f24499ef965e6e848b0566a7a590de839270f62febb4399ba89fb667b34d0101",
+      "source": "new_derived_SHA"
+    },
+    {
+      "bytes": 769,
+      "kind": "new_seeded_dataset_material",
+      "mode": 292,
+      "path": "ccg/generated/seed-01002.c",
+      "sha256": "162a8618695d7ea3afe8089f99870d2ec3b0f0303b3acb9df3255930d2624f67",
+      "source": "new_derived_SHA"
+    },
+    {
+      "bytes": 805,
+      "kind": "new_seeded_dataset_material",
+      "mode": 292,
+      "path": "ccg/generated/seed-01003.c",
+      "sha256": "da14502ae43abb19c623e9c4c337762774d3558130198c2fa2b3e6f642c13f8a",
+      "source": "new_derived_SHA"
+    },
+    {
+      "bytes": 540,
+      "kind": "new_seeded_dataset_material",
+      "mode": 292,
+      "path": "ccg/generated/seed-01004.c",
+      "sha256": "f194a482770f925c7584fbf156549d0197c5850c672913da31f1573658466c90",
+      "source": "new_derived_SHA"
+    },
+    {
+      "bytes": 358,
+      "kind": "new_seeded_dataset_material",
+      "mode": 292,
+      "path": "ccg/generated/seed-01005.c",
+      "sha256": "d25d133a7d305605261bc4c4e75ff84bff057b9315c407dcb5264665efb91627",
+      "source": "new_derived_SHA"
+    },
+    {
+      "bytes": 1404,
+      "kind": "new_seeded_dataset_material",
+      "mode": 292,
+      "path": "ccg/generated/seed-01006.c",
+      "sha256": "87456a55187fbd86cb78b3d5382d5ba387ec8e2f93c6a02dc29a317c1371cb4b",
+      "source": "new_derived_SHA"
+    },
+    {
+      "bytes": 366,
+      "kind": "new_seeded_dataset_material",
+      "mode": 292,
+      "path": "ccg/generated/seed-01007.c",
+      "sha256": "3060075fb18fb9dc9f45b3a9cca627dae9c345f87f8e397966a7595a9de97cd6",
+      "source": "new_derived_SHA"
+    },
+    {
+      "bytes": 910,
+      "kind": "new_seeded_dataset_material",
+      "mode": 292,
+      "path": "ccg/generated/seed-01008.c",
+      "sha256": "80b3bb36758839c61e955f85416a3607e4564cb7cd2054688a562089222323b1",
+      "source": "new_derived_SHA"
+    },
+    {
+      "bytes": 2507,
+      "kind": "new_seeded_dataset_material",
+      "mode": 292,
+      "path": "ccg/generated/seed-01009.c",
+      "sha256": "51e6f04728fa2381184b0061326aefedb5a3542d537435edc9f9fbf5c47db581",
+      "source": "new_derived_SHA"
+    },
+    {
+      "bytes": 520,
+      "kind": "new_seeded_dataset_material",
+      "mode": 292,
+      "path": "ccg/generated/seed-01010.c",
+      "sha256": "0b48f334dd609b2104cf073dce9a91d4e7a1e9f195daad8bf83a6deccd326ec3",
+      "source": "new_derived_SHA"
+    },
+    {
+      "bytes": 2079,
+      "kind": "new_seeded_dataset_material",
+      "mode": 292,
+      "path": "ccg/generated/seed-01011.c",
+      "sha256": "1090c3c511e309cd49bed162362b977ed7813a4f5ad4787b505a09c7b0dc89a9",
+      "source": "new_derived_SHA"
+    },
+    {
+      "bytes": 1534,
+      "kind": "new_seeded_dataset_material",
+      "mode": 292,
+      "path": "ccg/generated/seed-01012.c",
+      "sha256": "bef4f41c45d9eda06f1c0d97ff2f33d3f608ef65934029e421fc18375ce1e95a",
+      "source": "new_derived_SHA"
+    },
+    {
+      "bytes": 1039,
+      "kind": "new_seeded_dataset_material",
+      "mode": 292,
+      "path": "ccg/generated/seed-01013.c",
+      "sha256": "457b5721a9f49f4460e0221b0def2f4a5ab6b2a225e03eba74fae2af71bafb39",
+      "source": "new_derived_SHA"
+    },
+    {
+      "bytes": 1235,
+      "kind": "new_seeded_dataset_material",
+      "mode": 292,
+      "path": "ccg/generated/seed-01014.c",
+      "sha256": "141d2f90cc92229fe2219cb7515a2e6ecc610660a77381f3210660ab090bb9a2",
+      "source": "new_derived_SHA"
+    },
+    {
+      "bytes": 1148,
+      "kind": "new_seeded_dataset_material",
+      "mode": 292,
+      "path": "ccg/generated/seed-01015.c",
+      "sha256": "4dbe81de204b413441a442218ed550c8c2210105a9339e86c72a1cdc374beb42",
+      "source": "new_derived_SHA"
+    },
+    {
+      "bytes": 579,
+      "kind": "new_seeded_dataset_material",
+      "mode": 292,
+      "path": "ccg/generated/seed-01016.c",
+      "sha256": "0e751c8a4137899edf330237bb25b162a64ac8daa6686ecc0fef591a08857831",
+      "source": "new_derived_SHA"
+    },
+    {
+      "bytes": 1086,
+      "kind": "new_seeded_dataset_material",
+      "mode": 292,
+      "path": "ccg/generated/seed-01017.c",
+      "sha256": "f0cabace01e99960e70d3154d17df11f6c422a12a39f9da2fb895fff50da8a34",
+      "source": "new_derived_SHA"
+    },
+    {
+      "bytes": 701,
+      "kind": "new_seeded_dataset_material",
+      "mode": 292,
+      "path": "ccg/generated/seed-01018.c",
+      "sha256": "bf812e4317df6ccbf7e13e1a3b110f38e0ab67498cbe5646767d274defbdd31b",
+      "source": "new_derived_SHA"
+    },
+    {
+      "bytes": 1268,
+      "kind": "new_seeded_dataset_material",
+      "mode": 292,
+      "path": "ccg/generated/seed-01019.c",
+      "sha256": "6a3a6737f2d1482a8f8e5e334a4f874c3caab84851c30440cf591094446c444c",
+      "source": "new_derived_SHA"
+    },
+    {
+      "bytes": 1291,
+      "kind": "new_seeded_dataset_material",
+      "mode": 292,
+      "path": "ccg/generated/seed-01020.c",
+      "sha256": "53f87de8cbf71a776487d1f49b034b0d71dd36b5200b2036184a70783d668cd5",
+      "source": "new_derived_SHA"
+    },
+    {
+      "bytes": 1080,
+      "kind": "new_seeded_dataset_material",
+      "mode": 292,
+      "path": "ccg/generated/seed-01021.c",
+      "sha256": "ea45ac38808a3e860427a82693ebea4e97c6dd966083d82a75e6a1afe7f608e4",
+      "source": "new_derived_SHA"
+    },
+    {
+      "bytes": 565,
+      "kind": "new_seeded_dataset_material",
+      "mode": 292,
+      "path": "ccg/generated/seed-01022.c",
+      "sha256": "c7643cd3179b663427c77a407c53fc1c4b596e34705d4865943fcd05719be08e",
+      "source": "new_derived_SHA"
+    },
+    {
+      "bytes": 1443,
+      "kind": "new_seeded_dataset_material",
+      "mode": 292,
+      "path": "ccg/generated/seed-01023.c",
+      "sha256": "33cae4a270e03f8d03c2e772096bb64f66a04b6d1858e94c577305d6907819cd",
+      "source": "new_derived_SHA"
+    },
+    {
+      "bytes": 18530,
+      "kind": "new_seeded_dataset_material",
+      "mode": 292,
+      "path": "ccg/generation-metadata.json",
+      "sha256": "cafdc78df679920ff1dfff30f5e21790ec3e5779eda3b2b2039715f7f4e57e12",
+      "source": "new_derived_SHA"
+    },
+    {
+      "bytes": 7153,
+      "kind": "dataset_manifest_or_receipt",
+      "mode": 384,
+      "path": "ccg/prepared.json",
+      "sha256": "9c3a103848c948c1a931cb20c9e4a1488d0899c0ab268f54450f2cb0b4ecd36f",
+      "source": "new_derived_SHA"
+    },
+    {
+      "bytes": 140173,
+      "kind": "dataset_manifest_or_receipt",
+      "mode": 384,
+      "path": "remccg/dataset.json",
+      "sha256": "cd3ecbdc8b523802f5ffb3fdd7b2051a4c01f897ce0b28e6fb04ecc18afec7be",
+      "source": "new_derived_SHA"
+    },
+    {
+      "bytes": 5600,
+      "kind": "dataset_manifest_or_receipt",
+      "mode": 384,
+      "path": "remccg/prepared.json",
+      "sha256": "5cd33840fba226d157abe050752de54708b23dae8e5d9653c60e0a21b7fb4009",
+      "source": "new_derived_SHA"
+    },
+    {
+      "bytes": 96968,
+      "kind": "host-only-binary",
+      "mode": 493,
+      "path": "native/bin/ccg",
+      "sha256": "6e86644b04ce2824be6803e6d2584d92bcca7f58e1a768d864e18af1efab89fc",
+      "source": "new_host_native_prebuilt"
+    }
+  ],
+  "owner_round": "20261031T1003Z-independent-native-generators",
+  "qualification_increment": {
+    "OCI": 0,
+    "dataset_cards": 0,
+    "hardware": 0,
+    "official_benchmark": 0,
+    "original_resources": 0
+  },
+  "source_packages": {
+    "ccg": {
+      "archive_bytes": 12898,
+      "archive_sha256": "5ce850a78f49665919ccdcb0fe759827c039e49632695f35b4a47d59c6c915b9",
+      "host_prebuilt_isolation": true,
+      "license_expression": "NOASSERTION",
+      "license_review_required": true,
+      "main_generated_program_execution": false,
+      "original_dataset_id": "ccg",
+      "original_resource_id": "dataset-ref.ccg",
+      "revision": "108f4304f9b2f187173a44749b56b3eb64dd4590",
+      "source_build_native_host_only": true,
+      "unmodified_original_file_count": 19,
+      "upstream_url": "https://codeload.github.com/Mrktn/ccg/tar.gz/108f4304f9b2f187173a44749b56b3eb64dd4590"
+    },
+    "remccg": {
+      "archive_bytes": 137841,
+      "archive_sha256": "6c57247dde51b1ea24fc5433f57b11cbb6e8cd6bb065515496a98a9c28a824ca",
+      "license_expression": "NOASSERTION",
+      "license_review_required": true,
+      "original_dataset_id": "remccg",
+      "original_generator_not_executed": true,
+      "original_resource_id": "dataset-ref.remccg",
+      "revision": "e181f6525ef83ff332130deacf5e8df062c44ee3",
+      "source_build_native_host_only": false,
+      "unmodified_original_file_count": 35,
+      "upstream_url": "https://codeload.github.com/haoxintu/RemCCG/tar.gz/e181f6525ef83ff332130deacf5e8df062c44ee3"
+    }
+  }
+}

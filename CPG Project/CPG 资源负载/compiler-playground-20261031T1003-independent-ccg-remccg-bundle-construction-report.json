@@ -1,0 +1,16 @@
+{
+  "artifact": "compiler-playground-20261031T1003-independent-ccg-remccg-new-only-sha-objects.zip",
+  "bytes": 74474,
+  "exact_historical_source_volume_library_id": "libfile_20afc30d50908191b47f998ed2d2ce5c",
+  "formally_promoted": false,
+  "manifest_file": "compiler-playground-20261031T1003-independent-ccg-remccg-new-only-manifest.json",
+  "manifest_sha256": "c85ec6a5a9379e6e1d40bd435edf4526ee05e2e689f4960f6ee41d1acf215a6d",
+  "new_sha_objects": 30,
+  "original_inputs": {
+    "ccg": 19,
+    "remccg": 35
+  },
+  "original_previously_delivered_payload_objects_repacked": 0,
+  "sha256": "688bf9924fe0fe9bf2708d1ced88928710df43a27efb47c7369db0154fb8691f",
+  "target_modes_declared_and_restore_enforced": true
+}
