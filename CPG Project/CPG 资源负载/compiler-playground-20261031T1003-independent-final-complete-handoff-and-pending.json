@@ -1,0 +1,43 @@
+{
+  "WhiteFox_portable_Sqlite_offline_source_only_two_fresh_installations": true,
+  "active_automation_id": "6ae0511879ec81919b31f10e974409ad",
+  "created_at": "2026-10-31T03:22:26.878195+00:00",
+  "current_completed_immutable_original_main_version": "0.21.13",
+  "five_disjoint_dataset_candidate_ids": [
+    "ccg",
+    "remccg",
+    "join-order-benchmark",
+    "deepfuzz",
+    "whitefox"
+  ],
+  "formal_coverage_increase_this_handoff": 0,
+  "formal_release_identity": {
+    "bytes": 67906,
+    "formal_version": "0.21.13",
+    "library_file_id": "libfile_b006b66d9194819198a9fb7196e91eb9",
+    "name": "compiler-playground-v0.21.13-final-delivery-receipt.json",
+    "sha256": "d2c5fa4f2846d5d56e2e5239fc3d9aaca7f8483db9c1cd77d938db48417d0783"
+  },
+  "format": "compiler-playground-20261031T0203Z-independent-full-next-owner-handoff-v1",
+  "next_safely_independent_steps": [
+    "Review compiled CCG on original Ubuntu24.04 target; preserve Debian13 host versus target distinction; evaluate generated program full semantics separately from compilation.",
+    "Resolve RemCCG exact Clang6/protobuf3.11 and generator dependency closure without guessing versions or substituting HEAD; retain negative build evidence.",
+    "Find verified full upstream IMDB corpus and official Join Order Benchmark protocol before claiming full dataset or score.",
+    "Verify DeepFuzz model/train corpus and generator original revision; generated sample text is not full workload.",
+    "WhiteFox original source complete, but generated sample licensing, 51k-member lineage leakage group and downstream training validity remain open; only source-only Dataset candidate is verified.",
+    "Promote independently verified one-file framework source extension only after owner reconciles exact current canonical tree and reruns all full regression + fresh public incremental restore.",
+    "Do not duplicate existing v0.21.13 historical raw inputs, old SHA objects or APT thin wrappers."
+  ],
+  "no_old_workspaces_touched": true,
+  "pending_native_and_OCI_hardware_nonqualification_explicit": true,
+  "previous_4_candidates_34_unique_new_SHA_objects": true,
+  "protected_active_round_remains_untouched": true,
+  "protected_owner": "manual-current-conversation-r07",
+  "this_is_eligible_for_independent_handoff_not_canonical_promotion": true,
+  "unchanged_anchor": "BEGIN:VEVENT\nDTSTART:20261027T073936Z\nRRULE:FREQ=HOURLY;INTERVAL=2\nEND:VEVENT",
+  "upstream_queue_reference": {
+    "all_original_ID_denominators_preserved": true,
+    "exact_162_original_resource_records_AND_107_dataset_cards": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-exact-pending-and-next-queue.json",
+    "library_file_id": "libfile_d4fecd214afc8191a4905da3046b31bc"
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "Library_folder": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/",
+  "WhiteFox_original_inherited_raw_source": "original source not repeated; retrieve per formal v0.21.13 ready volume original SHA 010b736...",
+  "already_persisted_supporting_evidence": [
+    {
+      "bytes": 5143,
+      "filename": "README-independent-handoff.zh.md",
+      "library_file_id": "libfile_faadfc546c28819189293cc72bed738f",
+      "mode": "0o644",
+      "path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/README-independent-handoff.zh.md",
+      "sha256": "4670742090a9b1e944648daea74156c82821500a5471a0bda5a876b05f318aa6"
+    },
+    {
+      "bytes": 27017,
+      "filename": "compiler-playground-20261031T1003-independent-fixed-1862-coverage-audit.json",
+      "library_file_id": "libfile_1d4b28eb83d48191934b9d8e3d35260b",
+      "mode": "0o644",
+      "path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-fixed-1862-coverage-audit.json",
+      "sha256": "62870912c314018f832102c1ec32204402a1955dbfb27044588a406716ca3104"
+    },
+    {
+      "bytes": 6872,
+      "filename": "compiler-playground-20261031T1003-independent-original-1862-coverage-by-kind-provider-category-source.md",
+      "library_file_id": "libfile_f75e39f499688191b588cc07d7d80e3f",
+      "mode": "0o644",
+      "path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-original-1862-coverage-by-kind-provider-category-source.md",
+      "sha256": "c782b16e1a22533a0d001ed592fa3d6dc9381ceef8460754a6fe55e59a6f34fc"
+    },
+    {
+      "bytes": 838644,
+      "filename": "compiler-playground-20261031T1003-independent-exact-pending-and-next-queue.json",
+      "library_file_id": "libfile_d4fecd214afc8191a4905da3046b31bc",
+      "mode": "0o644",
+      "path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-exact-pending-and-next-queue.json",
+      "sha256": "9680b091a91193fa40a55e7ad59600c47e970f43b195e3582d50439821cd3950"
+    },
+    {
+      "bytes": 12205,
+      "filename": "compiler-playground-20261031T1003-independent-official-baseline-vs-one-file-candidate-1971-full-tests-passing-16-skip-differential.json",
+      "library_file_id": "libfile_fd6cf8ebde408191a154b29acc968683",
+      "mode": "0o644",
+      "path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-official-baseline-vs-one-file-candidate-1971-full-tests-passing-16-skip-differential.json",
+      "sha256": "3ce3c512bd62226a627fa74f8e1beac45405551493548970a18cd852ef020bf0"
+    },
+    {
+      "bytes": 2418,
+      "filename": "compiler-playground-20261031T1003-independent-WhiteFox-newonly-portable-installer-five-real-negative-preflight-tests.json",
+      "library_file_id": "libfile_a4a034f07b2c81919e62c41e2611ed89",
+      "mode": "0o644",
+      "path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-WhiteFox-newonly-portable-installer-five-real-negative-preflight-tests.json",
+      "sha256": "86029433a1cddd5e434de6774cffcfce2672415ff8454a4a33250f4f14a37526"
+    },
+    {
+      "bytes": 878,
+      "filename": "compiler-playground-20261031T1003-independent-WhiteFox-CPG-LOCAL-SOURCE-ADAPTER-new-only-exact-878B.json",
+      "library_file_id": "libfile_9901a8cb73bc8191b3cb5cdbfac07500",
+      "mode": "0o644",
+      "path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-WhiteFox-CPG-LOCAL-SOURCE-ADAPTER-new-only-exact-878B.json",
+      "sha256": "6d23393dd1a6430b5153d7d68b21b282ff81f4eac754867f57f52bbd8e15123a"
+    },
+    {
+      "bytes": 3784864,
+      "filename": "compiler-playground-20261031T1003-independent-WhiteFox-complete-original-74313-file-hash-and-Python-AST-index.jsonl.gz",
+      "library_file_id": "libfile_01394e2a4d40819192435e622043a925",
+      "mode": "0o644",
+      "path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-WhiteFox-complete-original-74313-file-hash-and-Python-AST-index.jsonl.gz",
+      "sha256": "eb0d44c8fba1aad4701c4555d336c0b843271075974f22243ffcbd2fe1775300"
+    },
+    {
+      "bytes": 12932,
+      "filename": "compiler-playground-20261031T1003-independent-exact-next-owner-handoff.json",
+      "library_file_id": "libfile_69202865127881918b356bda84a904a7",
+      "mode": "0o644",
+      "path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-exact-next-owner-handoff.json",
+      "sha256": "9fe3bb652808bc49e0abc602b7fb24f309d9a49daf7f330550245a37525a7343"
+    },
+    {
+      "bytes": 925,
+      "filename": "compiler-playground-20261031T1003-independent-WhiteFox-saved-Library-only-new-archive-exact-restoration-and-SHA-mode.json",
+      "library_file_id": "libfile_b699d7184dfc8191b1524abfbcc4ab8f",
+      "mode": "0o644",
+      "path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-WhiteFox-saved-Library-only-new-archive-exact-restoration-and-SHA-mode.json",
+      "sha256": "312bec20a9e79ecdeaee394bb438868d40b8a69de5e5345987a9dea1c1ba324a"
+    },
+    {
+      "bytes": 1979,
+      "filename": "compiler-playground-20261031T1003-independent-WhiteFox-portable-offline-unmodified-official-0.21.13-complete-source-material-actual-app.json",
+      "library_file_id": "libfile_78097ab9bb9081918976f524ed1a4e95",
+      "mode": "0o644",
+      "path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-WhiteFox-portable-offline-unmodified-official-0.21.13-complete-source-material-actual-app.json",
+      "sha256": "df0c5bb5145f00d65ac27396d2005140091f577432a50ea54601b31968c48ae1"
+    },
+    {
+      "bytes": 944,
+      "filename": "compiler-playground-20261031T1003-independent-WhiteFox-after-Library-new-only-fresh-full-D2-restore-and-real-app.log",
+      "library_file_id": "libfile_3140c33fcd2c819196a534d342373d39",
+      "mode": "0o644",
+      "path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-WhiteFox-after-Library-new-only-fresh-full-D2-restore-and-real-app.log",
+      "sha256": "104668f3c2fae3d6eb792a28e6b3c5ae480a2329b20add53cdcc84b14b2b993a"
+    }
+  ],
+  "baseline_formal": {
+    "bytes": 67906,
+    "formal_version": "0.21.13",
+    "library_file_id": "libfile_b006b66d9194819198a9fb7196e91eb9",
+    "name": "compiler-playground-v0.21.13-final-delivery-receipt.json",
+    "sha256": "d2c5fa4f2846d5d56e2e5239fc3d9aaca7f8483db9c1cd77d938db48417d0783"
+  },
+  "created_at": "2026-10-31T03:22:26.878195+00:00",
+  "external_precisely_saved_identity_only": [
+    {
+      "library_file_id": "libfile_7b3b0d5fcc20819186fb29a63b8585e7",
+      "library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-WhiteFox-fresh-prefix-F-only-Library-new-inputs-real-unmodified-original-CPG-app-receipt.json",
+      "name": "WhiteFox fresh separate F reader"
+    },
+    {
+      "library_file_id": "libfile_9901a8cb73bc8191b3cb5cdbfac07500",
+      "library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-WhiteFox-CPG-LOCAL-SOURCE-ADAPTER-new-only-exact-878B.json",
+      "name": "Exact local additive source metadata"
+    },
+    {
+      "library_file_id": "libfile_50ab52919674819190c2df6675640011",
+      "library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-WhiteFox-newonly-prepared-portable-offline-fresh-prefix-installer.py",
+      "name": "Offline prepared installer"
+    }
+  ],
+  "formal_admission_count_delta": 0,
+  "format": "cpg-20261031T0203Z-independent-handoff-immutable-seven-zips-directory-v1",
+  "new_payloads": [
+    {
+      "bytes": 74474,
+      "file_id": "file_00000000283481f5ab515a596d36f92c",
+      "filename": "compiler-playground-20261031T1003-independent-ccg-remccg-new-only-sha-objects.zip",
+      "library_file_id": "libfile_0c8ec38aa1e88191b4aa9141ddaa8173",
+      "library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-ccg-remccg-new-only-sha-objects.zip",
+      "mode": "0o644",
+      "new_unique_raw_orig_source_repacked": false,
+      "role": "independent_ccg_remccg_new_SHA",
+      "sha256": "688bf9924fe0fe9bf2708d1ced88928710df43a27efb47c7369db0154fb8691f",
+      "zip_internal": {
+        "all_zip_members_crc32_verified": true,
+        "member_modes": {
+          "0o644": 31
+        },
+        "members": 31
+      }
+    },
+    {
+      "bytes": 56961,
+      "file_id": "file_00000000126081fdac9c631b86bae78e",
+      "filename": "compiler-playground-20261031T1003-independent-job-deepfuzz-new-only-sha-objects.zip",
+      "library_file_id": "libfile_a2b4f78208f0819189a43b6f6f3f1dba",
+      "library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-job-deepfuzz-new-only-sha-objects.zip",
+      "mode": "0o644",
+      "new_unique_raw_orig_source_repacked": false,
+      "role": "independent_JOB_DeepFuzz_new_SHA",
+      "sha256": "1e7e7f8bd0a450101dcb3c3faccb13de0fe7667ae074d35a3e9b48aa813a4549",
+      "zip_internal": {
+        "all_zip_members_crc32_verified": true,
+        "member_modes": {
+          "0o644": 5
+        },
+        "members": 5
+      }
+    },
+    {
+      "bytes": 9085,
+      "file_id": "file_000000008cf881f5bb7956986c55d69d",
+      "filename": "compiler-playground-20261031T1003-framework-only-python-sql-source-tree-candidate.zip",
+      "library_file_id": "libfile_2fc2091397308191bac9d721dbf846aa",
+      "library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-framework-only-python-sql-source-tree-candidate.zip",
+      "mode": "0o644",
+      "new_unique_raw_orig_source_repacked": false,
+      "role": "unmerged_framework_only_candidate",
+      "sha256": "eb02671aaa1312a561b23a3e0b6476097c9281e9c740cfb5b27949a1771ee45e",
+      "zip_internal": {
+        "all_zip_members_crc32_verified": true,
+        "member_modes": {
+          "0o644": 5
+        },
+        "members": 5
+      }
+    },
+    {
+      "bytes": 16871,
+      "file_id": "file_0000000070dc81f7be5997bb4b298991",
+      "filename": "compiler-playground-20261031T1003-independent-restore-toolkit.zip",
+      "library_file_id": "libfile_9a0e325cc88081918e87965b9d8ea5f7",
+      "library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-restore-toolkit.zip",
+      "mode": "0o644",
+      "new_unique_raw_orig_source_repacked": false,
+      "role": "precise_restore_toolkit",
+      "sha256": "a58e05b07dd33ffc6b561b15fd77de9d45439d3bfee32e29acdc06dda034368b",
+      "zip_internal": {
+        "all_zip_members_crc32_verified": true,
+        "member_modes": {
+          "0o644": 6
+        },
+        "members": 6
+      }
+    },
+    {
+      "bytes": 202046,
+      "file_id": "file_00000000884081f5b80e4e9a5518f122",
+      "filename": "compiler-playground-20261031T1003-independent-validation-evidence.zip",
+      "library_file_id": "libfile_83552c3558f08191a37c3368add34e1b",
+      "library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-validation-evidence.zip",
+      "mode": "0o644",
+      "new_unique_raw_orig_source_repacked": false,
+      "role": "validation_evidence",
+      "sha256": "827e358d483ce89a1c05a13c5dd7b27519771a5d78c23e38b817693564fbe4dc",
+      "zip_internal": {
+        "all_zip_members_crc32_verified": true,
+        "member_modes": {
+          "0o644": 69
+        },
+        "members": 69
+      }
+    },
+    {
+      "bytes": 4219373,
+      "file_id": "file_000000008abc81f588b66eebcae2fc48",
+      "filename": "compiler-playground-20261031T1003-independent-WhiteFox-only-new-SHA-corpus-dataset-reproducible-integration.zip",
+      "library_file_id": "libfile_6df14f36b6c88191b615af415dabc2c8",
+      "library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-WhiteFox-only-new-SHA-corpus-dataset-reproducible-integration.zip",
+      "mode": "0o644",
+      "new_unique_raw_orig_source_repacked": false,
+      "role": "WhiteFox_original_source_derived_new_SHA_no_raw_source",
+      "sha256": "4e6c23d2756e79bcac99ac1518084d01c8c8612f97e53096a5dab963ca4f164e",
+      "zip_internal": {
+        "all_zip_members_crc32_verified": true,
+        "member_modes": {
+          "0o644": 23
+        },
+        "members": 23
+      }
+    },
+    {
+      "bytes": 12669309,
+      "file_id": "file_00000000334c81f78c3aeef847c0fc16",
+      "filename": "compiler-playground-20261031T1003-independent-WhiteFox-61428-original-source-candidates-portable-prepared-offline-Dataset-indexes-new-SHA-only.zip",
+      "library_file_id": "libfile_6f71e55a92348191bf9c8cd3409a0768",
+      "library_path": "/CompilerPlayground/parallel-handoffs/20261031T0203Z-independent-four-datasets-natives/compiler-playground-20261031T1003-independent-WhiteFox-61428-original-source-candidates-portable-prepared-offline-Dataset-indexes-new-SHA-only.zip",
+      "mode": "0o644",
+      "new_unique_raw_orig_source_repacked": false,
+      "role": "WhiteFox_portable_prepared_index_new_SHA_no_raw_source",
+      "sha256": "3112530239a94c0c1a0b2c6cb5ae6c217c8de779286251e825dd671154fb1fa5",
+      "zip_internal": {
+        "all_zip_members_crc32_verified": true,
+        "member_modes": {
+          "0o444": 2,
+          "0o644": 3
+        },
+        "members": 5
+      }
+    }
+  ],
+  "original_fixed_denominator": 1862,
+  "publication_kind": "independent_integration_handoff_not_canonical_release",
+  "warning": "No external hostname used for live source lookup. Raw inherited source and license/family review still prerequisite to formal admission."
+}

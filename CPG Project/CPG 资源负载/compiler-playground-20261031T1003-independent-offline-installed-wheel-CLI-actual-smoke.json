@@ -1,0 +1,61 @@
+{
+  "format": "cpg-independent-official-wheel-CLI-postinstall-smoke-v1",
+  "timestamp_utc": "2026-10-31T02:53:00.955002+00:00",
+  "runtime": "offline-installed original compiler-playground 0.21.13 wheel on Debian13 amd64, Python3.13",
+  "commands": [
+    {
+      "name": "cpg-help",
+      "argv": [
+        "/mnt/data/cpg-auto-20261031T1003/venv-full-regression-exact-02113/bin/cpg",
+        "--help"
+      ],
+      "returncode": 0,
+      "stdout_chars": 3780,
+      "stdout_sha256": "5c939894098495d5aa808306ae1e83b5e478fa96c852bb9c800bf43cd12e1617",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_excerpt": "usage: cpg [--help] [--version] [--project PROJECT]\n           [--error-format {text,json}] [--debug]\n           [COMMAND] ...\n\nCompiler Playground: reproducible agentic compiler research.\n\npositional arguments:\n  COMMAND\n  ARG\n\noptions:\n  --help, -h            Show grouped commands\n  --version             Show the package version\n  --project PROJECT     Use this source checkout for deployment commands\n  --error-format {text,json}\n               ",
+      "stderr_excerpt": ""
+    },
+    {
+      "name": "cpg-resources-help",
+      "argv": [
+        "/mnt/data/cpg-auto-20261031T1003/venv-full-regression-exact-02113/bin/cpg-resources",
+        "--help"
+      ],
+      "returncode": 0,
+      "stdout_chars": 1343,
+      "stdout_sha256": "3240732a338b6b50bc3724be1746b5e8cceb4eab5ea8f0d94d263c9b12a7d0bb",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_excerpt": "usage: cpg-resources [-h] [--catalog CATALOG]\n                     {configure,list,verify,budget,plan,acquire,import,attach-payloads,measure} ...\n\nCommand-line entry point for resource selection, admission and measurement.\n\npositional arguments:\n  {configure,list,verify,budget,plan,acquire,import,attach-payloads,measure}\n    configure           Select a manifest in the terminal wizard or non-\n                        interactively\n    list        ",
+      "stderr_excerpt": ""
+    },
+    {
+      "name": "cpg-environment-help",
+      "argv": [
+        "/mnt/data/cpg-auto-20261031T1003/venv-full-regression-exact-02113/bin/cpg-environment",
+        "--help"
+      ],
+      "returncode": 0,
+      "stdout_chars": 470,
+      "stdout_sha256": "e7b4c9dc30a77c1d742cb7aa939a8fcd9baf0d8966f56dbd655515d4ba8f4f93",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_excerpt": "usage: cpg environment [-h] {create,list,info} ...\n\nCreate, list and inspect independent Python library Environments.\n\npositional arguments:\n  {create,list,info}\n    create            Create a named independent Environment\n    list              List named Environment definitions and unfinished\n                      creations\n    info              Inspect a saved Environment without starting a container\n\noptions:\n  -h, --help          show this he",
+      "stderr_excerpt": ""
+    },
+    {
+      "name": "cpg-packages-list",
+      "argv": [
+        "/mnt/data/cpg-auto-20261031T1003/venv-full-regression-exact-02113/bin/cpg",
+        "packages",
+        "list"
+      ],
+      "returncode": 0,
+      "stdout_chars": 833,
+      "stdout_sha256": "9e574a48706df21728136ffb5be82707a7145c114ff08b7317816a510a0c8bc7",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_excerpt": "1862 supported resources; 0 have local receipts.\n\nProviders: apt=1247, binary=20, component=17, material=210, meta=24, python=285, source=59\n\nCategories:\n  Agent and observability: 5\n  Community development: 68\n  Compatibility: 1\n  Compiler development: 1\n  Compiler history: 2\n  Compilers: 11\n  Compilers and IR: 18\n  Correctness: 28\n  Data generation and correctness: 1\n  Dataset research: 151\n  Datasets: 2\n  Development: 2\n  Foundation: 3\n  Measu",
+      "stderr_excerpt": ""
+    }
+  ],
+  "all_returncode_0": true
+}

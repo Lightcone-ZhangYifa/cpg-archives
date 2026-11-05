@@ -1,0 +1,29 @@
+{
+  "all_34_new_objects_different_from_history": true,
+  "formal_ready_history_scanned": [
+    {
+      "historical_declared_Sha_objects": 2988,
+      "historical_volume_count": 46,
+      "new_object_reuse_or_repacked_count": 0,
+      "new_unique_sha_count": 34,
+      "ready_manifest_path": "baseline/compiler-playground-v0.21.12-resources-manifest.json",
+      "ready_version": "0.21.12"
+    },
+    {
+      "historical_declared_Sha_objects": 3139,
+      "historical_volume_count": 47,
+      "new_object_reuse_or_repacked_count": 0,
+      "new_unique_sha_count": 34,
+      "ready_manifest_path": "resources/compiler-playground-v0.21.13-resources-manifest.json",
+      "ready_version": "0.21.13"
+    }
+  ],
+  "format": "cpg-new-only-inherited-0.21.12-0.21.13-resource-sha-audit-v1",
+  "independent_four_cards": [
+    "ccg-remccg",
+    "job-deepfuzz"
+  ],
+  "new_derived_SHA_objects": 34,
+  "note": "Historical resource/ready manifests scanned; does not pretend to verify arbitrary bytes in all unrelated historical workspaces.",
+  "original_Git_source_tree_files_not_packed": 178
+}

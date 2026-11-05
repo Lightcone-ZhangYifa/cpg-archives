@@ -1,0 +1,11 @@
+{
+  "artifact": "compiler-playground-20261031T1003-independent-job-deepfuzz-new-only-sha-objects.zip",
+  "bytes": 56961,
+  "formal_qualification_increment": 0,
+  "historical_repacked_objects": 0,
+  "inherited_original_source_files": 124,
+  "manifest_name": "compiler-playground-20261031T1003-independent-job-deepfuzz-new-only-manifest.json",
+  "manifest_sha256": "2747de1e65bd630624fbae97dba6f000a9634149c6e696a9ad6a1bf2ca845208",
+  "new_unique_SHA_objects": 4,
+  "sha256": "1e7e7f8bd0a450101dcb3c3faccb13de0fe7667ae074d35a3e9b48aa813a4549"
+}

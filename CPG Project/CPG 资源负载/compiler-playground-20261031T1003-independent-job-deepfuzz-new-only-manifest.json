@@ -1,0 +1,1096 @@
+{
+  "actual_input_volumes": {
+    "deepfuzz": {
+      "bytes": 258168292,
+      "filename": "compiler-playground-v0.21.4-objects-001.zip",
+      "library_file_id": "libfile_20afc30d50908191b47f998ed2d2ce5c",
+      "sha256": "3cfa06d68223d45fef179b9e037eff2e5f49c4229d22b869a2aecbffac3148c9",
+      "source_tar_bytes": 4762,
+      "source_tar_sha256": "1b051cf91e31f15a5415a7e377a6f8047f920fa9a9939fa71baed181babb5f25",
+      "source_tree_root": "DeepFuzz-6079bef655b471b82c70e51024d3d4824092f396"
+    },
+    "join-order-benchmark": {
+      "bytes": 116259475,
+      "filename": "compiler-playground-v0.21.3-objects-003.zip",
+      "library_file_id": "libfile_933ad889f51081919ab40eb29a6a10e4",
+      "sha256": "c8bebf47cfaa51756a60f84a350df319384178244c7bc30bdea54e50a629ff1b",
+      "source_tar_bytes": 12313,
+      "source_tar_sha256": "6a57357a67950dbd507f8a7cebdbed1d0a3806b3de445b8dd20f82f0d4aa7593",
+      "source_tree_root": "join-order-benchmark-a39603662e023e449cb2121997a5034df9e02ebf"
+    }
+  },
+  "dataset_fingerprints": {
+    "deepfuzz": "84ae7de6adb1f8ab258872a8206c2d05156eb4f159b8f9a81727e717eb100b5c",
+    "join-order-benchmark": "5ae17e160c77187ff82a70bd0f8bfcf286463a9e984aa5ffece3e1107337f06b"
+  },
+  "fixed_original_dataset_cards": 195,
+  "fixed_original_resource_ids": 1862,
+  "formal_baseline": "0.21.13",
+  "formal_managed_resources_before_and_after": 1700,
+  "formal_verified_Dataset_cards_before_and_after": 88,
+  "formally_published": false,
+  "format": "cpg-job-deepfuzz-original-source-only-newSHA-v1",
+  "historical_source_archives_repacked": 0,
+  "host_only": "Debian13/Python3.13 candidate; no official workload execution",
+  "independent_candidate_counts": {
+    "candidate_dataset_cards": 2,
+    "distinct_primary_source_samples": 119,
+    "inherited_original_regular_files": 124,
+    "new_derived_SHA_objects": 4
+  },
+  "inherited_entries": [
+    {
+      "bytes": 607,
+      "mode": 292,
+      "path": "join-order-benchmark/10a.sql",
+      "sha256": "dcffd7d004228d834af7bf332e365837cc5a3fb60fb3859a55235da6d1455a89",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 574,
+      "mode": 292,
+      "path": "join-order-benchmark/10b.sql",
+      "sha256": "66be16fbc0d5bb3a99e50581448613645e6b53286e7b15cebbb5043a98bcbb3d",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 546,
+      "mode": 292,
+      "path": "join-order-benchmark/10c.sql",
+      "sha256": "ccbce6a9f74d3ce0da968314672b0b5c7a479eb72621d4e845586b1150287292",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 856,
+      "mode": 292,
+      "path": "join-order-benchmark/11a.sql",
+      "sha256": "b9c2b7f747fd10fff3e9078534d5578ea8b53fc9dcb4bd9330952d74ec1ece0e",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 860,
+      "mode": 292,
+      "path": "join-order-benchmark/11b.sql",
+      "sha256": "38695698b69dbcc55ab609cdb5b13e1182127adea2b761c3ea9e2330e7a84927",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 937,
+      "mode": 292,
+      "path": "join-order-benchmark/11c.sql",
+      "sha256": "2d0d7040e322b74ffb48d648463a0292beb0c4d363ebddb531a8d2a0e75ea127",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 848,
+      "mode": 292,
+      "path": "join-order-benchmark/11d.sql",
+      "sha256": "9f3d08a09c46eb835fb3e946d1e6c22730079cfcee5dab7bf3e9a056b95a4d4e",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 870,
+      "mode": 292,
+      "path": "join-order-benchmark/12a.sql",
+      "sha256": "871ec385dd6e28440d15b03cf0fdd9c9376b3453bb8ec552c4e5eb1e2afdbeb8",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 865,
+      "mode": 292,
+      "path": "join-order-benchmark/12b.sql",
+      "sha256": "cdfa0891b60af9ef3bde65e85556a87d027557a89aa7ad6eec91366cacd6ca5f",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 925,
+      "mode": 292,
+      "path": "join-order-benchmark/12c.sql",
+      "sha256": "19d286824b7efb84aaa9371dbf1e842d5488e70f264a23c2c944c47f819e26c2",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 799,
+      "mode": 292,
+      "path": "join-order-benchmark/13a.sql",
+      "sha256": "c7d5c4fa1a5eb37bc327f531c4fe49fa4b8e2fe2ad251938880cafb3c191553d",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 898,
+      "mode": 292,
+      "path": "join-order-benchmark/13b.sql",
+      "sha256": "cfc30b5bc8a2d513a060f8f58c12aeb61e17526bf4ba1921de40122197341b98",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 896,
+      "mode": 292,
+      "path": "join-order-benchmark/13c.sql",
+      "sha256": "b61cbf84a4288c89c5494d812efed29b8a39c60dc637e37c9dedbb5fdfa2a2e0",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 797,
+      "mode": 292,
+      "path": "join-order-benchmark/13d.sql",
+      "sha256": "871c9d8cfa90f6299c4fb950df8c7550ee4c1fe5581c166304816c706915a8ba",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1114,
+      "mode": 292,
+      "path": "join-order-benchmark/14a.sql",
+      "sha256": "0c6770d9c162dca23d0d32a5d9ed2d308fc2a1b3a673463d05c81ced8445f032",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1155,
+      "mode": 292,
+      "path": "join-order-benchmark/14b.sql",
+      "sha256": "6878ded3d9334f2ab68c33d10ed72e912db9407babe6547469c66d2c1bb246fe",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1185,
+      "mode": 292,
+      "path": "join-order-benchmark/14c.sql",
+      "sha256": "cfeef4c875e3de99c575766bd17d613af1ee59e1588a2b5460e710d13bf87d7b",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 919,
+      "mode": 292,
+      "path": "join-order-benchmark/15a.sql",
+      "sha256": "c332055a7b8e19fcbdf3eac68f6797432ffd67d87a10267a5241d0769f0a8a0d",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 959,
+      "mode": 292,
+      "path": "join-order-benchmark/15b.sql",
+      "sha256": "ad3c98ba9ba0798ac5a061038d5a2a49158a196575377a21858c8b8189e551ba",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 934,
+      "mode": 292,
+      "path": "join-order-benchmark/15c.sql",
+      "sha256": "875e39117606a49cdb45e2ebb57261efe38ed9f786f8cae345cf620b33dd8ca1",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 826,
+      "mode": 292,
+      "path": "join-order-benchmark/15d.sql",
+      "sha256": "d052c7260a0fe10db83e108f25bc7a7488f82fa64d1963b9210af5799e2c36b4",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 702,
+      "mode": 292,
+      "path": "join-order-benchmark/16a.sql",
+      "sha256": "43cd687d2b4005c6b665762dbf7e5277135ebe738d82e672371571ca255902b9",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 652,
+      "mode": 292,
+      "path": "join-order-benchmark/16b.sql",
+      "sha256": "d65807d6a5dc9b37b5e484f7c57f2b469f9bd2b9e446704badb66ab29bb3a6ed",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 677,
+      "mode": 292,
+      "path": "join-order-benchmark/16c.sql",
+      "sha256": "85d9b65cd520f9edc7e14c0c4e39e05cc364b3f8c4ab30de07f7c343227c8edd",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 701,
+      "mode": 292,
+      "path": "join-order-benchmark/16d.sql",
+      "sha256": "83e7744d08279ea388a184256ab2deb8bf3c05fb93679c320fb508d10be32293",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 585,
+      "mode": 292,
+      "path": "join-order-benchmark/17a.sql",
+      "sha256": "a52d479958ec18149f197df005f183f8cee35712398524f344b9751c9dce9fe2",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 546,
+      "mode": 292,
+      "path": "join-order-benchmark/17b.sql",
+      "sha256": "da2f53d30ace326f7110861e21884165707975234072f5bdd2fff9032833f889",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 546,
+      "mode": 292,
+      "path": "join-order-benchmark/17c.sql",
+      "sha256": "56b241e6789c1f20b49b9cf8957154550af396b9bf6913aff974939e2f7fb7e9",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 524,
+      "mode": 292,
+      "path": "join-order-benchmark/17d.sql",
+      "sha256": "0dfa90692bd83e530058a329a5ee035d7bcf7d7c0d7ddba43eb6f8ba87a04601",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 527,
+      "mode": 292,
+      "path": "join-order-benchmark/17e.sql",
+      "sha256": "6723e52c994de2ecec2f9f0aa0cbfd9e471a15b3055905dfdabc0520ca7fe0de",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 521,
+      "mode": 292,
+      "path": "join-order-benchmark/17f.sql",
+      "sha256": "a03f4e3c87d842f9ac27602b01fd0c40db7f1756afb9679d40cbc3c99d553da4",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 715,
+      "mode": 292,
+      "path": "join-order-benchmark/18a.sql",
+      "sha256": "04816db9a582e138e9d1b2af9491520f42fa84307cf9abf3395f9c697f02d21e",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 959,
+      "mode": 292,
+      "path": "join-order-benchmark/18b.sql",
+      "sha256": "920582b900c1206a1eba63c935492109c108927b75bd548b7fe6229d8d879f0a",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 945,
+      "mode": 292,
+      "path": "join-order-benchmark/18c.sql",
+      "sha256": "3247d00269cadb278d9a417b805b928b609db6e49011f981482612434dc623a9",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1203,
+      "mode": 292,
+      "path": "join-order-benchmark/19a.sql",
+      "sha256": "de0e1cae5dd400d5fc0b2954eaa41616861e76e1f4a45bbf923a8b94660fee53",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1111,
+      "mode": 292,
+      "path": "join-order-benchmark/19b.sql",
+      "sha256": "2148cf91cbf25063f906086d1944a00f73d5b07e5076a9f1ed8bb4712fb12807",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1100,
+      "mode": 292,
+      "path": "join-order-benchmark/19c.sql",
+      "sha256": "fe5b602cc75a95ba14f4694bfbe5d8082c405aa0881a5e3e2c259ed5e0f9e8df",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 979,
+      "mode": 292,
+      "path": "join-order-benchmark/19d.sql",
+      "sha256": "f450bd39710978c8bfbf961587cb3649190effe724855e6345bcf86d42ad39dc",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 611,
+      "mode": 292,
+      "path": "join-order-benchmark/1a.sql",
+      "sha256": "53a90dac948641a2f9dd1ee12b68c66354d4c44016494d9e460b2b1879c5d7b2",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 580,
+      "mode": 292,
+      "path": "join-order-benchmark/1b.sql",
+      "sha256": "3f6bc4f99b49862e63aa9f0881abad66c9a4c63a96f3c6dca722d6f007854d29",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 603,
+      "mode": 292,
+      "path": "join-order-benchmark/1c.sql",
+      "sha256": "2111c8a7ecbdba7f4b9ce943c102e6da789df5337f1f0c90be310afe578f84bb",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 564,
+      "mode": 292,
+      "path": "join-order-benchmark/1d.sql",
+      "sha256": "cb8a207ee5459e05a77e9428efcdca946178c893f9c7a45dcba495427a185757",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1116,
+      "mode": 292,
+      "path": "join-order-benchmark/20a.sql",
+      "sha256": "eea79cc4c815789c64bf7f4306e8e30db85289a8938bbcd012cb22388264067f",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1152,
+      "mode": 292,
+      "path": "join-order-benchmark/20b.sql",
+      "sha256": "36c7ddba787747bca16a6dcb63ad50fba60f766afe771e5d3555b71607b98298",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1176,
+      "mode": 292,
+      "path": "join-order-benchmark/20c.sql",
+      "sha256": "86f02702929dee0430d2ba6e447d3454f518a09a0b9f5504dacf80a5753c5e89",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1218,
+      "mode": 292,
+      "path": "join-order-benchmark/21a.sql",
+      "sha256": "c899a4175c318b17df6c253c53253a130efeed6e6d2230180b02e08e9dcba722",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1044,
+      "mode": 292,
+      "path": "join-order-benchmark/21b.sql",
+      "sha256": "33f2c3edf99b23a99ea819fb41a0ff63af19f3ffbcd6e98ed94d1decb1accb67",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1247,
+      "mode": 292,
+      "path": "join-order-benchmark/21c.sql",
+      "sha256": "e62c4d11928d31a55a09fc2aef9bc3812e510f016ecc2463596a099a1c4a9366",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1372,
+      "mode": 292,
+      "path": "join-order-benchmark/22a.sql",
+      "sha256": "eec5b2d12dc15e51fb6bf5e83d13c0bc185ca150b4d75c07bda8eb57f861a29c",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1372,
+      "mode": 292,
+      "path": "join-order-benchmark/22b.sql",
+      "sha256": "819cce32cbcac10161aaeab26817e0136e0370bb4b9cbca5cc415172bfd0ff2c",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1545,
+      "mode": 292,
+      "path": "join-order-benchmark/22c.sql",
+      "sha256": "9401e4b3000f15cb9fd1a39abfda016c8f94f079c9cd8acc93d314a23e8890c5",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1482,
+      "mode": 292,
+      "path": "join-order-benchmark/22d.sql",
+      "sha256": "96691d9b9a24284e9fa6992ab4c83b285579a1f1a5cf7cf4bd943b6c1fc91a71",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1101,
+      "mode": 292,
+      "path": "join-order-benchmark/23a.sql",
+      "sha256": "0115941960633919edac315eb3e40d1df1953a66b93cbab316244018d2adcb09",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1162,
+      "mode": 292,
+      "path": "join-order-benchmark/23b.sql",
+      "sha256": "893cb0185455fb67072b934bf12158b9dc217bc9e3ffe680deabf84c53fbc713",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1196,
+      "mode": 292,
+      "path": "join-order-benchmark/23c.sql",
+      "sha256": "93566f0155c4f6816b51eb71d52aecaec868a1b160c38b4643e5cb9780bc9c3d",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1453,
+      "mode": 292,
+      "path": "join-order-benchmark/24a.sql",
+      "sha256": "2364e4924f1ad3a81b07420e6d5310d3220df7474c5b11b50ed062e884daf480",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1561,
+      "mode": 292,
+      "path": "join-order-benchmark/24b.sql",
+      "sha256": "199711fb4c5f118e67fbd926218b66cb96a8c2530668bc43fbe812af2a658314",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1197,
+      "mode": 292,
+      "path": "join-order-benchmark/25a.sql",
+      "sha256": "643c0557c8d898467d56c492ff7b0ebe4ebacaa6131af16e0b22f26ba9f21ace",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1258,
+      "mode": 292,
+      "path": "join-order-benchmark/25b.sql",
+      "sha256": "aad58fb332fd9c7c8a67067086dbc32b7884e252435bf17d3c0fbcd69d5cbae1",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1402,
+      "mode": 292,
+      "path": "join-order-benchmark/25c.sql",
+      "sha256": "4a33e40c4c643d39a8d5933a4d2960a8a3f2a100e5a063ac2c20f8b007d8e5f8",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1523,
+      "mode": 292,
+      "path": "join-order-benchmark/26a.sql",
+      "sha256": "e68db6c6477fcd41adde48510c3eaec1765ad13fa9e6b899348dc996f6a589cc",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1306,
+      "mode": 292,
+      "path": "join-order-benchmark/26b.sql",
+      "sha256": "b0393215e99a169caa77ba893beed022e1090c9044cc412c304a31b24370f242",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1460,
+      "mode": 292,
+      "path": "join-order-benchmark/26c.sql",
+      "sha256": "afd4656f06cdad04640e6ccf4db24cc251954689da270e9de259c89825d50404",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1494,
+      "mode": 292,
+      "path": "join-order-benchmark/27a.sql",
+      "sha256": "b470129ed757160c21317ecd59d0fd71a3aac72052c2472a43f3007170cd6d0d",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1479,
+      "mode": 292,
+      "path": "join-order-benchmark/27b.sql",
+      "sha256": "5e807f3f664f140b3bbe7637036c8bd85183ad9343b9e18d4dde49a4b30751d6",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1612,
+      "mode": 292,
+      "path": "join-order-benchmark/27c.sql",
+      "sha256": "1d00d9231b2b3d9e379c5e0788fdb38e49c42bc2a73398d9588385022105cdac",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1912,
+      "mode": 292,
+      "path": "join-order-benchmark/28a.sql",
+      "sha256": "f4d032f672de59f119453a2f948717e1c88dbd2358e1fb5186ca295030eac9d1",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1741,
+      "mode": 292,
+      "path": "join-order-benchmark/28b.sql",
+      "sha256": "a0f8a1130ecd9954c3acb5058e91d436edeab93bff589823d8cb58dae83ae14c",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1902,
+      "mode": 292,
+      "path": "join-order-benchmark/28c.sql",
+      "sha256": "8a5d2826e0d8edada1aa3afb1266e4988fc17ffa5cd0ccfa5b3410258958d7b5",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1904,
+      "mode": 292,
+      "path": "join-order-benchmark/29a.sql",
+      "sha256": "a693c52de057655e421c2ab5569503ac54da257653dcb0cde8020eef027b5c96",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1839,
+      "mode": 292,
+      "path": "join-order-benchmark/29b.sql",
+      "sha256": "a43ad7b45d9e01c7983b565c229356722e3f7028faecee48d66b5d7546181772",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1900,
+      "mode": 292,
+      "path": "join-order-benchmark/29c.sql",
+      "sha256": "b338eb16c2ff5a5022ef609b9a77e6c4ef76a9771eca8de5785aef382ea33078",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 361,
+      "mode": 292,
+      "path": "join-order-benchmark/2a.sql",
+      "sha256": "71f44856563aa35d2e2612c24c80c4d67003412dbdd87fa2612a899fee6d6d9e",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 361,
+      "mode": 292,
+      "path": "join-order-benchmark/2b.sql",
+      "sha256": "0da8ea6095c1550ce82aff78ecb3f6d0a46a3915aede853338a77eefef529e83",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 361,
+      "mode": 292,
+      "path": "join-order-benchmark/2c.sql",
+      "sha256": "bf101673a7e20c7eb85795e4b0c3c55a4ae94523c2f245e9e5645476d989fbbb",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 361,
+      "mode": 292,
+      "path": "join-order-benchmark/2d.sql",
+      "sha256": "2d0c0b02fe1f59a4f6414461fde58befc0c51fe344ed72fef505747572354459",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1716,
+      "mode": 292,
+      "path": "join-order-benchmark/30a.sql",
+      "sha256": "9ec9bb8b2521099af76e45201b970cc4373478ad8c0eb0323a4a02068751c802",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1808,
+      "mode": 292,
+      "path": "join-order-benchmark/30b.sql",
+      "sha256": "6294013729f3373603d5dd24e49df10a3f87f51c883054d19e7112c493a91e3f",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1762,
+      "mode": 292,
+      "path": "join-order-benchmark/30c.sql",
+      "sha256": "1fc2c1125858123d908e2808f46471a76c0e1e787161e88e32670c15b1da6d8e",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1562,
+      "mode": 292,
+      "path": "join-order-benchmark/31a.sql",
+      "sha256": "dd779ae7e005300c9af6fd006ab07ff93d75cdd766df13467b73955271a6e02b",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1721,
+      "mode": 292,
+      "path": "join-order-benchmark/31b.sql",
+      "sha256": "c97f5c77bede5ce118782f92c87a3dd05fd93d2453749860124ba19c77451d51",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1649,
+      "mode": 292,
+      "path": "join-order-benchmark/31c.sql",
+      "sha256": "8064d891a412b1d953c11b8b8c60d5666c3e017aa3048dc29e1648e393d984b3",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 439,
+      "mode": 292,
+      "path": "join-order-benchmark/32a.sql",
+      "sha256": "920bf48d8f22cb80a07f4d6d1567614fc6ca269487e18e4a897c72443529427b",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 446,
+      "mode": 292,
+      "path": "join-order-benchmark/32b.sql",
+      "sha256": "b8bb4489b603250702299fe3a8eb763a514f2fa42568524a2d486f692b7d0eb7",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1517,
+      "mode": 292,
+      "path": "join-order-benchmark/33a.sql",
+      "sha256": "16ec76ddb7fed9155cf98d85c3a6741cc75c1f08e45da9ffda3206a0d8215c2b",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1442,
+      "mode": 292,
+      "path": "join-order-benchmark/33b.sql",
+      "sha256": "89639c0c29423a3fe0d8bc4ddf3314ca83c4be72a09ec201c6cb14df0604ca5c",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1578,
+      "mode": 292,
+      "path": "join-order-benchmark/33c.sql",
+      "sha256": "ad00e304413df75daefbde27f18872bcfc33f1bcc86a95c6dd133d4a5fc27f1d",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 523,
+      "mode": 292,
+      "path": "join-order-benchmark/3a.sql",
+      "sha256": "09c04f1846b8b7d839d050b5719230e844e7612357dd749c59b37a7eb3cf9db2",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 323,
+      "mode": 292,
+      "path": "join-order-benchmark/3b.sql",
+      "sha256": "a36ee625b0dbf5f7a82ebd6d558d374b1753054f8361e5cb4364badc6eb05ab9",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 578,
+      "mode": 292,
+      "path": "join-order-benchmark/3c.sql",
+      "sha256": "ccfe237f533897b5666e7ee74ad6c8f36de19d6c0e0c537e8626b0c53791db6b",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 450,
+      "mode": 292,
+      "path": "join-order-benchmark/4a.sql",
+      "sha256": "c80e515f37a633adca3ab45bbd5cba20e760c80a71d7841b51e64154b1008065",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 450,
+      "mode": 292,
+      "path": "join-order-benchmark/4b.sql",
+      "sha256": "5e0a78655c8bf0714f365697ac2e9c4e12cc6d2096f625ff81baf33f499e6654",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 450,
+      "mode": 292,
+      "path": "join-order-benchmark/4c.sql",
+      "sha256": "db79ff846ccde743ab3ae806a3047eab9c9417e45ca86272fafc43bd7422ecc4",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 675,
+      "mode": 292,
+      "path": "join-order-benchmark/5a.sql",
+      "sha256": "b78eed60ed4341b93d663a99ef4268d2f0c589c159a3a56d32027aee85d8f17c",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 515,
+      "mode": 292,
+      "path": "join-order-benchmark/5b.sql",
+      "sha256": "ed0bcd17c29e612d1594693215f1a192ac954011ec2c0880a0ba7c0f159491cc",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 715,
+      "mode": 292,
+      "path": "join-order-benchmark/5c.sql",
+      "sha256": "7f542875e1b5247a43f7c3aad51f8fe73431866245509a98f4b321247d1794fd",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 459,
+      "mode": 292,
+      "path": "join-order-benchmark/6a.sql",
+      "sha256": "666385ab792d62acef9442fc2884282d3f9194a172a6c0741544ab92eaa029b2",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 679,
+      "mode": 292,
+      "path": "join-order-benchmark/6b.sql",
+      "sha256": "1510acb47c7b220b1328956345c9791c0d3857e06ed87a43d8fb2380c5b7d2e4",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 459,
+      "mode": 292,
+      "path": "join-order-benchmark/6c.sql",
+      "sha256": "4ca2c51e003a181a4099984c725328151248eed7ee708009e4d4cce2fb0cac2b",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 679,
+      "mode": 292,
+      "path": "join-order-benchmark/6d.sql",
+      "sha256": "8138175c4f011b8582a62921492dcf7fe4555b17fc27d4f02a9c693b519b4786",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 459,
+      "mode": 292,
+      "path": "join-order-benchmark/6e.sql",
+      "sha256": "03d81143246c44c4e59206d4c3960f4cfd85da1ee63d78f065c9cde1b9bc311a",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 643,
+      "mode": 292,
+      "path": "join-order-benchmark/6f.sql",
+      "sha256": "95279032832884404c90dcc043c61fb38f70f74d470d7598f4f00bd1532b96a0",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 857,
+      "mode": 292,
+      "path": "join-order-benchmark/7a.sql",
+      "sha256": "2753771bb818061fdd15aea4fc147d56a89b491a2826c0b58466e72e819ff883",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 786,
+      "mode": 292,
+      "path": "join-order-benchmark/7b.sql",
+      "sha256": "79b9358e5186d27007b2a3f35c18bb009b054040f85417e1858f19413993914b",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1021,
+      "mode": 292,
+      "path": "join-order-benchmark/7c.sql",
+      "sha256": "ba0091ee5a01f36f30910035b54bbb08582949dda268ddd4e700854e409c97bf",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 684,
+      "mode": 292,
+      "path": "join-order-benchmark/8a.sql",
+      "sha256": "a8d5f36074bd12f3d42934913b7847774ca70b43338beb2cde2952851f50e3f6",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 859,
+      "mode": 292,
+      "path": "join-order-benchmark/8b.sql",
+      "sha256": "e3cda2801dcb05a99f339b5c3ef7ed8646e1ecf382664168061029eb3ae29db6",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 508,
+      "mode": 292,
+      "path": "join-order-benchmark/8c.sql",
+      "sha256": "d583eba4db3a15277447be27652879cd4439ec34f1fc471982dea76729a5d099",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 535,
+      "mode": 292,
+      "path": "join-order-benchmark/8d.sql",
+      "sha256": "5ad3875f0bd158450b47e4a24b24e53045a6546fa0f7530a951504b61bad4e62",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 946,
+      "mode": 292,
+      "path": "join-order-benchmark/9a.sql",
+      "sha256": "1e2fcf63ad6fa5286704eb78c9b1c998a12605412fb34ed6f0b92923adc4f543",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 864,
+      "mode": 292,
+      "path": "join-order-benchmark/9b.sql",
+      "sha256": "652106b0bc0741517a54838af9e71249765856d883088bdca4ec7caf4858fd65",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 858,
+      "mode": 292,
+      "path": "join-order-benchmark/9c.sql",
+      "sha256": "b3a9cb8f2e5b9d07c8906793ec054e4dcbcd48ed2e8f078db87066372528664c",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 828,
+      "mode": 292,
+      "path": "join-order-benchmark/9d.sql",
+      "sha256": "be3b61d598df58d2b43cbabaa07997ace2e13b0c7165ae33834a2c79e295ce22",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 3106,
+      "mode": 292,
+      "path": "join-order-benchmark/README.md",
+      "sha256": "1cbec901f49cacb9feb2d6088107b48308779364159fd48f93bdb755effc907f",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 1456,
+      "mode": 292,
+      "path": "join-order-benchmark/fkindexes.sql",
+      "sha256": "727909bbbb9b0ae2b7d5739cfcd066992fc4bf1e984b29d87bcc700c4e2583cc",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 4107,
+      "mode": 292,
+      "path": "join-order-benchmark/schema.sql",
+      "sha256": "1d10ba0c9a881e890aeb951c0960cc4e3472c9c9695ce1edb6493e9e4466d3d2",
+      "source": "inherited_upstream_source_original",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 213,
+      "mode": 292,
+      "path": "deepfuzz/README",
+      "sha256": "6879b1e40c61bc53f1bb0c7abcee051541c1632897ea60f8dcd1696570cae902",
+      "source": "inherited_upstream_source_original",
+      "source_card": "deepfuzz"
+    },
+    {
+      "bytes": 11433,
+      "mode": 292,
+      "path": "deepfuzz/generate.py",
+      "sha256": "3754922a068e29884f4a6496220d474868786e63487b05de9dad068a41f7fa7d",
+      "source": "inherited_upstream_source_original",
+      "source_card": "deepfuzz"
+    },
+    {
+      "bytes": 1201,
+      "mode": 292,
+      "path": "deepfuzz/pre.py",
+      "sha256": "e84c5944cddab3d5e0296c64ad6c7c54e3e2bd17fc49693c1b960edc5e3cde40",
+      "source": "inherited_upstream_source_original",
+      "source_card": "deepfuzz"
+    },
+    {
+      "bytes": 1285,
+      "mode": 292,
+      "path": "deepfuzz/prepare.py",
+      "sha256": "e339610694314e6370dc269ce0970efac001baaffd1a322614580526111d8706",
+      "source": "inherited_upstream_source_original",
+      "source_card": "deepfuzz"
+    },
+    {
+      "bytes": 1690,
+      "mode": 292,
+      "path": "deepfuzz/preprocess.py",
+      "sha256": "0c03c731ab7515930fbf161d87a944a92a96a7b0653737ca46f3770b0ea073b3",
+      "source": "inherited_upstream_source_original",
+      "source_card": "deepfuzz"
+    },
+    {
+      "bytes": 148,
+      "mode": 292,
+      "path": "deepfuzz/process_model.py",
+      "sha256": "116e0e2b9341446c64824d19dabbfa15653ff0e28d2bcb22d50be7a728564cb6",
+      "source": "inherited_upstream_source_original",
+      "source_card": "deepfuzz"
+    },
+    {
+      "bytes": 132,
+      "mode": 365,
+      "path": "deepfuzz/run.sh",
+      "sha256": "a7ce86c1f35ba6772a12c9f605deb0bceb639e9f89feee46e52b9c6d54bc9f70",
+      "source": "inherited_upstream_source_original",
+      "source_card": "deepfuzz"
+    },
+    {
+      "bytes": 4273,
+      "mode": 292,
+      "path": "deepfuzz/train.py",
+      "sha256": "1d8db29558e0ef136e7911645df397b1a864634cb7f521c44725a7b94cdc7e44",
+      "source": "inherited_upstream_source_original",
+      "source_card": "deepfuzz"
+    }
+  ],
+  "new_entries": [
+    {
+      "bytes": 2422412,
+      "mode": 384,
+      "path": "join-order-benchmark/dataset.json",
+      "sha256": "2b622483e0fb9919e7282d37ed92574f689505bb19f643001a027d8197350855",
+      "source": "new_Dataset_metadata_SHA",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 16742,
+      "mode": 384,
+      "path": "join-order-benchmark/prepared.json",
+      "sha256": "425150a50a3599249868ed847d6fc9ec3af7390efc9573963bc1d5fbecaecc40",
+      "source": "new_Dataset_metadata_SHA",
+      "source_card": "join-order-benchmark"
+    },
+    {
+      "bytes": 17533,
+      "mode": 384,
+      "path": "deepfuzz/dataset.json",
+      "sha256": "25185d55ac16a0a45d413497f0051a42c057230d881a972f43b7aaa707ba34dd",
+      "source": "new_Dataset_metadata_SHA",
+      "source_card": "deepfuzz"
+    },
+    {
+      "bytes": 1499,
+      "mode": 384,
+      "path": "deepfuzz/prepared.json",
+      "sha256": "fb831f92a15e26e452f39081343421309e22da108b4d01ebfe436d0927d20981",
+      "source": "new_Dataset_metadata_SHA",
+      "source_card": "deepfuzz"
+    }
+  ],
+  "new_formal_dataset_cards_qualified": 0,
+  "new_original_resources_qualified": 0,
+  "original_source_card_bindings": {
+    "deepfuzz": {
+      "generated_source_programs": 0,
+      "license_expression": "NOASSERTION",
+      "original_card_id": "deepfuzz",
+      "original_python_source_samples": 6,
+      "original_source_url": "https://codeload.github.com/s3team/DeepFuzz/tar.gz/6079bef655b471b82c70e51024d3d4824092f396",
+      "resource_id": "dataset-ref.deepfuzz",
+      "revision": "6079bef655b471b82c70e51024d3d4824092f396",
+      "source_original_regular_files": 8,
+      "trained_model_available": false
+    },
+    "join-order-benchmark": {
+      "license_expression": "NOASSERTION",
+      "official_benchmark_qualified": false,
+      "original_2013_IMDB_data_available": false,
+      "original_card_id": "join-order-benchmark",
+      "original_query_source_samples": 113,
+      "original_source_url": "https://codeload.github.com/gregrahn/join-order-benchmark/tar.gz/a39603662e023e449cb2121997a5034df9e02ebf",
+      "resource_id": "dataset-ref.join-order-benchmark",
+      "revision": "a39603662e023e449cb2121997a5034df9e02ebf",
+      "source_original_regular_files": 116
+    }
+  },
+  "owner_round": "20261031T1003Z-native-and-Dataset-independent-handoff"
+}

@@ -1,0 +1,24 @@
+{
+  "WhiteFox_full_D2_E_F_restoration_materials_local_kept_for_postrelease_reconciliation": true,
+  "WhiteFox_negative_preflight_bad_input_testing_only": "five cases no system paths changed; keep exact own negative scratch for audit",
+  "active_consumers_interrupted": 0,
+  "all_saved_Library_historical_objects_preserved": true,
+  "automation_schedule_changed": false,
+  "created_at": "2026-10-31T03:22:26.878195+00:00",
+  "exact_prior_local_cpg_CCGBin_C_retirement": [
+    {
+      "before_removal_sha256": "6e86644b04ce2824be6803e6d2584d92bcca7f58e1a768d864e18af1efab89fc",
+      "bytes_before_removal": 96968,
+      "path": "/mnt/data/cpg-auto-20261031T1003/dataset-lane/ccg/prefix-C-only-prebuilt",
+      "removed_member": "bin/ccg",
+      "safe_reason": "exact candidate-local prefix C retired only after independent D consumer and A/B installed checks; historical source and all released member bytes retained"
+    }
+  ],
+  "format": "cpg-20261031T0203Z-final-cleanup-precise-whitelist-v1",
+  "historical_resource_volumes_deleted": 0,
+  "later_deletion_allowed_only_by_exact_consumer-free_whitelist_and_saved_snapshot": true,
+  "library_files_deleted": 0,
+  "new_SHA_payload_deleted_before_publish": 0,
+  "other_conversation_paths_deleted_or_overwritten": 0,
+  "unknown_files_removed": 0
+}

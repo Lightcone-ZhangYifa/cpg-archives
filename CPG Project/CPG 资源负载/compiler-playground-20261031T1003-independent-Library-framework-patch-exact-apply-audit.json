@@ -1,0 +1,23 @@
+{
+  "base_version": "0.21.13",
+  "formal_publish": false,
+  "format": "cpg-persisted-library-framework-only-fresh-original-clean-apply-audit-v1",
+  "pass": true,
+  "resource_payloads_added": 0,
+  "source_code_modified_in_installed_venv": false,
+  "testing_existing": {
+    "official_baseline_wheel_focused_suite_passed": 144,
+    "official_framework_overlay_focused_suite_passed": 147,
+    "official_framework_overlay_focused_suite_skipped": 4
+  },
+  "verified": {
+    "active_wheel_unmodified": true,
+    "actual_patched_sha256": "8343a031a7ccb936923ddeabe4d50812439b4496a4400e2f9170650eea4d62ad",
+    "actual_patched_size": 10180,
+    "actual_saved_SHA256": "8343a031a7ccb936923ddeabe4d50812439b4496a4400e2f9170650eea4d62ad",
+    "base_sha256": "4187416a24ea91fcc5c8dc2244fce0f44259b4511b8e3b2980f934fe1892fca4",
+    "metadata_changed_0": true,
+    "source_patched_byte_equal_to_archive": true
+  },
+  "whole_code_tree_not_republished": true
+}
